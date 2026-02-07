@@ -733,126 +733,139 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-20 bg-[#0A0A0A] min-h-screen" data-testid="contact-page">
-      <section className="py-16 md:py-24 border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight" style={{fontFamily: 'Oswald, sans-serif'}}>
-            Contactez<span className="text-[#FFD100]">-nous</span>
-          </h1>
-          <p className="text-[#A1A1AA] mt-4 max-w-xl text-lg">
-            Une question ? Besoin d'informations sur un véhicule ? Notre équipe est à votre disposition.
-          </p>
-        </div>
-      </section>
+    <div className="pt-20 min-h-screen relative" data-testid="contact-page">
+      {/* Background Image */}
+      <div className="fixed inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1704476944927-aaef1fdec0ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBibGFjayUyMGNhciUyMHN0dWRpbyUyMGxpZ2h0aW5nJTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTA0ODUyfDA&ixlib=rb-4.1.0&q=85"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/85"></div>
+      </div>
 
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {/* Contact Info */}
-            <div className="space-y-12">
-              <div>
+      {/* Content */}
+      <div className="relative z-10">
+        <section className="py-16 md:py-24 border-b border-white/10">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight" style={{fontFamily: 'Oswald, sans-serif'}}>
+              Contactez<span className="text-[#FFD100]">-nous</span>
+            </h1>
+            <p className="text-[#A1A1AA] mt-4 max-w-xl text-lg">
+              Une question ? Besoin d'informations sur un véhicule ? Notre équipe est à votre disposition.
+            </p>
+          </div>
+        </section>
+
+        <section className="py-16 md:py-24">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+              {/* Contact Info */}
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-bold uppercase tracking-tight mb-8" style={{fontFamily: 'Oswald, sans-serif'}}>
+                    Nos Coordonnées
+                  </h2>
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                        <Phone className="text-black" size={20} />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-white mb-1">Téléphone</h4>
+                        <a href="tel:+33600000000" className="text-[#A1A1AA] hover:text-[#FFD100]">+33 6 00 00 00 00</a>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                        <Mail className="text-black" size={20} />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-white mb-1">Email</h4>
+                        <a href="mailto:contact@hertz-pro.fr" className="text-[#A1A1AA] hover:text-[#FFD100]">contact@hertz-pro.fr</a>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                        <MapPin className="text-black" size={20} />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-white mb-1">Adresse</h4>
+                        <p className="text-[#A1A1AA]">123 Rue de la Vente<br />75000 Paris, France</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="glass p-8">
+                  <h4 className="font-bold uppercase tracking-wider mb-6">Horaires d'ouverture</h4>
+                  <div className="space-y-3 text-[#A1A1AA]">
+                    <div className="flex justify-between"><span>Lundi - Vendredi</span><span className="text-white">9h - 19h</span></div>
+                    <div className="flex justify-between"><span>Samedi</span><span className="text-white">10h - 18h</span></div>
+                    <div className="flex justify-between"><span>Dimanche</span><span className="text-[#EF4444]">Fermé</span></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contact Form */}
+              <div className="glass p-8 md:p-12">
                 <h2 className="text-2xl font-bold uppercase tracking-tight mb-8" style={{fontFamily: 'Oswald, sans-serif'}}>
-                  Nos Coordonnées
+                  Envoyez-nous un message
                 </h2>
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
-                      <Phone className="text-black" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-white mb-1">Téléphone</h4>
-                      <a href="tel:+33600000000" className="text-[#A1A1AA] hover:text-[#FFD100]">+33 6 00 00 00 00</a>
-                    </div>
+
+                {submitted ? (
+                  <div className="text-center py-12">
+                    <Check size={48} className="mx-auto text-[#10B981] mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Message envoyé !</h3>
+                    <p className="text-[#A1A1AA]">Nous vous répondrons rapidement.</p>
+                    <button onClick={() => setSubmitted(false)} className="btn-secondary mt-6">
+                      Envoyer un autre message
+                    </button>
                   </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
-                      <Mail className="text-black" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-white mb-1">Email</h4>
-                      <a href="mailto:contact@hertz-pro.fr" className="text-[#A1A1AA] hover:text-[#FFD100]">contact@hertz-pro.fr</a>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
-                      <MapPin className="text-black" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-white mb-1">Adresse</h4>
-                      <p className="text-[#A1A1AA]">123 Rue de la Vente<br />75000 Paris, France</p>
-                    </div>
-                  </div>
-                </div>
+                ) : (
+                  <form onSubmit={handleSubmit} className="space-y-6">
+                    <input
+                      type="text"
+                      placeholder="Votre nom *"
+                      required
+                      value={formData.nom}
+                      onChange={(e) => setFormData({...formData, nom: e.target.value})}
+                      className="form-input"
+                    />
+                    <input
+                      type="email"
+                      placeholder="Votre email *"
+                      required
+                      value={formData.email}
+                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                      className="form-input"
+                    />
+                    <input
+                      type="tel"
+                      placeholder="Votre téléphone *"
+                      required
+                      value={formData.telephone}
+                      onChange={(e) => setFormData({...formData, telephone: e.target.value})}
+                      className="form-input"
+                    />
+                    <textarea
+                      placeholder="Votre message *"
+                      required
+                      rows={5}
+                      value={formData.message}
+                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                      className="form-input resize-none"
+                    />
+                    <button type="submit" className="btn-primary w-full" disabled={submitting}>
+                      {submitting ? 'Envoi en cours...' : 'Envoyer le message'}
+                    </button>
+                  </form>
+                )}
               </div>
-
-              <div className="bg-[#111] p-8 border border-[#222]">
-                <h4 className="font-bold uppercase tracking-wider mb-6">Horaires d'ouverture</h4>
-                <div className="space-y-3 text-[#A1A1AA]">
-                  <div className="flex justify-between"><span>Lundi - Vendredi</span><span className="text-white">9h - 19h</span></div>
-                  <div className="flex justify-between"><span>Samedi</span><span className="text-white">10h - 18h</span></div>
-                  <div className="flex justify-between"><span>Dimanche</span><span className="text-[#EF4444]">Fermé</span></div>
-                </div>
-              </div>
-            </div>
-
-            {/* Contact Form */}
-            <div className="bg-[#111] p-8 md:p-12 border border-[#222]">
-              <h2 className="text-2xl font-bold uppercase tracking-tight mb-8" style={{fontFamily: 'Oswald, sans-serif'}}>
-                Envoyez-nous un message
-              </h2>
-
-              {submitted ? (
-                <div className="text-center py-12">
-                  <Check size={48} className="mx-auto text-[#10B981] mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Message envoyé !</h3>
-                  <p className="text-[#A1A1AA]">Nous vous répondrons rapidement.</p>
-                  <button onClick={() => setSubmitted(false)} className="btn-secondary mt-6">
-                    Envoyer un autre message
-                  </button>
-                </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <input
-                    type="text"
-                    placeholder="Votre nom *"
-                    required
-                    value={formData.nom}
-                    onChange={(e) => setFormData({...formData, nom: e.target.value})}
-                    className="form-input"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Votre email *"
-                    required
-                    value={formData.email}
-                    onChange={(e) => setFormData({...formData, email: e.target.value})}
-                    className="form-input"
-                  />
-                  <input
-                    type="tel"
-                    placeholder="Votre téléphone *"
-                    required
-                    value={formData.telephone}
-                    onChange={(e) => setFormData({...formData, telephone: e.target.value})}
-                    className="form-input"
-                  />
-                  <textarea
-                    placeholder="Votre message *"
-                    required
-                    rows={5}
-                    value={formData.message}
-                    onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    className="form-input resize-none"
-                  />
-                  <button type="submit" className="btn-primary w-full" disabled={submitting}>
-                    {submitting ? 'Envoi en cours...' : 'Envoyer le message'}
-                  </button>
-                </form>
-              )}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 };
