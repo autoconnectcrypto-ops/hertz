@@ -484,19 +484,31 @@ const VehicleDetail = () => {
     : 20;
 
   return (
-    <div className="pt-20 bg-[#0A0A0A] min-h-screen" data-testid="vehicle-detail-page">
-      {/* Back navigation */}
-      <div className="border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-4">
-          <button 
-            onClick={() => navigate('/catalogue')} 
-            className="flex items-center gap-2 text-[#A1A1AA] hover:text-[#FFD100] transition-colors"
-          >
-            <ChevronLeft size={20} />
-            <span>Retour au catalogue</span>
-          </button>
-        </div>
+    <div className="pt-20 min-h-screen relative" data-testid="vehicle-detail-page">
+      {/* Background Image */}
+      <div className="fixed inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1704476944927-aaef1fdec0ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBibGFjayUyMGNhciUyMHN0dWRpbyUyMGxpZ2h0aW5nJTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTA0ODUyfDA&ixlib=rb-4.1.0&q=85"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/90"></div>
       </div>
+
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Back navigation */}
+        <div className="border-b border-white/10">
+          <div className="max-w-7xl mx-auto px-6 md:px-12 py-4">
+            <button 
+              onClick={() => navigate('/catalogue')} 
+              className="flex items-center gap-2 text-[#A1A1AA] hover:text-[#FFD100] transition-colors"
+            >
+              <ChevronLeft size={20} />
+              <span>Retour au catalogue</span>
+            </button>
+          </div>
+        </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
