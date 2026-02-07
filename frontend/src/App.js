@@ -123,8 +123,8 @@ const Home = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1600188881015-c01168ab7a4a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBTVVYlMjBjYXIlMjBzaWRlJTIwdmlldyUyMGRyYW1hdGljJTIwbGlnaHRpbmclMjBzaG93cm9vbXxlbnwwfHx8fDE3NzA1MDYzMzZ8MA&ixlib=rb-4.1.0&q=85"
-            alt="Showroom véhicule"
+            src="https://images.unsplash.com/photo-1635707109073-922d81b61ae2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBjYXIlMjBhZXN0aGV0aWMlMjBtaW5pbWFsJTIwYmxhY2slMjBiYWNrZ3JvdW5kJTIwcHJlbWl1bXxlbnwwfHx8fDE3NzA1MDY0ODB8MA&ixlib=rb-4.1.0&q=85"
+            alt="Véhicule premium"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
