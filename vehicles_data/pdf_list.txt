@@ -1,0 +1,37 @@
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/BMW X1 sDrive16d xLine 1.5 115 BVA7 _ Arval AutoSelect_files/BMW X1 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Audi Q3 Sportback S LINE 35 TFSI 150 MHEV S Tronic 7 _ Arval AutoSelect_files/Audi Q3 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/BMW Serie 1 118 i Edition Sport 1.5 135 BVA7/BMW Serie 1 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Peugeot 308 Active Pack 1.5 HDi 130CV BVA8 _ Arval AutoSelect_files/Peugeot 308 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Audi Q3 S LINE 35 TFSI 150 MHEV S TRONIC _ Arval AutoSelect_files/Audi Q3 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Audi A3 Sportback Business Line 35 TFSI 150 MHEV S Tronic _ Arval AutoSelect_files/Audi A3 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Renault Scenic Grand Intens TCe 140 EDC _ Arval AutoSelect_files/Renault Scenic 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Renault Scenic Grand Business TCe 140 _ Arval AutoSelect_files/Renault Scenic 2022 (1).pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mini Mini Cooper SE Finition Business 184 BVA _ Arval AutoSelect_files/Mini Mini 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/BMW Serie 2 Active Tourer 218d M Sport 2.0 150 BVA7 _ Arval AutoSelect_files/BMW Serie 2 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mini Countryman Cooper Essential 136 ch BVA7 _ Arval AutoSelect_files/Mini Countryman 2023 (1).pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Audi A4 Avant 35 TDI S Line 2.0 165 BVA7 _ Arval AutoSelect_files/Audi A4 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/BMW Serie 1 118 i Edition Sport 1.5 135 BVA7 _ Arval AutoSelect_files/BMW Serie 1 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Renault Megane E-TECH techno EV60 220 optimum charge _ Arval AutoSelect_files/Renault Megane 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Renault Clio Equilibre 1.0 TCe 90 BVM6 _ Arval AutoSelect_files/Renault Clio 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/DS DS7 Crossback E-Tense 4x2 Business 1.6 225 BVA8 _ Arval AutoSelect_files/DS DS7 Crossback 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Peugeot 2008 GT PACK PureTech 130 _ Arval AutoSelect_files/Peugeot 2008 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Kia XCeed Active Plug-in Hybrid 1.6 140 BVA6 _ Arval AutoSelect_files/Kia XCeed 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mercedes GLC 300 e AMG Line 4MATIC _ Arval AutoSelect_files/Mercedes GLC 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Peugeot 2008 Active Business 1.5 BlueHDi 110 BVM6 _ Arval AutoSelect_files/Peugeot 2008 2021 (1).pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/BMW Serie 1 116i DKG7 Business Design _ Arval AutoSelect_files/BMW Serie 1 2023 (1).pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mercedes Classe A 180 d Business Line 8G-DCT _ Arval AutoSelect_files/Mercedes Classe A 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Peugeot 208 Style 1.2 PureTech 100 BVA8 _ Arval AutoSelect_files/Peugeot 208 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mercedes Classe GLC GLC 300 E AMG LINE 4MATIC _ Arval AutoSelect_files/Mercedes Classe GLC 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Volkswagen Polo 1.0 80 Business _ Arval AutoSelect_files/Volkswagen Polo 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Peugeot 3008 Hybrid4 300 GT Pack 1.6 Plug-In BVA8 _ Arval AutoSelect_files/Peugeot 3008 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/BMW X1 xDrive25e M Sport DKG7 _ Arval AutoSelect_files/BMW X1 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mini Countryman Cooper Essential 136 BVA7 _ Arval AutoSelect_files/Mini Countryman 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Audi A4 Avant 35 TFSI Business Line 2.0 TFSI 150CV BVA7 _ Arval AutoSelect_files/Audi A4 2022 (1).pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Land Rover Evoque Autobiography 1.5 P300e PHEV BVA 4WD _ Arval AutoSelect_files/Land Rover Evoque 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Volkswagen Golf Style 1.4 eHybrid OPF 204 DSG6 _ Arval AutoSelect_files/Volkswagen Golf 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Peugeot 5008 Allure Pack 1.5 BlueHDi 130 BVA8 7 Sieges _ Arval AutoSelect_files/Peugeot 5008 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Volkswagen T-Roc LOUNGE BUSINESS 1.5 TSI 150 EVO DSG7 _ Arval AutoSelect_files/Volkswagen T-Roc 2021.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Fiat 500 C Cabriolet Dolcevita Plus Hybrid 1.0 BSG 70 _ Arval AutoSelect_files/Fiat 500 C 2022.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Mercedes Classe CLA Coupe 200 d AMG Line BA8 _ Arval AutoSelect_files/Mercedes Classe CLA 2023.pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/DS DS7 Crossback E-Tense 4x2 Performance Line + 1.6 225 BVA8 _ Arval AutoSelect_files/DS DS7 Crossback 2021 (1).pdf
+/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO/Audi Q2 S Line 35 TFSI 1.5 150 BVA7 _ Arval AutoSelect_files/Audi Q2 2023.pdf
