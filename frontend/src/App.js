@@ -136,12 +136,6 @@ const VehicleCard = ({ vehicle }) => {
           />
         </div>
         <div className="p-6">
-          {/* Reference badge */}
-          {vehicle.reference && (
-            <span className="text-xs font-mono text-gray-400 mb-2 block" data-testid="vehicle-ref">
-              {vehicle.reference}
-            </span>
-          )}
           <div className="flex items-start justify-between mb-2">
             <div>
               <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight">
@@ -149,9 +143,11 @@ const VehicleCard = ({ vehicle }) => {
               </h3>
               <p className="text-gray-600 font-medium">{vehicle.modele}</p>
             </div>
-            <span className="bg-gray-100 px-3 py-1 text-xs font-bold uppercase tracking-wider">
-              {vehicle.specs?.categorie || 'AUTO'}
-            </span>
+            {vehicle.reference && (
+              <span className="text-sm font-bold text-black uppercase" data-testid="vehicle-ref">
+                {vehicle.reference}
+              </span>
+            )}
           </div>
           
           <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
