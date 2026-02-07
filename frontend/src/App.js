@@ -136,6 +136,12 @@ const VehicleCard = ({ vehicle }) => {
           />
         </div>
         <div className="p-6">
+          {/* Reference badge */}
+          {vehicle.reference && (
+            <span className="text-xs font-mono text-gray-400 mb-2 block" data-testid="vehicle-ref">
+              {vehicle.reference}
+            </span>
+          )}
           <div className="flex items-start justify-between mb-2">
             <div>
               <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight">
