@@ -309,7 +309,7 @@ const VehicleCard = ({ vehicle }) => {
               <span className="text-lg text-[#0A0A0A] line-through">
                 {vehicle.prix?.toLocaleString('fr-FR')} €
               </span>
-              <span className="text-lg font-bold text-[#0A0A0A] bg-[#FFD100] px-2 py-1">
+              <span className="text-lg font-bold text-[#0A0A0A] border-b-4 border-[#FFD100]">
                 {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
               </span>
             </div>
