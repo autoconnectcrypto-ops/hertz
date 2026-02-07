@@ -388,36 +388,49 @@ const Catalogue = () => {
   }, []);
 
   return (
-    <div className="pt-20" data-testid="catalogue-page">
-      {/* Header */}
-      <section className="py-16 md:py-24 bg-[#0A0A0A] border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-6" style={{fontFamily: 'Oswald, sans-serif'}}>
-            Notre <span className="text-[#FFD100]">Catalogue</span>
-          </h1>
-          <p className="text-[#A1A1AA] max-w-2xl text-lg">
-            {vehicles.length} véhicules premium disponibles immédiatement. 
-            Tous entretenus en concession avec historique complet.
-          </p>
-        </div>
-      </section>
+    <div className="pt-20 min-h-screen relative" data-testid="catalogue-page">
+      {/* Background Image */}
+      <div className="fixed inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1704476944927-aaef1fdec0ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBibGFjayUyMGNhciUyMHN0dWRpbyUyMGxpZ2h0aW5nJTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcwNTA0ODUyfDA&ixlib=rb-4.1.0&q=85"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/85"></div>
+      </div>
 
-      {/* Grid */}
-      <section className="py-16 md:py-24 bg-[#0A0A0A]">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          {loading ? (
-            <div className="flex items-center justify-center py-20">
-              <div className="spinner"></div>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-testid="vehicles-grid">
-              {vehicles.map((vehicle) => (
-                <VehicleCard key={vehicle.id} vehicle={vehicle} />
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Header */}
+        <section className="py-16 md:py-24 border-b border-white/10">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-6" style={{fontFamily: 'Oswald, sans-serif'}}>
+              Notre <span className="text-[#FFD100]">Catalogue</span>
+            </h1>
+            <p className="text-[#A1A1AA] max-w-2xl text-lg">
+              {vehicles.length} véhicules premium disponibles immédiatement. 
+              Tous entretenus en concession avec historique complet.
+            </p>
+          </div>
+        </section>
+
+        {/* Grid */}
+        <section className="py-16 md:py-24">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            {loading ? (
+              <div className="flex items-center justify-center py-20">
+                <div className="spinner"></div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-testid="vehicles-grid">
+                {vehicles.map((vehicle) => (
+                  <VehicleCard key={vehicle.id} vehicle={vehicle} />
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
