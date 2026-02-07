@@ -106,7 +106,6 @@ const Home = () => {
   useEffect(() => {
     const fetchCount = async () => {
       try {
-        await axios.post(`${API}/seed`);
         const response = await axios.get(`${API}/vehicles`);
         setVehicleCount(response.data.length);
       } catch (e) {
