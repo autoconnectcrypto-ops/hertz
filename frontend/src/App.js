@@ -659,7 +659,7 @@ const VehicleDetail = () => {
 
           {activeTab === 'specs' && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in">
-              <div className="bg-[#111] p-6 border border-[#222]">
+              <div className="glass p-6">
                 <h4 className="text-[#FFD100] font-bold uppercase tracking-wider mb-6">Motorisation</h4>
                 <div className="space-y-4">
                   <div className="specs-row"><span className="specs-label">Carburant</span><span className="specs-value">{vehicle.specs?.carburant || '-'}</span></div>
@@ -668,7 +668,7 @@ const VehicleDetail = () => {
                   <div className="specs-row"><span className="specs-label">Cylindrée</span><span className="specs-value">{vehicle.specs?.cylindree || '-'}</span></div>
                 </div>
               </div>
-              <div className="bg-[#111] p-6 border border-[#222]">
+              <div className="glass p-6">
                 <h4 className="text-[#FFD100] font-bold uppercase tracking-wider mb-6">Général</h4>
                 <div className="space-y-4">
                   <div className="specs-row"><span className="specs-label">Année</span><span className="specs-value">{vehicle.annee}</span></div>
@@ -685,7 +685,7 @@ const VehicleDetail = () => {
               {vehicle.options?.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {vehicle.options.map((option, index) => (
-                    <div key={index} className="flex items-center gap-3 bg-[#111] p-4 border border-[#222]">
+                    <div key={index} className="flex items-center gap-3 glass p-4">
                       <Check size={16} className="text-[#FFD100] flex-shrink-0" />
                       <span className="text-sm">{option}</span>
                     </div>
@@ -702,12 +702,12 @@ const VehicleDetail = () => {
               {vehicle.historique?.length > 0 ? (
                 <div className="space-y-4">
                   {vehicle.historique.map((entry, index) => (
-                    <div key={index} className="flex gap-6 bg-[#111] p-6 border border-[#222] border-l-4 border-l-[#FFD100]">
+                    <div key={index} className="flex gap-6 glass p-6 border-l-4 border-l-[#FFD100]">
                       <div className="text-center min-w-[100px]">
                         <div className="text-xl font-bold text-white">{entry.date}</div>
                         <div className="text-sm text-[#52525B]">{entry.km}</div>
                       </div>
-                      <div className="border-l border-[#333] pl-6">
+                      <div className="border-l border-white/10 pl-6">
                         <p className="text-[#A1A1AA]">{entry.interventions}</p>
                       </div>
                     </div>
@@ -720,6 +720,7 @@ const VehicleDetail = () => {
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 };
