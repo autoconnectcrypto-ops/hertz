@@ -287,20 +287,20 @@ const VehicleCard = ({ vehicle }) => {
         <div className="p-6">
           <div className="flex items-start justify-between mb-3">
             <h3 className="text-xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
-              {vehicle.marque} <span className="text-[#666]">{vehicle.modele}</span>
+              {vehicle.marque} <span className="text-[#0A0A0A]">{vehicle.modele}</span>
             </h3>
             {vehicle.reference && (
-              <span className="text-xs font-bold text-[#999] uppercase">
+              <span className="text-xs font-bold text-[#0A0A0A] uppercase">
                 {vehicle.reference}
               </span>
             )}
           </div>
           
-          <div className="flex items-center gap-3 text-sm text-[#999] mb-4">
+          <div className="flex items-center gap-3 text-sm text-[#0A0A0A] mb-4">
             <span>{vehicle.annee}</span>
-            <span className="w-1 h-1 bg-[#CCC] rounded-full"></span>
+            <span className="w-1 h-1 bg-[#0A0A0A] rounded-full"></span>
             <span>{vehicle.km?.toLocaleString('fr-FR')} km</span>
-            <span className="w-1 h-1 bg-[#CCC] rounded-full"></span>
+            <span className="w-1 h-1 bg-[#0A0A0A] rounded-full"></span>
             <span>{vehicle.specs?.carburant}</span>
           </div>
 
