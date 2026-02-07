@@ -328,6 +328,7 @@ const VehicleDetail = () => {
   const [vehicle, setVehicle] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeImage, setActiveImage] = useState(0);
+  const [activeTab, setActiveTab] = useState('specs'); // 'specs', 'options', 'history'
 
   useEffect(() => {
     const fetchVehicle = async () => {
