@@ -10,7 +10,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import time
 
-API_URL = "https://hertz-showroom.preview.emergentagent.com/api"
+API_URL = "https://premiumcars-9.preview.emergentagent.com/api"
 BASE_DIR = Path("/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO")
 
 # Mapping entre les dossiers et les véhicules
