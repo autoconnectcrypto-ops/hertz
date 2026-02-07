@@ -47,6 +47,7 @@ class Vehicle(BaseModel):
     model_config = ConfigDict(extra="ignore")
     
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    reference: Optional[str] = None
     marque: str
     modele: str
     annee: int
