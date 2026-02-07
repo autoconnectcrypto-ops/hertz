@@ -133,6 +133,26 @@ async def delete_vehicle(vehicle_id: str):
         raise HTTPException(status_code=404, detail="Véhicule non trouvé")
     return {"message": "Véhicule supprimé"}
 
+# Update vehicle endpoint
+@api_router.put("/vehicles/{vehicle_id}")
+async def update_vehicle(vehicle_id: str, updates: dict):
+    """Update vehicle with partial data"""
+    # Remove fields that shouldn't be updated
+    updates.pop('id', None)
+    updates.pop('_id', None)
+    updates.pop('created_at', None)
+    
+    result = await db.vehicles.update_one(
+        {"id": vehicle_id},
+        {"$set": updates}
+    )
+    if result.matched_count == 0:
+        raise HTTPException(status_code=404, detail="Véhicule non trouvé")
+    
+    # Return updated vehicle
+    vehicle = await db.vehicles.find_one({"id": vehicle_id}, {"_id": 0})
+    return vehicle
+
 # Contact endpoints
 @api_router.post("/contact", response_model=ContactMessage)
 async def create_contact(contact_data: ContactMessageCreate):
