@@ -7,12 +7,13 @@
 :root {
     --hertz-yellow: #FFD100;
     --hertz-black: #0A0A0A;
-    --hertz-paper: #111111;
-    --hertz-subtle: #1A1A1A;
-    --hertz-border: #27272A;
-    --hertz-text: #FFFFFF;
-    --hertz-text-secondary: #A1A1AA;
-    --hertz-text-muted: #52525B;
+    --hertz-white: #FFFFFF;
+    --hertz-bg: #F8F8F8;
+    --hertz-card: #FFFFFF;
+    --hertz-border: #E5E5E5;
+    --hertz-text: #0A0A0A;
+    --hertz-text-secondary: #666666;
+    --hertz-text-muted: #999999;
 }
 
 * {
@@ -25,7 +26,7 @@ body {
     font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--hertz-black);
+    background-color: var(--hertz-bg);
     color: var(--hertz-text);
 }
 
@@ -42,11 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--hertz-black);
+    background: #F0F0F0;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--hertz-border);
+    background: #CCCCCC;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -61,24 +62,24 @@ h1, h2, h3, h4, h5, h6 {
 
 @layer base {
     :root {
-        --background: 0 0% 4%;
-        --foreground: 0 0% 100%;
-        --card: 0 0% 7%;
-        --card-foreground: 0 0% 100%;
-        --popover: 0 0% 7%;
-        --popover-foreground: 0 0% 100%;
+        --background: 0 0% 97%;
+        --foreground: 0 0% 4%;
+        --card: 0 0% 100%;
+        --card-foreground: 0 0% 4%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 0 0% 4%;
         --primary: 48 100% 50%;
         --primary-foreground: 0 0% 0%;
-        --secondary: 0 0% 10%;
-        --secondary-foreground: 0 0% 100%;
-        --muted: 0 0% 15%;
-        --muted-foreground: 0 0% 65%;
-        --accent: 0 0% 15%;
-        --accent-foreground: 0 0% 100%;
+        --secondary: 0 0% 96%;
+        --secondary-foreground: 0 0% 4%;
+        --muted: 0 0% 96%;
+        --muted-foreground: 0 0% 40%;
+        --accent: 0 0% 96%;
+        --accent-foreground: 0 0% 4%;
         --destructive: 0 84% 60%;
         --destructive-foreground: 0 0% 100%;
-        --border: 0 0% 15%;
-        --input: 0 0% 15%;
+        --border: 0 0% 90%;
+        --input: 0 0% 90%;
         --ring: 48 100% 50%;
         --radius: 0.125rem;
     }
@@ -121,11 +122,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@keyframes pulse-glow {
-    0%, 100% { box-shadow: 0 0 20px rgba(255, 209, 0, 0.3); }
-    50% { box-shadow: 0 0 40px rgba(255, 209, 0, 0.5); }
-}
-
 .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out forwards;
 }
@@ -154,27 +150,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-zoom:hover img {
-    transform: scale(1.08);
-}
-
-/* Glass effect */
-.glass {
-    backdrop-filter: blur(16px);
-    background: rgba(10, 10, 10, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Yellow accent line */
-.accent-line {
-    position: relative;
-}
-
-.accent-line::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    width: 60px;
-    height: 3px;
-    background: var(--hertz-yellow);
+    transform: scale(1.05);
 }
