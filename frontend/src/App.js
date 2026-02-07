@@ -464,9 +464,16 @@ const VehicleDetail = () => {
           <div className="space-y-6" data-testid="vehicle-info">
             {/* Title & Price */}
             <div>
-              <span className="bg-gray-100 px-3 py-1 text-xs font-bold uppercase tracking-wider">
-                {vehicle.specs?.categorie || 'AUTO'}
-              </span>
+              <div className="flex items-center gap-3 mb-2">
+                <span className="bg-gray-100 px-3 py-1 text-xs font-bold uppercase tracking-wider">
+                  {vehicle.specs?.categorie || 'AUTO'}
+                </span>
+                {vehicle.reference && (
+                  <span className="bg-black text-[#FFD100] px-3 py-1 text-xs font-mono font-bold" data-testid="detail-ref">
+                    {vehicle.reference}
+                  </span>
+                )}
+              </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase tracking-tight mt-3">
                 {vehicle.marque} <span className="text-[#FFD100]">{vehicle.modele}</span>
               </h1>
