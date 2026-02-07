@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "@/App.css";
 import { BrowserRouter, Routes, Route, Link, useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { Phone, Mail, MapPin, Menu, X, ChevronLeft, ChevronRight, Check, Car, Shield, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Menu, X, ChevronLeft, ChevronRight, Check, Car, Shield, Clock, Settings, Wrench, FileText } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
