@@ -547,44 +547,160 @@ const VehicleDetail = () => {
           </div>
         </div>
 
-        {/* Options */}
-        {vehicle.options && vehicle.options.length > 0 && (
-          <div className="mt-12 pt-12 border-t border-gray-200" data-testid="vehicle-options">
-            <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">
-              Équipements & Options
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {vehicle.options.map((option, index) => (
-                <div key={index} className="flex items-center gap-3 bg-gray-50 p-3">
-                  <Check size={18} className="text-[#FFD100] flex-shrink-0" />
-                  <span className="text-sm">{option}</span>
-                </div>
-              ))}
-            </div>
+        {/* Tabs Section */}
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          {/* Tab Buttons */}
+          <div className="flex flex-wrap gap-2 mb-8" data-testid="vehicle-tabs">
+            <button
+              onClick={() => setActiveTab('specs')}
+              className={`flex items-center gap-2 px-6 py-3 font-bold uppercase tracking-wide transition-all ${
+                activeTab === 'specs' 
+                  ? 'bg-black text-[#FFD100]' 
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+              data-testid="tab-specs"
+            >
+              <Settings size={18} />
+              Caractéristiques
+            </button>
+            <button
+              onClick={() => setActiveTab('options')}
+              className={`flex items-center gap-2 px-6 py-3 font-bold uppercase tracking-wide transition-all ${
+                activeTab === 'options' 
+                  ? 'bg-black text-[#FFD100]' 
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+              data-testid="tab-options"
+            >
+              <FileText size={18} />
+              Équipements ({vehicle.options?.length || 0})
+            </button>
+            <button
+              onClick={() => setActiveTab('history')}
+              className={`flex items-center gap-2 px-6 py-3 font-bold uppercase tracking-wide transition-all ${
+                activeTab === 'history' 
+                  ? 'bg-black text-[#FFD100]' 
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+              data-testid="tab-history"
+            >
+              <Wrench size={18} />
+              Entretien ({vehicle.historique?.length || 0})
+            </button>
           </div>
-        )}
 
-        {/* History */}
-        {vehicle.historique && vehicle.historique.length > 0 && (
-          <div className="mt-12 pt-12 border-t border-gray-200" data-testid="vehicle-history">
-            <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">
-              Historique d'entretien
-            </h3>
-            <div className="space-y-4">
-              {vehicle.historique.map((entry, index) => (
-                <div key={index} className="flex items-start gap-4 bg-gray-50 p-4 border-l-4 border-[#FFD100]">
-                  <div className="flex-shrink-0 text-center">
-                    <div className="text-lg font-bold">{entry.date}</div>
-                    <div className="text-sm text-gray-500">{entry.km} km</div>
-                  </div>
-                  <div className="border-l border-gray-300 pl-4">
-                    <p className="text-gray-700">{entry.interventions}</p>
-                  </div>
+          {/* Tab Content: Specs */}
+          {activeTab === 'specs' && (
+            <div className="animate-fade-in-up" data-testid="tab-content-specs">
+              <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">
+                Fiche Technique
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-6">
+                  <h4 className="font-bold uppercase tracking-wide text-[#FFD100] mb-4">Motorisation</h4>
+                  <table className="specs-table w-full">
+                    <tbody>
+                      <tr>
+                        <td>Carburant</td>
+                        <td>{vehicle.specs?.carburant || '-'}</td>
+                      </tr>
+                      <tr>
+                        <td>Boîte de vitesse</td>
+                        <td>{vehicle.specs?.boite || '-'}</td>
+                      </tr>
+                      <tr>
+                        <td>Puissance</td>
+                        <td>{vehicle.specs?.puissance || '-'}</td>
+                      </tr>
+                      <tr>
+                        <td>Puissance fiscale</td>
+                        <td>{vehicle.specs?.puissance_fiscale || '-'}</td>
+                      </tr>
+                      <tr>
+                        <td>Cylindrée</td>
+                        <td>{vehicle.specs?.cylindree || '-'}</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-              ))}
+                <div className="bg-gray-50 p-6">
+                  <h4 className="font-bold uppercase tracking-wide text-[#FFD100] mb-4">Général</h4>
+                  <table className="specs-table w-full">
+                    <tbody>
+                      <tr>
+                        <td>Année</td>
+                        <td>{vehicle.annee}</td>
+                      </tr>
+                      <tr>
+                        <td>Kilométrage</td>
+                        <td>{vehicle.km?.toLocaleString('fr-FR')} km</td>
+                      </tr>
+                      <tr>
+                        <td>Couleur</td>
+                        <td>{vehicle.couleur || '-'}</td>
+                      </tr>
+                      <tr>
+                        <td>Catégorie</td>
+                        <td>{vehicle.specs?.categorie || '-'}</td>
+                      </tr>
+                      <tr>
+                        <td>Nombre de portes</td>
+                        <td>{vehicle.specs?.portes || '-'}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+
+          {/* Tab Content: Options */}
+          {activeTab === 'options' && (
+            <div className="animate-fade-in-up" data-testid="tab-content-options">
+              <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">
+                Équipements & Options
+              </h3>
+              {vehicle.options && vehicle.options.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {vehicle.options.map((option, index) => (
+                    <div key={index} className="flex items-center gap-3 bg-gray-50 p-4 border-l-4 border-[#FFD100]">
+                      <Check size={18} className="text-[#FFD100] flex-shrink-0" />
+                      <span className="text-sm font-medium">{option}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-gray-500 text-center py-8">Aucune option renseignée</p>
+              )}
+            </div>
+          )}
+
+          {/* Tab Content: History */}
+          {activeTab === 'history' && (
+            <div className="animate-fade-in-up" data-testid="tab-content-history">
+              <h3 className="text-2xl font-bold uppercase tracking-tight mb-6">
+                Historique d'Entretien
+              </h3>
+              {vehicle.historique && vehicle.historique.length > 0 ? (
+                <div className="space-y-4">
+                  {vehicle.historique.map((entry, index) => (
+                    <div key={index} className="flex items-start gap-6 bg-gray-50 p-6 border-l-4 border-[#FFD100]">
+                      <div className="flex-shrink-0 text-center min-w-[100px]">
+                        <div className="text-xl font-bold text-black">{entry.date}</div>
+                        <div className="text-sm text-gray-500 mt-1">{entry.km}</div>
+                      </div>
+                      <div className="border-l-2 border-gray-300 pl-6 flex-1">
+                        <p className="text-gray-700 leading-relaxed">{entry.interventions}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-gray-500 text-center py-8">Aucun historique d'entretien disponible</p>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
