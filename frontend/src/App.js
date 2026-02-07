@@ -333,7 +333,6 @@ const Catalogue = () => {
   useEffect(() => {
     const fetchVehicles = async () => {
       try {
-        await axios.post(`${API}/seed`);
         const response = await axios.get(`${API}/vehicles`);
         setVehicles(response.data);
       } catch (e) {
