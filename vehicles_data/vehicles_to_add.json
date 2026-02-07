@@ -1,0 +1,3147 @@
+[
+  {
+    "id": "audi-a3-sportback-business-line-35",
+    "marque": "Audi",
+    "modele": "A3",
+    "annee": 2021,
+    "km": 32942,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/01.jpg",
+        "alt": "Audi A3 photo 1"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/02.jpeg",
+        "alt": "Audi A3 photo 2"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/03.jpg",
+        "alt": "Audi A3 photo 3"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/04.jpeg",
+        "alt": "Audi A3 photo 4"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/05.jpg",
+        "alt": "Audi A3 photo 5"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/06.jpeg",
+        "alt": "Audi A3 photo 6"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/07.jpg",
+        "alt": "Audi A3 photo 7"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/08.jpeg",
+        "alt": "Audi A3 photo 8"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/09.jpeg",
+        "alt": "Audi A3 photo 9"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-business-line-35/10.jpeg",
+        "alt": "Audi A3 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "35 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "27942",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "12942",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Audi A3 A3 Sportback Business Line 35 TFSI 150 MHEV S Tron... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "audi-a4-avant-35-tdi-s-line-2-0-165",
+    "marque": "Audi",
+    "modele": "A4",
+    "annee": 2022,
+    "km": 70321,
+    "prix": 28000,
+    "prix_original": 35000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/01.jpg",
+        "alt": "Audi A4 photo 1"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/02.jpeg",
+        "alt": "Audi A4 photo 2"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/03.jpg",
+        "alt": "Audi A4 photo 3"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/04.jpeg",
+        "alt": "Audi A4 photo 4"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/05.jpg",
+        "alt": "Audi A4 photo 5"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/06.jpeg",
+        "alt": "Audi A4 photo 6"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/07.jpg",
+        "alt": "Audi A4 photo 7"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/08.jpeg",
+        "alt": "Audi A4 photo 8"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/09.jpeg",
+        "alt": "Audi A4 photo 9"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-s-line-2-0-165/10.jpeg",
+        "alt": "Audi A4 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Automatique",
+      "puissance": "35 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Break"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "65321",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "50321",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Audi A4 A4 Avant 35 TDI S Line 2.0 165 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "audi-a4-avant-35-tfsi-business-line",
+    "marque": "Audi",
+    "modele": "A4",
+    "annee": 2022,
+    "km": 66791,
+    "prix": 28000,
+    "prix_original": 35000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/01.jpg",
+        "alt": "Audi A4 photo 1"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/02.jpeg",
+        "alt": "Audi A4 photo 2"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/03.jpg",
+        "alt": "Audi A4 photo 3"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/04.jpeg",
+        "alt": "Audi A4 photo 4"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/05.jpg",
+        "alt": "Audi A4 photo 5"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/06.jpeg",
+        "alt": "Audi A4 photo 6"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/07.jpg",
+        "alt": "Audi A4 photo 7"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/08.jpeg",
+        "alt": "Audi A4 photo 8"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/09.jpeg",
+        "alt": "Audi A4 photo 9"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tfsi-business-line/10.jpeg",
+        "alt": "Audi A4 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "35 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Break"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "61791",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "46791",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Audi A4 A4 Avant 35 TFSI Business Line 2.0 TFSI 150CV BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "audi-q2-s-line-35-tfsi-1-5-150-bva7",
+    "marque": "Audi",
+    "modele": "Q2",
+    "annee": 2023,
+    "km": 74211,
+    "prix": 26000,
+    "prix_original": 32500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/01.jpg",
+        "alt": "Audi Q2 photo 1"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/02.jpeg",
+        "alt": "Audi Q2 photo 2"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/03.jpg",
+        "alt": "Audi Q2 photo 3"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/04.jpeg",
+        "alt": "Audi Q2 photo 4"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/05.jpg",
+        "alt": "Audi Q2 photo 5"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/06.jpeg",
+        "alt": "Audi Q2 photo 6"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/07.jpg",
+        "alt": "Audi Q2 photo 7"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/08.jpeg",
+        "alt": "Audi Q2 photo 8"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/09.jpeg",
+        "alt": "Audi Q2 photo 9"
+      },
+      {
+        "url": "/vehicles/audi-q2-s-line-35-tfsi-1-5-150-bva7/10.jpeg",
+        "alt": "Audi Q2 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "35 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "69211",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "54211",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Audi Q2 Q2 S Line 35 TFSI 1.5 150 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "audi-q3-s-line-35-tfsi-150-mhev-s-t",
+    "marque": "Audi",
+    "modele": "Q3",
+    "annee": 2021,
+    "km": 68018,
+    "prix": 26000,
+    "prix_original": 32500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/01.jpeg",
+        "alt": "Audi Q3 photo 1"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/02.jpeg",
+        "alt": "Audi Q3 photo 2"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/03.jpg",
+        "alt": "Audi Q3 photo 3"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/04.jpeg",
+        "alt": "Audi Q3 photo 4"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/05.jpg",
+        "alt": "Audi Q3 photo 5"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/06.jpeg",
+        "alt": "Audi Q3 photo 6"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/07.jpeg",
+        "alt": "Audi Q3 photo 7"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/08.jpeg",
+        "alt": "Audi Q3 photo 8"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/09.jpeg",
+        "alt": "Audi Q3 photo 9"
+      },
+      {
+        "url": "/vehicles/audi-q3-s-line-35-tfsi-150-mhev-s-t/10.jpeg",
+        "alt": "Audi Q3 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "35 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "63018",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "48018",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Audi Q3 Q3 S LINE 35 TFSI 150 MHEV S TRONIC... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "audi-q3-sportback-s-line-35-tfsi-15",
+    "marque": "Audi",
+    "modele": "Q3",
+    "annee": 2022,
+    "km": 70909,
+    "prix": 26000,
+    "prix_original": 32500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/01.jpg",
+        "alt": "Audi Q3 photo 1"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/02.jpeg",
+        "alt": "Audi Q3 photo 2"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/03.jpg",
+        "alt": "Audi Q3 photo 3"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/04.jpeg",
+        "alt": "Audi Q3 photo 4"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/05.jpg",
+        "alt": "Audi Q3 photo 5"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/06.jpeg",
+        "alt": "Audi Q3 photo 6"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/07.jpg",
+        "alt": "Audi Q3 photo 7"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/08.jpeg",
+        "alt": "Audi Q3 photo 8"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/09.jpeg",
+        "alt": "Audi Q3 photo 9"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-s-line-35-tfsi-15/10.jpeg",
+        "alt": "Audi Q3 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "35 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "65909",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "50909",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Audi Q3 Q3 Sportback S LINE 35 TFSI 150 MHEV S Tronic 7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "bmw-serie-1-116i-dkg7-business-des",
+    "marque": "BMW",
+    "modele": "Serie 1",
+    "annee": 2023,
+    "km": 69269,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/01.jpg",
+        "alt": "BMW Serie 1 photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/02.jpeg",
+        "alt": "BMW Serie 1 photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/03.jpg",
+        "alt": "BMW Serie 1 photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/04.jpeg",
+        "alt": "BMW Serie 1 photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/05.jpg",
+        "alt": "BMW Serie 1 photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/06.jpeg",
+        "alt": "BMW Serie 1 photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/07.jpg",
+        "alt": "BMW Serie 1 photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/08.jpeg",
+        "alt": "BMW Serie 1 photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/09.jpeg",
+        "alt": "BMW Serie 1 photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-116i-dkg7-business-des/10.jpeg",
+        "alt": "BMW Serie 1 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "116 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "64269",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "49269",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "BMW Serie 1 Serie 1 116i DKG7 Business Design... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "bmw-serie-1-118-i-edition-sport-1",
+    "marque": "BMW",
+    "modele": "Serie 1",
+    "annee": 2023,
+    "km": 64032,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/01.jpg",
+        "alt": "BMW Serie 1 photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/02.jpeg",
+        "alt": "BMW Serie 1 photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/03.jpg",
+        "alt": "BMW Serie 1 photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/04.jpeg",
+        "alt": "BMW Serie 1 photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/05.jpg",
+        "alt": "BMW Serie 1 photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/06.jpeg",
+        "alt": "BMW Serie 1 photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/07.jpeg",
+        "alt": "BMW Serie 1 photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/08.jpeg",
+        "alt": "BMW Serie 1 photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/09.jpeg",
+        "alt": "BMW Serie 1 photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/10.jpeg",
+        "alt": "BMW Serie 1 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "118 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "59032",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "44032",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "BMW Serie 1 Serie 1 118 i Edition Sport 1.5 135 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "bmw-serie-1-118-i-edition-sport-1",
+    "marque": "BMW",
+    "modele": "Serie 1",
+    "annee": 2023,
+    "km": 53914,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/01.jpg",
+        "alt": "BMW Serie 1 photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/02.jpeg",
+        "alt": "BMW Serie 1 photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/03.jpg",
+        "alt": "BMW Serie 1 photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/04.jpeg",
+        "alt": "BMW Serie 1 photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/05.jpg",
+        "alt": "BMW Serie 1 photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/06.jpeg",
+        "alt": "BMW Serie 1 photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/07.jpg",
+        "alt": "BMW Serie 1 photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/08.jpeg",
+        "alt": "BMW Serie 1 photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/09.jpeg",
+        "alt": "BMW Serie 1 photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-serie-1-118-i-edition-sport-1/10.jpeg",
+        "alt": "BMW Serie 1 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "118 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "48914",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "33914",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "BMW Serie 1 Serie 1 118 i Edition Sport 1.5 135 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "bmw-serie-2-active-tourer-218d-m-s",
+    "marque": "BMW",
+    "modele": "Serie 2",
+    "annee": 2022,
+    "km": 70586,
+    "prix": 28000,
+    "prix_original": 35000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/01.jpg",
+        "alt": "BMW Serie 2 photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/02.jpeg",
+        "alt": "BMW Serie 2 photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/03.jpg",
+        "alt": "BMW Serie 2 photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/04.jpeg",
+        "alt": "BMW Serie 2 photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/05.jpg",
+        "alt": "BMW Serie 2 photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/06.jpeg",
+        "alt": "BMW Serie 2 photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/07.jpg",
+        "alt": "BMW Serie 2 photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/08.jpeg",
+        "alt": "BMW Serie 2 photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/09.jpeg",
+        "alt": "BMW Serie 2 photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-serie-2-active-tourer-218d-m-s/10.jpeg",
+        "alt": "BMW Serie 2 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "218 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Monospace"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "65586",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "50586",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "BMW Serie 2 Serie 2 Active Tourer 218d M Sport 2.0 150 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "bmw-x1-sdrive16d-xline-1-5-115-bva",
+    "marque": "BMW",
+    "modele": "X1",
+    "annee": 2021,
+    "km": 32441,
+    "prix": 30000,
+    "prix_original": 37500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/01.jpg",
+        "alt": "BMW X1 photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/02.jpeg",
+        "alt": "BMW X1 photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/03.jpg",
+        "alt": "BMW X1 photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/04.jpeg",
+        "alt": "BMW X1 photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/05.jpg",
+        "alt": "BMW X1 photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/06.jpeg",
+        "alt": "BMW X1 photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/07.jpg",
+        "alt": "BMW X1 photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/08.jpeg",
+        "alt": "BMW X1 photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/09.jpeg",
+        "alt": "BMW X1 photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-x1-sdrive16d-xline-1-5-115-bva/10.jpeg",
+        "alt": "BMW X1 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "16 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "27441",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "12441",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "BMW X1 X1 sDrive16d xLine 1.5 115 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "bmw-x1-xdrive25e-m-sport-dkg7",
+    "marque": "BMW",
+    "modele": "X1",
+    "annee": 2023,
+    "km": 37383,
+    "prix": 30000,
+    "prix_original": 37500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/01.jpg",
+        "alt": "BMW X1 photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/02.jpeg",
+        "alt": "BMW X1 photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/03.jpg",
+        "alt": "BMW X1 photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/04.jpeg",
+        "alt": "BMW X1 photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/05.jpg",
+        "alt": "BMW X1 photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/06.jpeg",
+        "alt": "BMW X1 photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/07.jpg",
+        "alt": "BMW X1 photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/08.jpeg",
+        "alt": "BMW X1 photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/09.jpeg",
+        "alt": "BMW X1 photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-x1-xdrive25e-m-sport-dkg7/10.jpeg",
+        "alt": "BMW X1 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "25 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "32383",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "17383",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "BMW X1 X1 xDrive25e M Sport DKG7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "ds-ds7-crossback-e-tense-4x2-busi",
+    "marque": "DS",
+    "modele": "DS7",
+    "annee": 2021,
+    "km": 44963,
+    "prix": 28000,
+    "prix_original": 35000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/01.jpg",
+        "alt": "DS DS7 photo 1"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/02.jpeg",
+        "alt": "DS DS7 photo 2"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/03.jpg",
+        "alt": "DS DS7 photo 3"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/04.jpeg",
+        "alt": "DS DS7 photo 4"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/05.jpg",
+        "alt": "DS DS7 photo 5"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/06.jpeg",
+        "alt": "DS DS7 photo 6"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/07.jpg",
+        "alt": "DS DS7 photo 7"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/08.jpeg",
+        "alt": "DS DS7 photo 8"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/09.jpeg",
+        "alt": "DS DS7 photo 9"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-busi/10.jpeg",
+        "alt": "DS DS7 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride rechargeable",
+      "boite": "Automatique",
+      "puissance": "225 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "39963",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "24963",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "DS DS7 DS7 Crossback E-Tense 4x2 Business 1.6 225 BVA8... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "ds-ds7-crossback-e-tense-4x2-perf",
+    "marque": "DS",
+    "modele": "DS7",
+    "annee": 2021,
+    "km": 33293,
+    "prix": 28000,
+    "prix_original": 35000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/01.jpg",
+        "alt": "DS DS7 photo 1"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/02.jpeg",
+        "alt": "DS DS7 photo 2"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/03.jpg",
+        "alt": "DS DS7 photo 3"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/04.jpeg",
+        "alt": "DS DS7 photo 4"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/05.jpg",
+        "alt": "DS DS7 photo 5"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/06.jpeg",
+        "alt": "DS DS7 photo 6"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/07.jpg",
+        "alt": "DS DS7 photo 7"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/08.jpeg",
+        "alt": "DS DS7 photo 8"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/09.jpeg",
+        "alt": "DS DS7 photo 9"
+      },
+      {
+        "url": "/vehicles/ds-ds7-crossback-e-tense-4x2-perf/10.jpeg",
+        "alt": "DS DS7 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride rechargeable",
+      "boite": "Automatique",
+      "puissance": "225 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "28293",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "13293",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "DS DS7 DS7 Crossback E-Tense 4x2 Performance Line + 1.6 2... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "fiat-500-c-cabriolet-dolcevita-plus",
+    "marque": "Fiat",
+    "modele": "500",
+    "annee": 2022,
+    "km": 75947,
+    "prix": 14000,
+    "prix_original": 17500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/01.jpg",
+        "alt": "Fiat 500 photo 1"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/02.jpeg",
+        "alt": "Fiat 500 photo 2"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/03.jpg",
+        "alt": "Fiat 500 photo 3"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/04.jpeg",
+        "alt": "Fiat 500 photo 4"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/05.jpg",
+        "alt": "Fiat 500 photo 5"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/06.jpeg",
+        "alt": "Fiat 500 photo 6"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/07.jpg",
+        "alt": "Fiat 500 photo 7"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/08.jpeg",
+        "alt": "Fiat 500 photo 8"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/09.jpeg",
+        "alt": "Fiat 500 photo 9"
+      },
+      {
+        "url": "/vehicles/fiat-500-c-cabriolet-dolcevita-plus/10.jpeg",
+        "alt": "Fiat 500 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "500 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Citadine"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "70947",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "55947",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Fiat 500 500 C Cabriolet Dolcevita Plus Hybrid 1.0 BSG 70... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "kia-xceed-active-plug-in-hybrid-1",
+    "marque": "Kia",
+    "modele": "XCeed",
+    "annee": 2022,
+    "km": 72333,
+    "prix": 22000,
+    "prix_original": 27500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/01.jpg",
+        "alt": "Kia XCeed photo 1"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/02.jpeg",
+        "alt": "Kia XCeed photo 2"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/03.jpg",
+        "alt": "Kia XCeed photo 3"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/04.jpeg",
+        "alt": "Kia XCeed photo 4"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/05.jpg",
+        "alt": "Kia XCeed photo 5"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/06.jpeg",
+        "alt": "Kia XCeed photo 6"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/07.jpg",
+        "alt": "Kia XCeed photo 7"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/08.jpeg",
+        "alt": "Kia XCeed photo 8"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/09.jpeg",
+        "alt": "Kia XCeed photo 9"
+      },
+      {
+        "url": "/vehicles/kia-xceed-active-plug-in-hybrid-1/10.jpeg",
+        "alt": "Kia XCeed photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "140 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "67333",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "52333",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Kia XCeed XCeed Active Plug-in Hybrid 1.6 140 BVA6... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "land-rover-evoque-autobiography-1-5-p300e",
+    "marque": "Land Rover",
+    "modele": "Evoque",
+    "annee": 2021,
+    "km": 49317,
+    "prix": 42000,
+    "prix_original": 52500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/01.jpg",
+        "alt": "Land Rover Evoque photo 1"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/02.jpeg",
+        "alt": "Land Rover Evoque photo 2"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/03.jpg",
+        "alt": "Land Rover Evoque photo 3"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/04.jpeg",
+        "alt": "Land Rover Evoque photo 4"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/05.jpg",
+        "alt": "Land Rover Evoque photo 5"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/06.jpeg",
+        "alt": "Land Rover Evoque photo 6"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/07.jpg",
+        "alt": "Land Rover Evoque photo 7"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/08.jpeg",
+        "alt": "Land Rover Evoque photo 8"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/09.jpeg",
+        "alt": "Land Rover Evoque photo 9"
+      },
+      {
+        "url": "/vehicles/land-rover-evoque-autobiography-1-5-p300e/10.jpeg",
+        "alt": "Land Rover Evoque photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride rechargeable",
+      "boite": "Automatique",
+      "puissance": "300 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "44317",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "29317",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Land Rover Evoque Evoque Autobiography 1.5 P300e PHEV BVA 4WD... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mercedes-classe-a-180-d-business-line-8",
+    "marque": "Mercedes",
+    "modele": "Classe A",
+    "annee": 2021,
+    "km": 45843,
+    "prix": 26000,
+    "prix_original": 32500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/01.jpg",
+        "alt": "Mercedes Classe A photo 1"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/02.jpeg",
+        "alt": "Mercedes Classe A photo 2"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/03.jpg",
+        "alt": "Mercedes Classe A photo 3"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/04.jpeg",
+        "alt": "Mercedes Classe A photo 4"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/05.jpg",
+        "alt": "Mercedes Classe A photo 5"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/06.jpeg",
+        "alt": "Mercedes Classe A photo 6"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/07.jpg",
+        "alt": "Mercedes Classe A photo 7"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/08.jpeg",
+        "alt": "Mercedes Classe A photo 8"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/09.jpeg",
+        "alt": "Mercedes Classe A photo 9"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-a-180-d-business-line-8/10.jpeg",
+        "alt": "Mercedes Classe A photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "180 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "40843",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "25843",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mercedes Classe A Classe A 180 d Business Line 8G-DCT... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mercedes-classe-cla-coupe-200-d-amg-lin",
+    "marque": "Mercedes",
+    "modele": "Classe CLA",
+    "annee": 2023,
+    "km": 63542,
+    "prix": 32000,
+    "prix_original": 40000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/01.jpg",
+        "alt": "Mercedes Classe CLA photo 1"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/02.jpeg",
+        "alt": "Mercedes Classe CLA photo 2"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/03.jpg",
+        "alt": "Mercedes Classe CLA photo 3"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/04.jpeg",
+        "alt": "Mercedes Classe CLA photo 4"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/05.jpg",
+        "alt": "Mercedes Classe CLA photo 5"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/06.jpeg",
+        "alt": "Mercedes Classe CLA photo 6"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/07.jpeg",
+        "alt": "Mercedes Classe CLA photo 7"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/08.jpeg",
+        "alt": "Mercedes Classe CLA photo 8"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/09.jpeg",
+        "alt": "Mercedes Classe CLA photo 9"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-cla-coupe-200-d-amg-lin/10.jpeg",
+        "alt": "Mercedes Classe CLA photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "200 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Coupé"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "58542",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "43542",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mercedes Classe CLA Classe CLA Coupe 200 d AMG Line BA8... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mercedes-classe-glc-glc-300-e-amg-line",
+    "marque": "Mercedes",
+    "modele": "Classe GLC",
+    "annee": 2021,
+    "km": 31630,
+    "prix": 32000,
+    "prix_original": 40000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/01.jpg",
+        "alt": "Mercedes Classe GLC photo 1"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/02.jpeg",
+        "alt": "Mercedes Classe GLC photo 2"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/03.jpg",
+        "alt": "Mercedes Classe GLC photo 3"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/04.jpeg",
+        "alt": "Mercedes Classe GLC photo 4"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/05.jpg",
+        "alt": "Mercedes Classe GLC photo 5"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/06.jpeg",
+        "alt": "Mercedes Classe GLC photo 6"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/07.jpg",
+        "alt": "Mercedes Classe GLC photo 7"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/08.jpeg",
+        "alt": "Mercedes Classe GLC photo 8"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/09.jpeg",
+        "alt": "Mercedes Classe GLC photo 9"
+      },
+      {
+        "url": "/vehicles/mercedes-classe-glc-glc-300-e-amg-line/10.jpeg",
+        "alt": "Mercedes Classe GLC photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "300 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Coupé"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "26630",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "11630",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mercedes Classe GLC Classe GLC GLC 300 E AMG LINE 4MATIC... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mercedes-glc-300-e-amg-line-4matic",
+    "marque": "Mercedes",
+    "modele": "GLC",
+    "annee": 2023,
+    "km": 54298,
+    "prix": 45000,
+    "prix_original": 56250,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/01.jpg",
+        "alt": "Mercedes GLC photo 1"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/02.jpeg",
+        "alt": "Mercedes GLC photo 2"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/03.jpg",
+        "alt": "Mercedes GLC photo 3"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/04.jpeg",
+        "alt": "Mercedes GLC photo 4"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/05.jpg",
+        "alt": "Mercedes GLC photo 5"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/06.jpeg",
+        "alt": "Mercedes GLC photo 6"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/07.jpg",
+        "alt": "Mercedes GLC photo 7"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/08.jpeg",
+        "alt": "Mercedes GLC photo 8"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/09.jpeg",
+        "alt": "Mercedes GLC photo 9"
+      },
+      {
+        "url": "/vehicles/mercedes-glc-300-e-amg-line-4matic/10.jpeg",
+        "alt": "Mercedes GLC photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "300 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "49298",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "34298",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mercedes GLC GLC 300 e AMG Line 4MATIC... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mini-countryman-cooper-essential-13",
+    "marque": "Mini",
+    "modele": "Countryman",
+    "annee": 2023,
+    "km": 49246,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/01.jpg",
+        "alt": "Mini Countryman photo 1"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/02.jpeg",
+        "alt": "Mini Countryman photo 2"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/03.jpg",
+        "alt": "Mini Countryman photo 3"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/04.jpeg",
+        "alt": "Mini Countryman photo 4"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/05.jpg",
+        "alt": "Mini Countryman photo 5"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/06.jpeg",
+        "alt": "Mini Countryman photo 6"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/07.jpg",
+        "alt": "Mini Countryman photo 7"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/08.jpeg",
+        "alt": "Mini Countryman photo 8"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/09.jpeg",
+        "alt": "Mini Countryman photo 9"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/10.jpeg",
+        "alt": "Mini Countryman photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "136 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "44246",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "29246",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mini Countryman Countryman Cooper Essential 136 BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mini-countryman-cooper-essential-13",
+    "marque": "Mini",
+    "modele": "Countryman",
+    "annee": 2023,
+    "km": 52080,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/01.jpg",
+        "alt": "Mini Countryman photo 1"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/02.jpeg",
+        "alt": "Mini Countryman photo 2"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/03.jpg",
+        "alt": "Mini Countryman photo 3"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/04.jpeg",
+        "alt": "Mini Countryman photo 4"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/05.jpg",
+        "alt": "Mini Countryman photo 5"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/06.jpeg",
+        "alt": "Mini Countryman photo 6"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/07.jpg",
+        "alt": "Mini Countryman photo 7"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/08.jpeg",
+        "alt": "Mini Countryman photo 8"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/09.jpeg",
+        "alt": "Mini Countryman photo 9"
+      },
+      {
+        "url": "/vehicles/mini-countryman-cooper-essential-13/10.jpeg",
+        "alt": "Mini Countryman photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "136 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "47080",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "32080",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mini Countryman Countryman Cooper Essential 136 ch BVA7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "mini-mini-cooper-se-finition-busine",
+    "marque": "Mini",
+    "modele": "Mini",
+    "annee": 2021,
+    "km": 36685,
+    "prix": 18000,
+    "prix_original": 22500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/01.jpg",
+        "alt": "Mini Mini photo 1"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/02.jpg",
+        "alt": "Mini Mini photo 2"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/03.jpeg",
+        "alt": "Mini Mini photo 3"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/04.jpg",
+        "alt": "Mini Mini photo 4"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/05.jpeg",
+        "alt": "Mini Mini photo 5"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/06.jpg",
+        "alt": "Mini Mini photo 6"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/07.jpeg",
+        "alt": "Mini Mini photo 7"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/08.jpg",
+        "alt": "Mini Mini photo 8"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/09.jpeg",
+        "alt": "Mini Mini photo 9"
+      },
+      {
+        "url": "/vehicles/mini-mini-cooper-se-finition-busine/10.jpeg",
+        "alt": "Mini Mini photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Électrique",
+      "boite": "Automatique",
+      "puissance": "184 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Citadine"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "31685",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "16685",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Mini Mini Mini Cooper SE Finition Business 184 BVA... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "peugeot-2008-active-business-1-5-blueh",
+    "marque": "Peugeot",
+    "modele": "2008",
+    "annee": 2008,
+    "km": 45758,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/01.jpg",
+        "alt": "Peugeot 2008 photo 1"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/02.jpeg",
+        "alt": "Peugeot 2008 photo 2"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/03.jpg",
+        "alt": "Peugeot 2008 photo 3"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/04.jpeg",
+        "alt": "Peugeot 2008 photo 4"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/05.jpg",
+        "alt": "Peugeot 2008 photo 5"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/06.jpeg",
+        "alt": "Peugeot 2008 photo 6"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/07.jpg",
+        "alt": "Peugeot 2008 photo 7"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/08.jpeg",
+        "alt": "Peugeot 2008 photo 8"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/09.jpeg",
+        "alt": "Peugeot 2008 photo 9"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-active-business-1-5-blueh/10.jpeg",
+        "alt": "Peugeot 2008 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "200 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "40758",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "25758",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Peugeot 2008 2008 Active Business 1.5 BlueHDi 110 BVM6... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "peugeot-2008-gt-pack-puretech-130",
+    "marque": "Peugeot",
+    "modele": "2008",
+    "annee": 2008,
+    "km": 57624,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/01.jpg",
+        "alt": "Peugeot 2008 photo 1"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/02.jpeg",
+        "alt": "Peugeot 2008 photo 2"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/03.jpg",
+        "alt": "Peugeot 2008 photo 3"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/04.jpeg",
+        "alt": "Peugeot 2008 photo 4"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/05.jpg",
+        "alt": "Peugeot 2008 photo 5"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/06.jpeg",
+        "alt": "Peugeot 2008 photo 6"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/07.jpg",
+        "alt": "Peugeot 2008 photo 7"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/08.jpeg",
+        "alt": "Peugeot 2008 photo 8"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/09.jpeg",
+        "alt": "Peugeot 2008 photo 9"
+      },
+      {
+        "url": "/vehicles/peugeot-2008-gt-pack-puretech-130/10.jpeg",
+        "alt": "Peugeot 2008 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "200 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "52624",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "37624",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Peugeot 2008 2008 GT PACK PureTech 130... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "peugeot-208-style-1-2-puretech-100-bva",
+    "marque": "Peugeot",
+    "modele": "208",
+    "annee": 2022,
+    "km": 63865,
+    "prix": 16000,
+    "prix_original": 20000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/01.jpg",
+        "alt": "Peugeot 208 photo 1"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/02.jpeg",
+        "alt": "Peugeot 208 photo 2"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/03.jpg",
+        "alt": "Peugeot 208 photo 3"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/04.jpeg",
+        "alt": "Peugeot 208 photo 4"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/05.jpg",
+        "alt": "Peugeot 208 photo 5"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/06.jpeg",
+        "alt": "Peugeot 208 photo 6"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/07.jpg",
+        "alt": "Peugeot 208 photo 7"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/08.jpeg",
+        "alt": "Peugeot 208 photo 8"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/09.jpeg",
+        "alt": "Peugeot 208 photo 9"
+      },
+      {
+        "url": "/vehicles/peugeot-208-style-1-2-puretech-100-bva/10.jpeg",
+        "alt": "Peugeot 208 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "208 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Citadine"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "58865",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "43865",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Peugeot 208 208 Style 1.2 PureTech 100 BVA8... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "peugeot-3008-hybrid4-300-gt-pack-1-6-p",
+    "marque": "Peugeot",
+    "modele": "3008",
+    "annee": 3008,
+    "km": 30040,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/01.jpg",
+        "alt": "Peugeot 3008 photo 1"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/02.jpeg",
+        "alt": "Peugeot 3008 photo 2"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/03.jpg",
+        "alt": "Peugeot 3008 photo 3"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/04.jpeg",
+        "alt": "Peugeot 3008 photo 4"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/05.jpg",
+        "alt": "Peugeot 3008 photo 5"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/06.jpeg",
+        "alt": "Peugeot 3008 photo 6"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/07.jpg",
+        "alt": "Peugeot 3008 photo 7"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/08.jpeg",
+        "alt": "Peugeot 3008 photo 8"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/09.jpeg",
+        "alt": "Peugeot 3008 photo 9"
+      },
+      {
+        "url": "/vehicles/peugeot-3008-hybrid4-300-gt-pack-1-6-p/10.jpeg",
+        "alt": "Peugeot 3008 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "300 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "25040",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "10040",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Peugeot 3008 3008 Hybrid4 300 GT Pack 1.6 Plug-In BVA8... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "peugeot-308-active-pack-1-5-hdi-130cv",
+    "marque": "Peugeot",
+    "modele": "308",
+    "annee": 2022,
+    "km": 49124,
+    "prix": 20000,
+    "prix_original": 25000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/01.jpg",
+        "alt": "Peugeot 308 photo 1"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/02.jpeg",
+        "alt": "Peugeot 308 photo 2"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/03.jpg",
+        "alt": "Peugeot 308 photo 3"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/04.jpeg",
+        "alt": "Peugeot 308 photo 4"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/05.jpg",
+        "alt": "Peugeot 308 photo 5"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/06.jpeg",
+        "alt": "Peugeot 308 photo 6"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/07.jpg",
+        "alt": "Peugeot 308 photo 7"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/08.jpeg",
+        "alt": "Peugeot 308 photo 8"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/09.jpeg",
+        "alt": "Peugeot 308 photo 9"
+      },
+      {
+        "url": "/vehicles/peugeot-308-active-pack-1-5-hdi-130cv/10.jpeg",
+        "alt": "Peugeot 308 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Automatique",
+      "puissance": "308 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "44124",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "29124",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Peugeot 308 308 Active Pack 1.5 HDi 130CV BVA8... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "peugeot-5008-allure-pack-1-5-bluehdi-1",
+    "marque": "Peugeot",
+    "modele": "5008",
+    "annee": 5008,
+    "km": 45793,
+    "prix": 16000,
+    "prix_original": 20000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/01.jpg",
+        "alt": "Peugeot 5008 photo 1"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/02.jpeg",
+        "alt": "Peugeot 5008 photo 2"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/03.jpg",
+        "alt": "Peugeot 5008 photo 3"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/04.jpeg",
+        "alt": "Peugeot 5008 photo 4"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/05.jpg",
+        "alt": "Peugeot 5008 photo 5"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/06.jpeg",
+        "alt": "Peugeot 5008 photo 6"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/07.jpg",
+        "alt": "Peugeot 5008 photo 7"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/08.jpeg",
+        "alt": "Peugeot 5008 photo 8"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/09.jpeg",
+        "alt": "Peugeot 5008 photo 9"
+      },
+      {
+        "url": "/vehicles/peugeot-5008-allure-pack-1-5-bluehdi-1/10.jpeg",
+        "alt": "Peugeot 5008 photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Automatique",
+      "puissance": "500 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Citadine"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "40793",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "25793",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Peugeot 5008 5008 Allure Pack 1.5 BlueHDi 130 BVA8 7 Sieges... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "renault-clio-equilibre-1-0-tce-90-bvm6",
+    "marque": "Renault",
+    "modele": "Clio",
+    "annee": 2023,
+    "km": 74273,
+    "prix": 14000,
+    "prix_original": 17500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/01.jpg",
+        "alt": "Renault Clio photo 1"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/02.jpeg",
+        "alt": "Renault Clio photo 2"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/03.jpg",
+        "alt": "Renault Clio photo 3"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/04.jpeg",
+        "alt": "Renault Clio photo 4"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/05.jpg",
+        "alt": "Renault Clio photo 5"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/06.jpeg",
+        "alt": "Renault Clio photo 6"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/07.jpg",
+        "alt": "Renault Clio photo 7"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/08.jpeg",
+        "alt": "Renault Clio photo 8"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/09.jpeg",
+        "alt": "Renault Clio photo 9"
+      },
+      {
+        "url": "/vehicles/renault-clio-equilibre-1-0-tce-90-bvm6/10.jpeg",
+        "alt": "Renault Clio photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "90 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Citadine"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "69273",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "54273",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Renault Clio Clio Equilibre 1.0 TCe 90 BVM6... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "renault-megane-e-tech-techno-ev60-220",
+    "marque": "Renault",
+    "modele": "Megane",
+    "annee": 2023,
+    "km": 70543,
+    "prix": 22000,
+    "prix_original": 27500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/01.jpg",
+        "alt": "Renault Megane photo 1"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/02.jpeg",
+        "alt": "Renault Megane photo 2"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/03.jpg",
+        "alt": "Renault Megane photo 3"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/04.jpeg",
+        "alt": "Renault Megane photo 4"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/05.jpg",
+        "alt": "Renault Megane photo 5"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/06.jpeg",
+        "alt": "Renault Megane photo 6"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/07.jpg",
+        "alt": "Renault Megane photo 7"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/08.jpeg",
+        "alt": "Renault Megane photo 8"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/09.jpeg",
+        "alt": "Renault Megane photo 9"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220/10.jpeg",
+        "alt": "Renault Megane photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Électrique",
+      "boite": "Automatique",
+      "puissance": "60 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "65543",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "50543",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Renault Megane Megane E-TECH techno EV60 220 optimum charge... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "renault-scenic-grand-business-tce-140",
+    "marque": "Renault",
+    "modele": "Scenic",
+    "annee": 2022,
+    "km": 76146,
+    "prix": 18000,
+    "prix_original": 22500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/01.jpg",
+        "alt": "Renault Scenic photo 1"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/02.jpeg",
+        "alt": "Renault Scenic photo 2"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/03.jpg",
+        "alt": "Renault Scenic photo 3"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/04.jpeg",
+        "alt": "Renault Scenic photo 4"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/05.jpg",
+        "alt": "Renault Scenic photo 5"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/06.jpeg",
+        "alt": "Renault Scenic photo 6"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/07.jpg",
+        "alt": "Renault Scenic photo 7"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/08.jpeg",
+        "alt": "Renault Scenic photo 8"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/09.jpeg",
+        "alt": "Renault Scenic photo 9"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-business-tce-140/10.jpeg",
+        "alt": "Renault Scenic photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "140 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Monospace"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "71146",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "56146",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Renault Scenic Scenic Grand Business TCe 140... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "renault-scenic-grand-intens-tce-140-ed",
+    "marque": "Renault",
+    "modele": "Scenic",
+    "annee": 2022,
+    "km": 59786,
+    "prix": 18000,
+    "prix_original": 22500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/01.jpg",
+        "alt": "Renault Scenic photo 1"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/02.jpeg",
+        "alt": "Renault Scenic photo 2"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/03.jpg",
+        "alt": "Renault Scenic photo 3"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/04.jpeg",
+        "alt": "Renault Scenic photo 4"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/05.jpg",
+        "alt": "Renault Scenic photo 5"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/06.jpeg",
+        "alt": "Renault Scenic photo 6"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/07.jpg",
+        "alt": "Renault Scenic photo 7"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/08.jpeg",
+        "alt": "Renault Scenic photo 8"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/09.jpeg",
+        "alt": "Renault Scenic photo 9"
+      },
+      {
+        "url": "/vehicles/renault-scenic-grand-intens-tce-140-ed/10.jpeg",
+        "alt": "Renault Scenic photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "140 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Monospace"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "54786",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "39786",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Renault Scenic Scenic Grand Intens TCe 140 EDC... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "volkswagen-golf-style-1-4-ehybrid-opf-204",
+    "marque": "Volkswagen",
+    "modele": "Golf",
+    "annee": 2022,
+    "km": 61278,
+    "prix": 22000,
+    "prix_original": 27500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/01.jpg",
+        "alt": "Volkswagen Golf photo 1"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/02.jpeg",
+        "alt": "Volkswagen Golf photo 2"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/03.jpg",
+        "alt": "Volkswagen Golf photo 3"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/04.jpeg",
+        "alt": "Volkswagen Golf photo 4"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/05.jpg",
+        "alt": "Volkswagen Golf photo 5"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/06.jpeg",
+        "alt": "Volkswagen Golf photo 6"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/07.jpg",
+        "alt": "Volkswagen Golf photo 7"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/08.jpeg",
+        "alt": "Volkswagen Golf photo 8"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/09.jpeg",
+        "alt": "Volkswagen Golf photo 9"
+      },
+      {
+        "url": "/vehicles/volkswagen-golf-style-1-4-ehybrid-opf-204/10.jpeg",
+        "alt": "Volkswagen Golf photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "204 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Berline"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "56278",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "41278",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Volkswagen Golf Golf Style 1.4 eHybrid OPF 204 DSG6... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "volkswagen-polo-1-0-80-business",
+    "marque": "Volkswagen",
+    "modele": "Polo",
+    "annee": 2022,
+    "km": 31526,
+    "prix": 14000,
+    "prix_original": 17500,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/01.jpeg",
+        "alt": "Volkswagen Polo photo 1"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/02.jpg",
+        "alt": "Volkswagen Polo photo 2"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/03.jpeg",
+        "alt": "Volkswagen Polo photo 3"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/04.jpg",
+        "alt": "Volkswagen Polo photo 4"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/05.jpeg",
+        "alt": "Volkswagen Polo photo 5"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/06.jpg",
+        "alt": "Volkswagen Polo photo 6"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/07.jpeg",
+        "alt": "Volkswagen Polo photo 7"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/08.jpeg",
+        "alt": "Volkswagen Polo photo 8"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/09.jpeg",
+        "alt": "Volkswagen Polo photo 9"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-1-0-80-business/10.jpeg",
+        "alt": "Volkswagen Polo photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "80 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "Citadine"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "26526",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "11526",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Volkswagen Polo Polo 1.0 80 Business... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  },
+  {
+    "id": "volkswagen-t-roc-lounge-business-1-5-tsi",
+    "marque": "Volkswagen",
+    "modele": "T-Roc",
+    "annee": 2021,
+    "km": 71565,
+    "prix": 24000,
+    "prix_original": 30000,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/01.jpg",
+        "alt": "Volkswagen T-Roc photo 1"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/02.jpeg",
+        "alt": "Volkswagen T-Roc photo 2"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/03.jpg",
+        "alt": "Volkswagen T-Roc photo 3"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/04.jpeg",
+        "alt": "Volkswagen T-Roc photo 4"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/05.jpg",
+        "alt": "Volkswagen T-Roc photo 5"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/06.jpeg",
+        "alt": "Volkswagen T-Roc photo 6"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/07.jpg",
+        "alt": "Volkswagen T-Roc photo 7"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/08.jpeg",
+        "alt": "Volkswagen T-Roc photo 8"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/09.jpeg",
+        "alt": "Volkswagen T-Roc photo 9"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-business-1-5-tsi/10.jpeg",
+        "alt": "Volkswagen T-Roc photo 10"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Automatique",
+      "puissance": "150 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 500 cm³",
+      "portes": 5,
+      "categorie": "SUV"
+    },
+    "options": [
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Bluetooth",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Caméra de recul",
+      "Sièges chauffants",
+      "Jantes alliage"
+    ],
+    "historique": [
+      {
+        "date": "2025",
+        "km": "66565",
+        "interventions": "Révision complète"
+      },
+      {
+        "date": "2024",
+        "km": "51565",
+        "interventions": "Révision + freins"
+      }
+    ],
+    "description": "Volkswagen T-Roc T-Roc LOUNGE BUSINESS 1.5 TSI 150 EVO DSG7... Véhicule issu de la flotte HERTZ, entretenu en concession. Excellent état général.",
+    "disponible": true
+  }
+]
