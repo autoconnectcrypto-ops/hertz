@@ -500,37 +500,18 @@ const VehicleDetail = () => {
               </div>
             )}
 
-            {/* Specs */}
-            <div>
-              <h3 className="text-lg font-bold uppercase tracking-wide mb-3">Caractéristiques</h3>
-              <table className="specs-table w-full">
-                <tbody>
-                  <tr>
-                    <td>Carburant</td>
-                    <td>{vehicle.specs?.carburant}</td>
-                  </tr>
-                  <tr>
-                    <td>Boîte de vitesse</td>
-                    <td>{vehicle.specs?.boite}</td>
-                  </tr>
-                  <tr>
-                    <td>Puissance</td>
-                    <td>{vehicle.specs?.puissance}</td>
-                  </tr>
-                  <tr>
-                    <td>Puissance fiscale</td>
-                    <td>{vehicle.specs?.puissance_fiscale}</td>
-                  </tr>
-                  <tr>
-                    <td>Cylindrée</td>
-                    <td>{vehicle.specs?.cylindree}</td>
-                  </tr>
-                  <tr>
-                    <td>Nombre de portes</td>
-                    <td>{vehicle.specs?.portes}</td>
-                  </tr>
-                </tbody>
-              </table>
+            {/* Quick Specs Summary */}
+            <div className="bg-gray-50 p-4">
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div className="flex items-center gap-2">
+                  <Settings size={16} className="text-[#FFD100]" />
+                  <span>{vehicle.specs?.carburant} • {vehicle.specs?.boite}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Car size={16} className="text-[#FFD100]" />
+                  <span>{vehicle.specs?.puissance}</span>
+                </div>
+              </div>
             </div>
 
             {/* CTA Buttons */}
