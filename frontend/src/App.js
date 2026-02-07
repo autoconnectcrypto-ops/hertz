@@ -305,14 +305,12 @@ const VehicleCard = ({ vehicle }) => {
           </div>
 
           <div className="flex items-end justify-between pt-4 border-t border-[#E5E5E5]">
-            <div>
-              {vehicle.prix_original && (
-                <span className="price-original text-sm mr-3">
-                  {vehicle.prix_original.toLocaleString('fr-FR')} €
-                </span>
-              )}
-              <span className="price-tag text-2xl">
+            <div className="flex items-center gap-3">
+              <span className="text-lg text-[#0A0A0A] line-through">
                 {vehicle.prix?.toLocaleString('fr-FR')} €
+              </span>
+              <span className="text-lg font-bold text-[#0A0A0A] bg-[#FFD100] px-2 py-1">
+                {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
               </span>
             </div>
             <span className="text-[#0A0A0A] group-hover:text-[#FFD100] group-hover:translate-x-1 transition-all">
