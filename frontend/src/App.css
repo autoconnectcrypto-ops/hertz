@@ -1,34 +1,174 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* HERTZ-PRO Custom Styles */
+
+/* Header */
+.hertz-header {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 50;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+.hertz-logo {
+    color: #FFD100;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+/* Hero section */
+.hertz-hero {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1736923229280-f7d19a11b17a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYXIlMjBkZWFsZXJzaGlwJTIwc2hvd3Jvb20lMjBpbnRlcmlvciUyMGJyaWdodHxlbnwwfHx8fDE3NzA0ODIzMTN8MA&ixlib=rb-4.1.0&q=85');
+    background-size: cover;
+    background-position: center;
 }
 
-.App-link {
-    color: #61dafb;
+/* Buttons */
+.btn-hertz-primary {
+    background-color: #FFD100;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1rem 2rem;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
+.btn-hertz-primary:hover {
+    background-color: #000000;
+    color: #FFD100;
+}
+
+.btn-hertz-secondary {
+    background-color: transparent;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1rem 2rem;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hertz-secondary:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Vehicle card */
+.vehicle-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.vehicle-card:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transform: translateY(-4px);
+}
+
+/* Discount badge */
+.discount-badge {
+    background-color: #E11D48;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+/* Price styling */
+.price-current {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.price-original {
+    color: #9CA3AF;
+    text-decoration: line-through;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Footer */
+.hertz-footer {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Gallery thumbnails */
+.gallery-thumb {
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease;
+    cursor: pointer;
+}
+
+.gallery-thumb:hover,
+.gallery-thumb.active {
+    border-color: #FFD100;
+}
+
+/* Specs table */
+.specs-table {
+    border-collapse: collapse;
+}
+
+.specs-table tr {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.specs-table td {
+    padding: 0.75rem 0;
+}
+
+.specs-table td:first-child {
+    color: #6B7280;
+    font-weight: 500;
+}
+
+.specs-table td:last-child {
+    font-weight: 600;
+    text-align: right;
+}
+
+/* Contact form */
+.contact-form input,
+.contact-form textarea {
+    border: 2px solid #E5E7EB;
+    padding: 1rem;
+    font-family: 'Manrope', sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #FFD100;
+}
+
+/* Yellow section */
+.yellow-section {
+    background-color: #FFD100;
+}
+
+/* Mobile menu */
+@media (max-width: 768px) {
+    .mobile-menu {
+        background-color: #000000;
+        position: fixed;
+        top: 64px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 40;
     }
 }
