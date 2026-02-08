@@ -175,6 +175,54 @@ async def create_contact(contact_data: ContactMessageCreate):
     doc = contact.model_dump()
     doc['created_at'] = doc['created_at'].isoformat()
     await db.contacts.insert_one(doc)
+    
+    # Send email notification
+    try:
+        html_content = f"""
+        <html>
+        <body style="font-family: Arial, sans-serif; padding: 20px;">
+            <h2 style="color: #FFD100; border-bottom: 2px solid #FFD100; padding-bottom: 10px;">
+                Nouveau message de contact - HERTZ PRO
+            </h2>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold; width: 150px;">Nom</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.name}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Email</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.email}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Téléphone</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.phone or 'Non renseigné'}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Message</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.message}</td>
+                </tr>
+            </table>
+            <p style="margin-top: 30px; color: #666; font-size: 12px;">
+                Ce message a été envoyé depuis le formulaire de contact du site HERTZ PRO.
+            </p>
+        </body>
+        </html>
+        """
+        
+        params = {
+            "from": "HERTZ PRO <onboarding@resend.dev>",
+            "to": ["contact@hertz-pro.fr"],
+            "subject": f"Nouveau contact: {contact.name}",
+            "html": html_content,
+            "reply_to": contact.email
+        }
+        
+        await asyncio.to_thread(resend.Emails.send, params)
+        logging.info(f"Email sent for contact: {contact.name}")
+    except Exception as e:
+        logging.error(f"Failed to send email: {str(e)}")
+        # Don't raise exception - still save contact even if email fails
+    
     return contact
 
 @api_router.get("/contact", response_model=List[ContactMessage])
