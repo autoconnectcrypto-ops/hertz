@@ -1355,16 +1355,15 @@ const MentionsLegales = () => (
       <div className="max-w-4xl mx-auto px-6 md:px-12 legal-content">
         
         <h2>Éditeur du site</h2>
-        <p><strong>HERTZ-PRO</strong><br />
-        Société par actions simplifiée au capital de [Capital] euros<br />
-        Siège social : 123 Rue de la Vente, 75000 Paris<br />
-        RCS Paris [Numéro RCS]<br />
+        <p><strong>Hertz France</strong><br />
+        Siège social : Bâtiment A1, Immeuble Diagonale Sud, 6 Avenue Gustave Eiffel, 78180 Montigny-le-Bretonneux<br />
+        SIRET : 377 839 667 01946<br />
         N° TVA Intracommunautaire : FR [Numéro TVA]</p>
         
         <p><strong>Directeur de la publication :</strong> [Nom du Directeur]</p>
         
         <h2>Contact</h2>
-        <p>Téléphone : +33 6 00 00 00 00<br />
+        <p>Téléphone : 00 00 00 00<br />
         Email : contact@hertz-pro.fr</p>
 
         <h2>Hébergement</h2>
