@@ -316,10 +316,10 @@ const VehicleCard = ({ vehicle }) => {
 
           <div className="flex items-end justify-between pt-4 border-t border-[#E5E5E5]">
             <div className="flex items-center gap-3">
-              <span className="text-lg text-[#0A0A0A] line-through">
+              <span className="text-lg font-semibold text-[#333] line-through opacity-70">
                 {vehicle.prix?.toLocaleString('fr-FR')} €
               </span>
-              <span className="text-lg font-bold text-[#0A0A0A] border-b-4 border-[#FFD100]">
+              <span className="text-xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100] pb-0.5" style={{fontFamily: 'Oswald, sans-serif'}}>
                 {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
               </span>
             </div>
@@ -565,11 +565,11 @@ const VehicleDetail = () => {
             <div className="bg-white border border-[#E5E5E5] p-6 shadow-sm">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-[#666] text-sm">Prix du marché</span>
-                <span className="text-xl text-[#999] line-through">{vehicle.prix?.toLocaleString('fr-FR')} €</span>
+                <span className="text-xl font-semibold text-[#333] line-through opacity-70">{vehicle.prix?.toLocaleString('fr-FR')} €</span>
               </div>
               <div className="flex items-center justify-between pb-4 border-b border-[#E5E5E5]">
                 <span className="text-[#0A0A0A] font-bold">Votre prix HERTZ-PRO</span>
-                <span className="text-3xl font-bold text-[#0A0A0A] bg-[#FFD100] px-2" style={{fontFamily: 'Oswald, sans-serif'}}>
+                <span className="text-3xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100] pb-1" style={{fontFamily: 'Oswald, sans-serif'}}>
                   {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
                 </span>
               </div>
