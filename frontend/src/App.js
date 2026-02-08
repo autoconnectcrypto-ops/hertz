@@ -650,63 +650,63 @@ const VehicleDetail = () => {
                       <span className="text-white font-medium">{vehicle.specs?.date_immat || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Kilométrage</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.km?.toLocaleString('fr-FR')} KM</span>
+                      <span className="text-white/60 text-sm">Kilométrage</span>
+                      <span className="text-white font-medium">{vehicle.km?.toLocaleString('fr-FR')} KM</span>
                     </div>
                   </div>
                   {/* Row 5 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Transmission</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.boite || '-'}</span>
+                      <span className="text-white/60 text-sm">Transmission</span>
+                      <span className="text-white font-medium">{vehicle.specs?.boite || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Carburant</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.carburant || '-'}</span>
+                      <span className="text-white/60 text-sm">Carburant</span>
+                      <span className="text-white font-medium">{vehicle.specs?.carburant || '-'}</span>
                     </div>
                   </div>
                   {/* Row 6 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Performance</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.puissance || '-'}</span>
+                      <span className="text-white/60 text-sm">Performance</span>
+                      <span className="text-white font-medium">{vehicle.specs?.puissance || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Cylindrée</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.cylindree || '-'}</span>
+                      <span className="text-white/60 text-sm">Cylindrée</span>
+                      <span className="text-white font-medium">{vehicle.specs?.cylindree || '-'}</span>
                     </div>
                   </div>
                   {/* Row 7 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Portes</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.portes || '-'}</span>
+                      <span className="text-white/60 text-sm">Portes</span>
+                      <span className="text-white font-medium">{vehicle.specs?.portes || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Sièges</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.sieges || '-'}</span>
+                      <span className="text-white/60 text-sm">Sièges</span>
+                      <span className="text-white font-medium">{vehicle.specs?.sieges || '-'}</span>
                     </div>
                   </div>
                   {/* Row 8 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Couleur extérieur</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.couleur || '-'}</span>
+                      <span className="text-white/60 text-sm">Couleur extérieur</span>
+                      <span className="text-white font-medium">{vehicle.couleur || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Couleur intérieure</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.couleur_interieur || '-'}</span>
+                      <span className="text-white/60 text-sm">Couleur intérieure</span>
+                      <span className="text-white font-medium">{vehicle.specs?.couleur_interieur || '-'}</span>
                     </div>
                   </div>
                   {/* Row 9 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Disponible à partir de</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.disponibilite || 'Immédiatement'}</span>
+                      <span className="text-white/60 text-sm">Disponible à partir de</span>
+                      <span className="text-white font-medium">{vehicle.specs?.disponibilite || 'Immédiatement'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Pays d'origine</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.pays_origine || 'France'}</span>
+                      <span className="text-white/60 text-sm">Pays d'origine</span>
+                      <span className="text-white font-medium">{vehicle.specs?.pays_origine || 'France'}</span>
                     </div>
                   </div>
                 </div>
@@ -719,14 +719,14 @@ const VehicleDetail = () => {
               {vehicle.options?.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {vehicle.options.map((option, index) => (
-                    <div key={index} className="flex items-center gap-3 bg-white p-4 border border-[#E5E5E5]">
-                      <Check size={16} className="text-[#10B981] flex-shrink-0" />
-                      <span className="text-sm text-[#0A0A0A]">{option}</span>
+                    <div key={index} className="flex items-center gap-3 bg-[#1A1A1A] p-4 border border-[#333]">
+                      <Check size={16} className="text-[#FFD100] flex-shrink-0" />
+                      <span className="text-sm text-white">{option}</span>
                     </div>
                   ))}
                 </div>
               ) : (
-                <p className="text-[#999] text-center py-12">Aucune option renseignée</p>
+                <p className="text-white/50 text-center py-12">Aucune option renseignée</p>
               )}
             </div>
           )}
@@ -736,19 +736,19 @@ const VehicleDetail = () => {
               {vehicle.historique?.length > 0 ? (
                 <div className="space-y-4">
                   {vehicle.historique.map((entry, index) => (
-                    <div key={index} className="flex gap-6 bg-white p-6 border border-[#E5E5E5] border-l-4 border-l-[#FFD100]">
+                    <div key={index} className="flex gap-6 bg-[#1A1A1A] p-6 border border-[#333] border-l-4 border-l-[#FFD100]">
                       <div className="text-center min-w-[100px]">
-                        <div className="text-xl font-bold text-[#0A0A0A]">{entry.date}</div>
-                        <div className="text-sm text-[#999]">{entry.km}</div>
+                        <div className="text-xl font-bold text-white">{entry.date}</div>
+                        <div className="text-sm text-white/50">{entry.km}</div>
                       </div>
-                      <div className="border-l border-[#E5E5E5] pl-6">
-                        <p className="text-[#666]">{entry.interventions}</p>
+                      <div className="border-l border-[#333] pl-6">
+                        <p className="text-white/70">{entry.interventions}</p>
                       </div>
                     </div>
                   ))}
                 </div>
               ) : (
-                <p className="text-[#999] text-center py-12">Aucun historique disponible</p>
+                <p className="text-white/50 text-center py-12">Aucun historique disponible</p>
               )}
             </div>
           )}
