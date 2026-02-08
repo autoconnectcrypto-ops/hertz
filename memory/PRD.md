@@ -1,69 +1,73 @@
-# HERTZ-PRO - Site Catalogue Véhicules
+# HERTZ-PRO - Site de Vente de Véhicules B2B
 
-## Problem Statement
-Créer un site web professionnel pour HERTZ-PRO permettant de vendre des véhicules d'occasion issus de la flotte Hertz. Le site doit présenter chaque véhicule avec une galerie complète (~20 photos), des caractéristiques détaillées, équipements, et historique d'entretien extrait des PDFs.
+## Problème Original
+Créer un site web professionnel pour "HERTZ-PRO" permettant de vendre des véhicules d'occasion issus de la flotte Hertz à des professionnels (B2B).
 
-## Architecture
-- **Backend**: FastAPI + MongoDB (motor async)
-- **Frontend**: React + Tailwind CSS + React Router
-- **Design**: Thème premium avec homepage sombre et pages intérieures claires
-- **Fonts**: Oswald (headings) + Manrope (body)
-- **Images**: Stockées dans `/app/frontend/public/vehicles/`
+## Informations de la Société
+- **Raison sociale** : Hertz France
+- **Siège social** : Bâtiment A1, Immeuble Diagonale Sud, 6 Avenue Gustave Eiffel, 78180 Montigny-le-Bretonneux
+- **SIRET** : 377 839 667 01946
+- **Email** : contact@hertz-pro.fr
+- **Téléphone** : 00 00 00 00 (à modifier)
 
-## User Personas
-- Acheteurs de voitures d'occasion recherchant qualité et transparence
-- Particuliers sensibles aux garanties et historique d'entretien complet
-- Clients cherchant des prix avantageux (-20% destockage flotte)
+## Fonctionnalités Implémentées
 
-## Core Requirements
-- ✅ Site responsive mobile-first
-- ✅ Homepage sombre et immersive avec image premium
-- ✅ Page Catalogue avec grille de véhicules (thème clair)
-- ✅ Page Détail avec galerie ~20 photos + 3 onglets (Caractéristiques, Équipements, Entretien)
-- ✅ Numéro de référence unique pour chaque véhicule
-- ✅ Page Contact avec formulaire
-- ✅ Design professionnel aux couleurs Hertz (Jaune #FFD100, Noir)
+### Pages
+- ✅ **Accueil** : Hero avec image, stats, section "Comment ça marche", véhicules à la une, marques
+- ✅ **Catalogue** : Grille de 37 véhicules avec filtres, badges -20%
+- ✅ **Détail véhicule** : Galerie photos, specs, prix avec remise
+- ✅ **Contact** : Formulaire de contact, coordonnées, horaires
+- ✅ **Qui sommes-nous** : Informations société complètes
+- ✅ **FAQ** : Questions fréquentes avec accordéon
+- ✅ **CGV** : Conditions générales de vente
+- ✅ **Mentions légales** : Informations juridiques
 
-## What's Been Implemented (Décembre 2025)
-- ✅ Homepage avec Hero section immersive (image Porsche cinématique)
-- ✅ Navigation complète (Accueil, Catalogue, Contact)
-- ✅ Carte véhicule : image principale, marque, modèle, référence unique, prix
-- ✅ Page détail : galerie photos avec thumbnails, specs, 3 onglets d'infos
-- ✅ Page Contact avec formulaire fonctionnel
-- ✅ API CRUD complète pour véhicules et contacts
-- ✅ Suppression auto-seed pour éviter données de démo
+### Design
+- ✅ Thème blanc/clair professionnel
+- ✅ Couleurs Hertz : Jaune #FFD100, Noir #0A0A0A
+- ✅ Police Oswald pour les titres
+- ✅ Responsive mobile
+- ✅ Animations au scroll
+- ✅ Badge -20% jaune avec prix barré
 
-## État Actuel (Décembre 2025)
-- **Base de données**: VIDE - Prête pour nouveau processus "un par un"
-- **Raison**: Les 37 véhicules précédents contenaient des erreurs et doublons
-- **Nouveau workflow**: Ajout véhicule par véhicule avec validation utilisateur
+### Prix
+- Prix barré en gris foncé
+- Prix remisé en noir gras avec trait jaune en dessous
+- Remise de 20% automatique
 
-## Prioritized Backlog
-### P0 (En cours)
-- [ ] Attendre lien WeTransfer pour premier véhicule
-- [ ] Processus d'ajout "un par un" avec extraction PDF complète
-- [ ] Validation utilisateur après chaque ajout
+### Données
+- 37 véhicules dans la base MongoDB
+- Tous les véhicules ont "France" comme pays d'origine
+- Images stockées dans /app/frontend/public/vehicles/
 
-### P1 (Next)
-- [ ] Ajouter coordonnées réelles (téléphone, email, adresse)
-- [ ] Interface admin pour gérer les véhicules
+## Architecture Technique
+- **Frontend** : React + TailwindCSS + React Router
+- **Backend** : FastAPI + Motor (async MongoDB)
+- **Database** : MongoDB (collection: vehicles)
+- **Fichier principal** : /app/frontend/src/App.js (monolithique)
 
-### P2 (Future)
-- [ ] Ajout signe/logo sur plaques d'immatriculation visibles
-- [ ] Filtres de recherche (marque, prix, année)
-- [ ] Refactoring App.js en composants séparés
-- [ ] Export PDF du véhicule
-- [ ] Partage WhatsApp direct
+## Processus B2B (4 étapes)
+1. Sélectionnez - Parcourez notre catalogue et sélectionnez les véhicules
+2. Contactez - Appelez nos commerciaux ou envoyez un email
+3. Commandez - Édition du bon de commande et paiement
+4. Livraison - Livraison des véhicules via transporteur
 
-## Key API Endpoints
-- `GET /api/vehicles` - Liste tous les véhicules
-- `GET /api/vehicles/{id}` - Détail d'un véhicule
-- `POST /api/vehicles` - Créer un véhicule
-- `PUT /api/vehicles/{id}` - Mettre à jour un véhicule
-- `DELETE /api/vehicles/{id}` - Supprimer un véhicule
-- `POST /api/contact` - Envoyer un message de contact
+## Tâches Complétées
+- [x] Site complet avec toutes les pages
+- [x] 37 véhicules ajoutés
+- [x] Design thème blanc professionnel
+- [x] Version mobile responsive
+- [x] Prix avec -20% et trait jaune
+- [x] Pays d'origine corrigé (France pour tous)
+- [x] Page "Qui sommes-nous" avec infos société
+- [x] Section "Comment ça marche" mise à jour pour B2B
 
-## Key Files
-- `/app/backend/server.py` - API FastAPI
-- `/app/frontend/src/App.js` - Frontend React (monolithique)
-- `/app/frontend/public/vehicles/` - Images des véhicules
+## Prochaines Étapes
+- [ ] Déploiement et liaison du nom de domaine HERTZ PRO
+- [ ] Création du site HERTZ SALES (copie avec nouveau branding)
+- [ ] Mettre à jour le vrai numéro de téléphone
+- [ ] (Optionnel) Refactoriser App.js en composants séparés
+
+## URLs
+- Preview : https://hertz-marketplace.preview.emergentagent.com
+- Production : (à lier)
