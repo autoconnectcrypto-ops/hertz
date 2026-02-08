@@ -79,3 +79,7 @@ agenthub/agents/youtube/db
 # Mobile development
 android-sdk/ vehicles_data/vehicles.zip
 vehicles_data/vehicles.zip
+-e 
+# Environment files
+*.env
+*.env.*
