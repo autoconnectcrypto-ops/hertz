@@ -499,7 +499,7 @@ const VehicleDetail = () => {
               <p className="text-[#666] text-sm mt-2">{vehicle.modele}</p>
               <div className="flex items-center gap-2 mt-3">
                 <span className="bg-[#FFD100] text-black text-xs font-bold px-3 py-1 uppercase">Première main</span>
-                <span className="bg-[#0A0A0A] text-white text-xs font-bold px-3 py-1 uppercase">-20%</span>
+                <span className="bg-[#FFD100] text-[#0A0A0A] text-xs font-bold px-3 py-1 uppercase">-20%</span>
               </div>
             </div>
 
