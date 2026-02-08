@@ -391,6 +391,8 @@ const VehicleDetail = () => {
       try {
         const response = await axios.get(`${API}/vehicles/${id}`);
         setVehicle(response.data);
+        // Set default image to photo 2 (index 1) or use defaultImageIndex from DB
+        setActiveImage(response.data.defaultImageIndex || 1);
       } catch (e) {
         console.error(e);
       } finally {
