@@ -743,7 +743,7 @@ const VehicleDetail = () => {
                 <span className="text-xl font-semibold text-[#333] line-through opacity-70">{vehicle.prix?.toLocaleString('fr-FR')} €</span>
               </div>
               <div className="flex items-center justify-between pb-4 border-b border-[#E5E5E5]">
-                <span className="text-[#0A0A0A] font-bold">Votre prix HERTZ-PRO</span>
+                <span className="text-[#0A0A0A] font-bold">Prix TTC</span>
                 <span className="text-3xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100] pb-1" style={{fontFamily: 'Oswald, sans-serif'}}>
                   {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
                 </span>
