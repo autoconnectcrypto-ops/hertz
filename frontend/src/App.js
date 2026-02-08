@@ -93,7 +93,7 @@ const Header = () => {
 const Footer = () => (
   <footer className="bg-[#0A0A0A] text-white py-16" data-testid="footer">
     <div className="max-w-7xl mx-auto px-6 md:px-12">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2 mb-6">
             <span className="text-[#FFD100] text-3xl font-bold" style={{fontFamily: 'Oswald, sans-serif'}}>HERTZ</span>
@@ -105,24 +105,41 @@ const Footer = () => (
           </p>
         </div>
         <div>
+          <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Navigation</h4>
+          <div className="space-y-3 text-white/60">
+            <Link to="/" className="block hover:text-[#FFD100] transition-colors">Accueil</Link>
+            <Link to="/catalogue" className="block hover:text-[#FFD100] transition-colors">Catalogue</Link>
+            <Link to="/contact" className="block hover:text-[#FFD100] transition-colors">Contact</Link>
+            <Link to="/faq" className="block hover:text-[#FFD100] transition-colors">FAQ</Link>
+          </div>
+        </div>
+        <div>
+          <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Informations</h4>
+          <div className="space-y-3 text-white/60">
+            <Link to="/cgv" className="block hover:text-[#FFD100] transition-colors">Conditions de Vente</Link>
+            <Link to="/mentions-legales" className="block hover:text-[#FFD100] transition-colors">Mentions Légales</Link>
+          </div>
+        </div>
+        <div>
           <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Contact</h4>
           <div className="space-y-4 text-white/60">
             <p className="flex items-center gap-3"><Phone size={16} className="text-[#FFD100]" /> +33 6 00 00 00 00</p>
             <p className="flex items-center gap-3"><Mail size={16} className="text-[#FFD100]" /> contact@hertz-pro.fr</p>
             <p className="flex items-center gap-3"><MapPin size={16} className="text-[#FFD100]" /> Paris, France</p>
           </div>
-        </div>
-        <div>
-          <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Horaires</h4>
-          <div className="space-y-3 text-white/60">
+          <div className="mt-6 space-y-2 text-white/60 text-sm">
             <p>Lun - Ven : 9h - 19h</p>
             <p>Samedi : 10h - 18h</p>
-            <p className="text-red-400">Dimanche : Fermé</p>
           </div>
         </div>
       </div>
-      <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/40 text-sm">
-        © 2024 HERTZ-PRO. Tous droits réservés.
+      <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-white/40 text-sm">
+        <p>© 2024 HERTZ-PRO. Tous droits réservés.</p>
+        <div className="flex gap-6 mt-4 md:mt-0">
+          <Link to="/cgv" className="hover:text-[#FFD100] transition-colors">CGV</Link>
+          <Link to="/mentions-legales" className="hover:text-[#FFD100] transition-colors">Mentions légales</Link>
+          <Link to="/faq" className="hover:text-[#FFD100] transition-colors">FAQ</Link>
+        </div>
       </div>
     </div>
   </footer>
