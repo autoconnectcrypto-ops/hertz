@@ -1096,7 +1096,7 @@ const CGV = () => (
         <p>La réservation d'un véhicule est effective après versement d'un acompte de 10% du prix de vente. Cet acompte n'est remboursable qu'en cas d'annulation de la vente par HERTZ-PRO.</p>
 
         <h2>Article 5 - Livraison</h2>
-        <p>La livraison du véhicule s'effectue dans nos locaux à Paris, sauf accord contraire. Une livraison à domicile peut être organisée moyennant des frais supplémentaires à définir selon la distance.</p>
+        <p>La livraison du véhicule s'effectue dans nos locaux à Montigny-le-Bretonneux, sauf accord contraire. Une livraison à domicile peut être organisée moyennant des frais supplémentaires à définir selon la distance.</p>
 
         <h2>Article 6 - Garantie</h2>
         <p>Tous nos véhicules bénéficient d'une garantie minimale de 12 mois couvrant les organes mécaniques principaux. Cette garantie peut être étendue sur demande.</p>
