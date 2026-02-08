@@ -117,16 +117,16 @@ const Home = () => {
 
   return (
     <div data-testid="home-page">
-      {/* Hero Section - Dark Theme */}
-      <section className="relative min-h-[90vh] flex items-center" data-testid="hero-section">
-        {/* Background Image */}
+      {/* Hero Section - Light Theme with Background */}
+      <section className="relative min-h-[90vh] flex items-center bg-white" data-testid="hero-section">
+        {/* Background Image with Light Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80"
-            alt="Véhicule premium"
+            src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1920&q=80"
+            alt="Background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
         </div>
 
         {/* Content */}
@@ -136,29 +136,33 @@ const Home = () => {
               Véhicules de Flotte
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-white animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-[#0A0A0A] animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
               Hertz Pro<br />
-              <span className="text-[#FFD100]">Jusqu'à -20%</span>
+              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">Jusqu'à -20%</span>
             </h1>
             
-            <p className="text-lg text-white/80 mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-white">récents et rigoureusement entretenus</strong>.
+            <p className="text-lg text-[#444] mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
+              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-[#0A0A0A]">récents et rigoureusement entretenus</strong>.
             </p>
             
-            <p className="text-lg text-white/80 mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Bénéficiez de remises allant jusqu'à <strong className="text-[#FFD100]">20%</strong>, d'un suivi d'entretien complet et de véhicules contrôlés selon les standards Hertz.
+            <p className="text-lg text-[#444] mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
+              Bénéficiez de remises allant jusqu'à <strong className="text-[#0A0A0A] bg-[#FFD100] px-1">20%</strong>, d'un suivi d'entretien complet et de véhicules contrôlés selon les standards Hertz.
             </p>
             
-            <p className="text-lg text-white/80 mb-10 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              <strong className="text-white">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité, maîtrise des coûts et disponibilité immédiate.
+            <p className="text-lg text-[#444] mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
+              <strong className="text-[#0A0A0A]">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité, maîtrise des coûts et disponibilité immédiate.
+            </p>
+            
+            <p className="text-lg text-[#444] mb-10 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
+              Avec <strong className="text-[#0A0A0A]">Hertz Pro</strong>, choisissez une solution automobile simple, transparente et performante.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-300">
-              <Link to="/catalogue" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-white transition-colors" data-testid="cta-catalogue">
+              <Link to="/catalogue" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#FFD100] hover:text-black transition-colors" data-testid="cta-catalogue">
                 Découvrir le Catalogue
                 <ArrowRight size={18} />
               </Link>
-              <Link to="/contact" className="border-2 border-white text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center hover:bg-white hover:text-black transition-colors">
+              <Link to="/contact" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center hover:bg-[#0A0A0A] hover:text-white transition-colors">
                 Nous Contacter
               </Link>
             </div>
