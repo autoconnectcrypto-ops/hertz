@@ -783,25 +783,25 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#0A0A0A] min-h-screen" data-testid="contact-page">
+    <div className="bg-[#F5F5F5] min-h-screen" data-testid="contact-page">
       {/* Header with Background Image */}
-      <section className="relative py-20 md:py-28">
+      <section className="relative py-20 md:py-28 bg-white">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1449965408869-ebd3fee56e19?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1920&q=80"
             alt="Background"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-[#0A0A0A]"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
           <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
             Hertz Pro
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
-            Contactez<span className="text-[#FFD100]">-nous</span>
+          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+            Contactez<span className="border-b-4 border-[#FFD100]">-nous</span>
           </h1>
-          <p className="text-white/70 mt-4 max-w-xl text-lg">
+          <p className="text-[#555] mt-4 max-w-xl text-lg">
             Une question ? Besoin d'informations sur un véhicule ? Notre équipe est à votre disposition.
           </p>
         </div>
@@ -812,8 +812,8 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div className="space-y-8">
-              <div className="bg-[#1A1A1A] p-8 border border-[#333]">
-                <h2 className="text-2xl font-bold uppercase tracking-tight mb-8 text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+              <div className="bg-white p-8 border border-[#E5E5E5] shadow-sm">
+                <h2 className="text-2xl font-bold uppercase tracking-tight mb-8 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
                   Nos Coordonnées
                 </h2>
                 <div className="space-y-6">
@@ -822,8 +822,8 @@ const Contact = () => {
                       <Phone className="text-black" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white mb-1">Téléphone</h4>
-                      <a href="tel:+33600000000" className="text-white/70 hover:text-[#FFD100]">+33 6 00 00 00 00</a>
+                      <h4 className="font-bold text-[#0A0A0A] mb-1">Téléphone</h4>
+                      <a href="tel:+33600000000" className="text-[#666] hover:text-[#0A0A0A]">+33 6 00 00 00 00</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -831,8 +831,8 @@ const Contact = () => {
                       <Mail className="text-black" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white mb-1">Email</h4>
-                      <a href="mailto:contact@hertz-pro.fr" className="text-white/70 hover:text-[#FFD100]">contact@hertz-pro.fr</a>
+                      <h4 className="font-bold text-[#0A0A0A] mb-1">Email</h4>
+                      <a href="mailto:contact@hertz-pro.fr" className="text-[#666] hover:text-[#0A0A0A]">contact@hertz-pro.fr</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -840,45 +840,45 @@ const Contact = () => {
                       <MapPin className="text-black" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-white mb-1">Adresse</h4>
-                      <p className="text-white/70">123 Rue de la Vente<br />75000 Paris, France</p>
+                      <h4 className="font-bold text-[#0A0A0A] mb-1">Adresse</h4>
+                      <p className="text-[#666]">123 Rue de la Vente<br />75000 Paris, France</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-[#FFD100] p-8 text-black">
+              <div className="bg-[#0A0A0A] p-8 text-white">
                 <h4 className="font-bold uppercase tracking-wider mb-6">Horaires d'ouverture</h4>
-                <div className="space-y-3 text-black/70">
-                  <div className="flex justify-between"><span>Lundi - Vendredi</span><span className="text-black font-bold">9h - 19h</span></div>
-                  <div className="flex justify-between"><span>Samedi</span><span className="text-black font-bold">10h - 18h</span></div>
-                  <div className="flex justify-between"><span>Dimanche</span><span className="text-black font-bold">Fermé</span></div>
+                <div className="space-y-3 text-white/70">
+                  <div className="flex justify-between"><span>Lundi - Vendredi</span><span className="text-[#FFD100] font-bold">9h - 19h</span></div>
+                  <div className="flex justify-between"><span>Samedi</span><span className="text-[#FFD100] font-bold">10h - 18h</span></div>
+                  <div className="flex justify-between"><span>Dimanche</span><span className="text-white/50">Fermé</span></div>
                 </div>
               </div>
             </div>
 
             {/* Contact Form */}
-            <div className="bg-[#1A1A1A] p-8 md:p-12 border border-[#333]">
-              <h2 className="text-2xl font-bold uppercase tracking-tight mb-8 text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+            <div className="bg-white p-8 md:p-12 border border-[#E5E5E5] shadow-sm">
+              <h2 className="text-2xl font-bold uppercase tracking-tight mb-8 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
                 Envoyez-nous un message
               </h2>
 
               {submitted ? (
                 <div className="text-center py-12">
-                  <Check size={48} className="mx-auto text-[#FFD100] mb-4" />
-                  <h3 className="text-xl font-bold mb-2 text-white">Message envoyé !</h3>
-                  <p className="text-white/70">Nous vous répondrons rapidement.</p>
-                  <button onClick={() => setSubmitted(false)} className="mt-6 border-2 border-[#FFD100] text-[#FFD100] font-semibold uppercase tracking-wider px-6 py-3 hover:bg-[#FFD100] hover:text-black transition-colors">
+                  <Check size={48} className="mx-auto text-[#10B981] mb-4" />
+                  <h3 className="text-xl font-bold mb-2 text-[#0A0A0A]">Message envoyé !</h3>
+                  <p className="text-[#666]">Nous vous répondrons rapidement.</p>
+                  <button onClick={() => setSubmitted(false)} className="mt-6 border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-6 py-3 hover:bg-[#0A0A0A] hover:text-white transition-colors">
                     Envoyer un autre message
                   </button>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
-                  <input type="text" placeholder="Votre nom *" required value={formData.nom} onChange={(e) => setFormData({...formData, nom: e.target.value})} className="w-full px-4 py-4 bg-[#0A0A0A] border border-[#333] text-white placeholder-white/50 focus:border-[#FFD100] focus:outline-none transition-colors" />
-                  <input type="email" placeholder="Votre email *" required value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} className="w-full px-4 py-4 bg-[#0A0A0A] border border-[#333] text-white placeholder-white/50 focus:border-[#FFD100] focus:outline-none transition-colors" />
-                  <input type="tel" placeholder="Votre téléphone *" required value={formData.telephone} onChange={(e) => setFormData({...formData, telephone: e.target.value})} className="w-full px-4 py-4 bg-[#0A0A0A] border border-[#333] text-white placeholder-white/50 focus:border-[#FFD100] focus:outline-none transition-colors" />
-                  <textarea placeholder="Votre message *" required rows={5} value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} className="w-full px-4 py-4 bg-[#0A0A0A] border border-[#333] text-white placeholder-white/50 focus:border-[#FFD100] focus:outline-none transition-colors resize-none" />
-                  <button type="submit" className="w-full bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-8 py-4 hover:bg-white transition-colors" disabled={submitting}>
+                  <input type="text" placeholder="Votre nom *" required value={formData.nom} onChange={(e) => setFormData({...formData, nom: e.target.value})} className="w-full px-4 py-4 bg-[#F5F5F5] border border-[#E5E5E5] text-[#0A0A0A] placeholder-[#999] focus:border-[#FFD100] focus:outline-none transition-colors" />
+                  <input type="email" placeholder="Votre email *" required value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} className="w-full px-4 py-4 bg-[#F5F5F5] border border-[#E5E5E5] text-[#0A0A0A] placeholder-[#999] focus:border-[#FFD100] focus:outline-none transition-colors" />
+                  <input type="tel" placeholder="Votre téléphone *" required value={formData.telephone} onChange={(e) => setFormData({...formData, telephone: e.target.value})} className="w-full px-4 py-4 bg-[#F5F5F5] border border-[#E5E5E5] text-[#0A0A0A] placeholder-[#999] focus:border-[#FFD100] focus:outline-none transition-colors" />
+                  <textarea placeholder="Votre message *" required rows={5} value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} className="w-full px-4 py-4 bg-[#F5F5F5] border border-[#E5E5E5] text-[#0A0A0A] placeholder-[#999] focus:border-[#FFD100] focus:outline-none transition-colors resize-none" />
+                  <button type="submit" className="w-full bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 hover:bg-[#FFD100] hover:text-black transition-colors" disabled={submitting}>
                     {submitting ? 'Envoi en cours...' : 'Envoyer le message'}
                   </button>
                 </form>
