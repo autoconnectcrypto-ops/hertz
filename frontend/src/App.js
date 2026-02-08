@@ -431,7 +431,7 @@ const Home = () => {
               Voir le Catalogue
               <ArrowRight size={18} />
             </Link>
-            <a href="tel:+33600000000" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#0A0A0A] hover:text-white transition-colors">
+            <a href="tel:+33000000000" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#0A0A0A] hover:text-white transition-colors">
               <Phone size={18} />
               Appeler
             </a>
