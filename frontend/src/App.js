@@ -173,11 +173,11 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute right-0 top-0 w-full lg:w-3/5 h-full">
             <img 
-              src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1920&q=80"
-              alt="Showroom automobile"
+              src="https://images.unsplash.com/photo-1616322956650-f5314607332a?auto=format&fit=crop&w=1920&q=80"
+              alt="Intérieur automobile luxe"
               className="w-full h-full object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent lg:from-white lg:via-white/70 lg:to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/30 lg:from-white lg:via-white/80 lg:to-transparent"></div>
           </div>
         </div>
 
