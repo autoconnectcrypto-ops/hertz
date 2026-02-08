@@ -126,9 +126,9 @@ const Footer = () => (
         <div>
           <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Contact</h4>
           <div className="space-y-4 text-white/60">
-            <p className="flex items-center gap-3"><Phone size={16} className="text-[#FFD100]" /> +33 6 00 00 00 00</p>
+            <p className="flex items-center gap-3"><Phone size={16} className="text-[#FFD100]" /> 00 00 00 00</p>
             <p className="flex items-center gap-3"><Mail size={16} className="text-[#FFD100]" /> contact@hertz-pro.fr</p>
-            <p className="flex items-center gap-3"><MapPin size={16} className="text-[#FFD100]" /> Paris, France</p>
+            <p className="flex items-start gap-3"><MapPin size={16} className="text-[#FFD100] mt-1 flex-shrink-0" /> 78180 Montigny-le-Bretonneux</p>
           </div>
           <div className="mt-6 space-y-2 text-white/60 text-sm">
             <p>Lun - Ven : 9h - 19h</p>
