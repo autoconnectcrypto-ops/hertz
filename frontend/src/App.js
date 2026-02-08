@@ -330,7 +330,7 @@ const Home = () => {
               Comment ça <span className="text-[#FFD100]">marche</span> ?
             </h2>
             <p className="text-[#666666] max-w-2xl mx-auto text-lg">
-              Un processus simple et transparent pour acquérir votre véhicule.
+              Un processus simple et transparent pour acquérir vos véhicules.
             </p>
           </div>
 
