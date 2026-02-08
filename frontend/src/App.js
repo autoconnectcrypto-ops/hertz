@@ -1127,6 +1127,119 @@ const CGV = () => (
   </div>
 );
 
+// Qui sommes-nous Page
+const QuiSommesNous = () => (
+  <div data-testid="qui-sommes-nous-page">
+    <section className="relative py-20 bg-[#0A0A0A]">
+      <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
+          Notre Société
+        </div>
+        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+          Qui <span className="text-[#FFD100]">sommes-nous</span> ?
+        </h1>
+        <p className="text-white/60 mt-4 max-w-xl text-lg">
+          Découvrez Hertz France, votre partenaire pour l'achat de véhicules professionnels.
+        </p>
+      </div>
+    </section>
+
+    <section className="py-16 bg-white">
+      <div className="max-w-4xl mx-auto px-6 md:px-12">
+        {/* Company Presentation */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold uppercase tracking-tight mb-6 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+            <span className="text-[#FFD100]">Hertz</span> France
+          </h2>
+          <p className="text-[#666] text-lg leading-relaxed mb-6">
+            <strong className="text-[#0A0A0A]">HERTZ-PRO</strong> est la branche professionnelle de Hertz France, 
+            spécialisée dans la vente de véhicules d'occasion issus de notre flotte de location.
+          </p>
+          <p className="text-[#666] text-lg leading-relaxed mb-6">
+            Nous proposons aux professionnels une sélection de véhicules récents, rigoureusement entretenus 
+            en concession officielle, avec un historique d'entretien complet et transparent.
+          </p>
+          <p className="text-[#666] text-lg leading-relaxed">
+            Grâce à nos volumes de déstockage, nous offrons des remises allant jusqu'à <strong className="text-[#0A0A0A]">20%</strong> sur 
+            le prix du marché, tout en garantissant la qualité et la fiabilité de chaque véhicule.
+          </p>
+        </div>
+
+        {/* Company Info Card */}
+        <div className="bg-[#F5F5F5] p-8 border-l-4 border-[#FFD100]">
+          <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+            Informations de la société
+          </h3>
+          
+          <div className="space-y-6">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                <Award className="text-black" size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold text-[#0A0A0A] mb-1">Raison sociale</h4>
+                <p className="text-[#666]">Hertz France</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                <MapPin className="text-black" size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold text-[#0A0A0A] mb-1">Siège social</h4>
+                <p className="text-[#666]">
+                  Bâtiment A1, Immeuble Diagonale Sud<br />
+                  6 Avenue Gustave Eiffel<br />
+                  78180 Montigny-le-Bretonneux
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                <FileText className="text-black" size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold text-[#0A0A0A] mb-1">N° SIRET</h4>
+                <p className="text-[#666]">377 839 667 01946</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                <Phone className="text-black" size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold text-[#0A0A0A] mb-1">Téléphone</h4>
+                <a href="tel:+33000000000" className="text-[#666] hover:text-[#0A0A0A]">00 00 00 00</a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-[#FFD100] flex items-center justify-center flex-shrink-0">
+                <Mail className="text-black" size={20} />
+              </div>
+              <div>
+                <h4 className="font-bold text-[#0A0A0A] mb-1">Email</h4>
+                <a href="mailto:contact@hertz-pro.fr" className="text-[#666] hover:text-[#0A0A0A]">contact@hertz-pro.fr</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div className="mt-12 text-center">
+          <p className="text-[#666] mb-6">Une question ? Besoin d'un renseignement ?</p>
+          <Link to="/contact" className="inline-flex items-center gap-2 bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 hover:bg-[#FFD100] hover:text-black transition-colors">
+            Nous Contacter <ArrowRight size={18} />
+          </Link>
+        </div>
+      </div>
+    </section>
+  </div>
+);
+
 // FAQ Page
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
