@@ -349,14 +349,25 @@ const Catalogue = () => {
   }, []);
 
   return (
-    <div className="bg-[#F8F8F8] min-h-screen" data-testid="catalogue-page">
-      {/* Header */}
-      <section className="py-16 md:py-20 bg-white border-b border-[#E5E5E5]">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+    <div className="bg-[#0A0A0A] min-h-screen" data-testid="catalogue-page">
+      {/* Header with Background Image */}
+      <section className="relative py-20 md:py-28">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1920&q=80"
+            alt="Background"
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-[#0A0A0A]"></div>
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
+          <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
+            Flotte Hertz Pro
+          </div>
+          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-4 text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
             Notre <span className="text-[#FFD100]">Catalogue</span>
           </h1>
-          <p className="text-[#666] max-w-2xl text-lg">
+          <p className="text-white/70 max-w-2xl text-lg">
             {vehicles.length} véhicules premium disponibles. 
             Tous entretenus en concession avec historique complet.
           </p>
