@@ -1380,7 +1380,7 @@ const MentionsLegales = () => (
         <p>Pour exercer ces droits, vous pouvez nous contacter :</p>
         <ul>
           <li>Par email : contact@hertz-pro.fr</li>
-          <li>Par courrier : HERTZ-PRO - Service RGPD, 123 Rue de la Vente, 75000 Paris</li>
+          <li>Par courrier : Hertz France - Service RGPD, Bâtiment A1, 6 Avenue Gustave Eiffel, 78180 Montigny-le-Bretonneux</li>
         </ul>
 
         <h3>Données collectées</h3>
