@@ -748,7 +748,7 @@ const VehicleDetail = () => {
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:+33600000000" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-6 py-4 flex-1 text-center hover:bg-[#FFD100] hover:text-black transition-colors">
+              <a href="tel:+33000000000" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-6 py-4 flex-1 text-center hover:bg-[#FFD100] hover:text-black transition-colors">
                 <Phone size={18} className="inline mr-2" />
                 Appeler
               </a>
