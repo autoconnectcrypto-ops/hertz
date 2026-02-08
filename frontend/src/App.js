@@ -1308,6 +1308,9 @@ function App() {
             <Route path="/catalogue" element={<Catalogue />} />
             <Route path="/vehicule/:id" element={<VehicleDetail />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/cgv" element={<CGV />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
           </Routes>
         </main>
         <Footer />
