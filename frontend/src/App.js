@@ -548,28 +548,28 @@ const VehicleDetail = () => {
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
                   <span className="text-white/60 text-sm">Puissance</span>
-                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.puissance}</span>
+                  <span className="text-white font-semibold">{vehicle.specs?.puissance}</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">Transmission</span>
-                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.boite}</span>
+                  <span className="text-white/60 text-sm">Transmission</span>
+                  <span className="text-white font-semibold">{vehicle.specs?.boite}</span>
                 </div>
               </div>
             </div>
 
             {/* Price Card */}
-            <div className="bg-white border border-[#E5E5E5] p-6 shadow-sm">
+            <div className="bg-[#FFD100] p-6">
               <div className="flex items-center justify-between mb-4">
-                <span className="text-[#666] text-sm">Prix du marché</span>
-                <span className="text-xl text-[#999] line-through">{vehicle.prix?.toLocaleString('fr-FR')} €</span>
+                <span className="text-black/60 text-sm">Prix du marché</span>
+                <span className="text-xl text-black/50 line-through">{vehicle.prix?.toLocaleString('fr-FR')} €</span>
               </div>
-              <div className="flex items-center justify-between pb-4 border-b border-[#E5E5E5]">
-                <span className="text-[#0A0A0A] font-bold">Votre prix HERTZ-PRO</span>
-                <span className="text-3xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100]" style={{fontFamily: 'Oswald, sans-serif'}}>
+              <div className="flex items-center justify-between pb-4 border-b border-black/20">
+                <span className="text-black font-bold">Votre prix HERTZ-PRO</span>
+                <span className="text-3xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>
                   {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
                 </span>
               </div>
-              <div className="flex items-center justify-center gap-2 mt-4 text-[#10B981]">
+              <div className="flex items-center justify-center gap-2 mt-4 text-black">
                 <Check size={18} />
                 <span className="font-semibold">Économisez {Math.round(vehicle.prix * 0.2).toLocaleString('fr-FR')} €</span>
               </div>
@@ -577,11 +577,11 @@ const VehicleDetail = () => {
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:+33600000000" className="btn-primary flex-1 text-center">
+              <a href="tel:+33600000000" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-6 py-4 flex-1 text-center hover:bg-white transition-colors">
                 <Phone size={18} className="inline mr-2" />
                 Appeler
               </a>
-              <Link to="/contact" className="btn-secondary flex-1 text-center">
+              <Link to="/contact" className="border-2 border-white text-white font-semibold uppercase tracking-wider px-6 py-4 flex-1 text-center hover:bg-white hover:text-black transition-colors">
                 <Mail size={18} className="inline mr-2" />
                 Nous écrire
               </Link>
@@ -590,64 +590,64 @@ const VehicleDetail = () => {
         </div>
 
         {/* Tabs Section */}
-        <div className="mt-16 pt-16 border-t border-[#E5E5E5]">
-          <div className="flex gap-2 mb-8 overflow-x-auto border-b border-[#E5E5E5]">
-            <button onClick={() => setActiveTab('specs')} className={`tab-button ${activeTab === 'specs' ? 'active' : ''}`}>
+        <div className="mt-16 pt-16 border-t border-[#333]">
+          <div className="flex gap-2 mb-8 overflow-x-auto border-b border-[#333]">
+            <button onClick={() => setActiveTab('specs')} className={`px-6 py-3 font-semibold uppercase text-sm tracking-wider transition-colors ${activeTab === 'specs' ? 'text-[#FFD100] border-b-2 border-[#FFD100]' : 'text-white/60 hover:text-white'}`}>
               <Settings size={16} className="inline mr-2" />Caractéristiques
             </button>
-            <button onClick={() => setActiveTab('options')} className={`tab-button ${activeTab === 'options' ? 'active' : ''}`}>
+            <button onClick={() => setActiveTab('options')} className={`px-6 py-3 font-semibold uppercase text-sm tracking-wider transition-colors ${activeTab === 'options' ? 'text-[#FFD100] border-b-2 border-[#FFD100]' : 'text-white/60 hover:text-white'}`}>
               <FileText size={16} className="inline mr-2" />Équipements ({vehicle.options?.length || 0})
             </button>
-            <button onClick={() => setActiveTab('history')} className={`tab-button ${activeTab === 'history' ? 'active' : ''}`}>
+            <button onClick={() => setActiveTab('history')} className={`px-6 py-3 font-semibold uppercase text-sm tracking-wider transition-colors ${activeTab === 'history' ? 'text-[#FFD100] border-b-2 border-[#FFD100]' : 'text-white/60 hover:text-white'}`}>
               <Wrench size={16} className="inline mr-2" />Entretien ({vehicle.historique?.length || 0})
             </button>
           </div>
 
           {activeTab === 'specs' && (
             <div className="animate-fade-in">
-              <div className="bg-white border border-[#E5E5E5]">
-                <h4 className="text-[#0A0A0A] font-bold uppercase tracking-wider p-6 border-b border-[#E5E5E5]" style={{fontFamily: 'Oswald, sans-serif'}}>
+              <div className="bg-[#1A1A1A] border border-[#333]">
+                <h4 className="text-white font-bold uppercase tracking-wider p-6 border-b border-[#333]" style={{fontFamily: 'Oswald, sans-serif'}}>
                   Données techniques
                 </h4>
-                <div className="divide-y divide-[#E5E5E5]">
+                <div className="divide-y divide-[#333]">
                   {/* Row 1 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Numéro VIN</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.vin || '-'}</span>
+                      <span className="text-white/60 text-sm">Numéro VIN</span>
+                      <span className="text-white font-medium">{vehicle.specs?.vin || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Nombre de propriétaires précédents</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.proprietaires || '-'}</span>
+                      <span className="text-white/60 text-sm">Nombre de propriétaires précédents</span>
+                      <span className="text-white font-medium">{vehicle.specs?.proprietaires || '-'}</span>
                     </div>
                   </div>
                   {/* Row 2 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Fabricant</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.marque || '-'}</span>
+                      <span className="text-white/60 text-sm">Fabricant</span>
+                      <span className="text-white font-medium">{vehicle.marque || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Modèle</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.modele_court || vehicle.modele || '-'}</span>
+                      <span className="text-white/60 text-sm">Modèle</span>
+                      <span className="text-white font-medium">{vehicle.specs?.modele_court || vehicle.modele || '-'}</span>
                     </div>
                   </div>
                   {/* Row 3 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Type de véhicule</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.type_vehicule || 'Voitures d\'occasion'}</span>
+                      <span className="text-white/60 text-sm">Type de véhicule</span>
+                      <span className="text-white font-medium">{vehicle.specs?.type_vehicule || 'Voitures d\'occasion'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Forme de construction</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.categorie || '-'}</span>
+                      <span className="text-white/60 text-sm">Forme de construction</span>
+                      <span className="text-white font-medium">{vehicle.specs?.categorie || '-'}</span>
                     </div>
                   </div>
                   {/* Row 4 */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E5E5E5]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#333]">
                     <div className="p-4 flex justify-between items-center">
-                      <span className="text-[#666] text-sm">Date de première immatriculation</span>
-                      <span className="text-[#0A0A0A] font-medium">{vehicle.specs?.date_immat || '-'}</span>
+                      <span className="text-white/60 text-sm">Date de première immatriculation</span>
+                      <span className="text-white font-medium">{vehicle.specs?.date_immat || '-'}</span>
                     </div>
                     <div className="p-4 flex justify-between items-center">
                       <span className="text-[#666] text-sm">Kilométrage</span>
