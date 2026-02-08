@@ -429,10 +429,10 @@ const VehicleDetail = () => {
 
   if (!vehicle) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#F8F8F8]">
+      <div className="min-h-screen flex items-center justify-center bg-[#0A0A0A]">
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-4">Véhicule non trouvé</h2>
-          <button onClick={() => navigate('/catalogue')} className="btn-primary">
+          <h2 className="text-2xl font-bold mb-4 text-white">Véhicule non trouvé</h2>
+          <button onClick={() => navigate('/catalogue')} className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-6 py-3 hover:bg-white transition-colors">
             Retour au catalogue
           </button>
         </div>
@@ -445,13 +445,13 @@ const VehicleDetail = () => {
     : 20;
 
   return (
-    <div className="bg-[#F8F8F8] min-h-screen" data-testid="vehicle-detail-page">
+    <div className="bg-[#0A0A0A] min-h-screen" data-testid="vehicle-detail-page">
       {/* Back navigation */}
-      <div className="bg-white border-b border-[#E5E5E5]">
+      <div className="bg-[#1A1A1A] border-b border-[#333]">
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-4">
           <button 
             onClick={() => navigate('/catalogue')} 
-            className="flex items-center gap-2 text-[#666] hover:text-[#0A0A0A] transition-colors"
+            className="flex items-center gap-2 text-white/70 hover:text-[#FFD100] transition-colors"
           >
             <ChevronLeft size={20} />
             <span>Retour au catalogue</span>
