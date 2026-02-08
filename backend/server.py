@@ -115,6 +115,11 @@ class ContactMessageCreate(BaseModel):
 async def root():
     return {"message": "HERTZ-PRO API - Vente de véhicules"}
 
+# Health check endpoint (required for Kubernetes)
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
+
 # Vehicle endpoints
 @api_router.get("/vehicles", response_model=List[Vehicle])
 async def get_vehicles():
