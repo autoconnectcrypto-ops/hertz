@@ -541,7 +541,7 @@ const Catalogue = () => {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
           <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-            Flotte Hertz Pro
+            Flotte Hertz
           </div>
           <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
             Notre <span className="border-b-4 border-[#FFD100]">Catalogue</span>
