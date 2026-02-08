@@ -167,63 +167,71 @@ const Home = () => {
 
   return (
     <div data-testid="home-page">
-      {/* Hero Section - Full Screen with Better Image */}
-      <section className="relative min-h-[100vh] flex items-center overflow-hidden" data-testid="hero-section">
-        {/* Background Image - Full Coverage */}
+      {/* Hero Section - Light Theme */}
+      <section className="relative min-h-[90vh] flex items-center bg-white overflow-hidden" data-testid="hero-section">
+        {/* Background Image - Right Side */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80"
-            alt="Luxury car"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
+          <div className="absolute right-0 top-0 w-full lg:w-3/5 h-full">
+            <img 
+              src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1920&q=80"
+              alt="Luxury car showroom"
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent lg:from-white lg:via-white/70 lg:to-transparent"></div>
+          </div>
         </div>
 
         {/* Decorative Elements */}
-        <div className="absolute top-20 right-20 w-64 h-64 bg-[#FFD100]/10 rounded-full blur-3xl animate-float hidden lg:block"></div>
-        <div className="absolute bottom-20 left-1/3 w-48 h-48 bg-[#FFD100]/5 rounded-full blur-2xl animate-float hidden lg:block" style={{animationDelay: '1s'}}></div>
+        <div className="absolute top-32 right-1/4 w-72 h-72 bg-[#FFD100]/10 rounded-full blur-3xl hidden lg:block"></div>
+        <div className="absolute bottom-20 right-20 w-48 h-48 bg-[#FFD100]/5 rounded-full blur-2xl hidden lg:block"></div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-32 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-24 w-full">
           <div className="max-w-2xl">
             <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-8 animate-fade-in-up animate-pulse-slow">
               Véhicules de Flotte Premium
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-white animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-[#0A0A0A] animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
               Hertz Pro<br />
-              <span className="text-[#FFD100]">Jusqu'à -20%</span>
+              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">Jusqu'à -20%</span>
             </h1>
             
-            <p className="text-lg text-white/80 mb-6 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-white">récents et rigoureusement entretenus</strong>.
+            <p className="text-lg text-[#555] mb-6 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-[#0A0A0A]">récents et rigoureusement entretenus</strong>.
             </p>
             
-            <p className="text-lg text-white/80 mb-6 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
-              <strong className="text-white">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité et disponibilité immédiate.
+            <p className="text-lg text-[#555] mb-8 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              <strong className="text-[#0A0A0A]">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité et disponibilité immédiate.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-300">
-              <Link to="/catalogue" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-white transition-all hover:scale-105" data-testid="cta-catalogue">
+              <Link to="/catalogue" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#FFD100] hover:text-black transition-all hover:scale-105" data-testid="cta-catalogue">
                 Découvrir le Catalogue
                 <ArrowRight size={18} />
               </Link>
-              <Link to="/contact" className="border-2 border-white text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center hover:bg-white hover:text-black transition-all">
+              <Link to="/contact" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center hover:bg-[#0A0A0A] hover:text-white transition-all">
                 Nous Contacter
               </Link>
             </div>
-          </div>
 
-          {/* Stats Floating Card */}
-          <div className="hidden lg:block absolute right-12 bottom-32 glass-effect p-8 animate-fade-in-up animation-delay-400" style={{background: 'rgba(255,255,255,0.95)'}}>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center px-4">
+            {/* Stats inline for desktop */}
+            <div className="hidden lg:flex gap-12 mt-12 animate-fade-in-up animation-delay-400">
+              <div className="text-center">
                 <div className="text-4xl font-bold text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>{vehicleCount}+</div>
                 <div className="text-sm text-[#666] uppercase tracking-wider mt-1">Véhicules</div>
               </div>
-              <div className="text-center px-4 border-l border-[#E5E5E5]">
+              <div className="text-center">
                 <div className="text-4xl font-bold text-[#FFD100]" style={{fontFamily: 'Oswald, sans-serif'}}>-20%</div>
                 <div className="text-sm text-[#666] uppercase tracking-wider mt-1">De Remise</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>100%</div>
+                <div className="text-sm text-[#666] uppercase tracking-wider mt-1">Révisés</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>12</div>
+                <div className="text-sm text-[#666] uppercase tracking-wider mt-1">Mois Garantie</div>
               </div>
             </div>
           </div>
@@ -231,7 +239,7 @@ const Home = () => {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown size={32} className="text-white/60" />
+          <ChevronDown size={32} className="text-[#0A0A0A]/40" />
         </div>
       </section>
 
