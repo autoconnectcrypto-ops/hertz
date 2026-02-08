@@ -2,125 +2,120 @@
 
 **PRODUCT REQUIREMENTS**:
 1.  **Platform**: A mobile-friendly website.
-2.  **Branding**: A premium light theme (white/grey background, black text, yellow accents) with a dark, immersive homepage.
-3.  **Homepage**: A dedicated, professional landing page with a high-quality background image and a button to navigate to the vehicle catalogue.
-4.  **Catalogue Page**: A grid view of all available vehicles. Each vehicle card should display the main photo, make, model, and a unique reference number. Prices must show a 20% discount from the market price, with the original price struck-through and the new price highlighted.
-5.  **Vehicle Detail Page**: A dedicated page for each car showing:
-    *   A full photo gallery (all provided photos) with a main image (specifically photo #2) and clickable thumbnails in chronological order (1, 2, 3...).
-    *   A modern, card-based layout with key vehicle information (VIN, registration date, mileage, specs) and a price breakdown.
-    *   Tabs for detailed Caractéristiques (Features), Équipements (Options), and Entretien (Maintenance History).
+2.  **Branding**: A premium theme. The user has fluctuated between a light (white/grey) and dark theme, but the latest request is for a **professional white theme with elegant background images** across all pages.
+3.  **Homepage**: A dedicated landing page with professional text and imagery.
+4.  **Catalogue Page**: A grid view of all available vehicles. Each vehicle card should display the main photo, make, model, and reference number. Prices must show a 20% discount.
+5.  **Vehicle Detail Page**: A dedicated page for each car showing a full photo gallery, key vehicle information, and detailed specifications.
 6.  **Data Management**: A one-by-one workflow where the user provides vehicle data via WeTransfer links, and the agent processes each one completely before moving to the next.
 
 **User's preferred language**: The user's primary language is **French**. The next agent MUST respond in French only.
 
 **what currently exists?**
-A full-stack application (React + FastAPI + MongoDB) is fully functional. The site has a premium design with a dark homepage and a light theme for all other pages. The database was successfully reset, and a robust one-by-one vehicle data entry workflow has been established. Using this workflow, 19 vehicles have been successfully added to the catalogue, each with complete details, photos, and specs extracted from user-provided PDFs. The vehicle detail page features a sophisticated, user-approved design with multiple information cards and a fully functional photo gallery.
+A full-stack application (React + FastAPI + MongoDB) is functional. The core feature is a one-by-one data entry workflow that has been used to add a total of 37 vehicles to the site. The UI has undergone several major revisions at the user's request, switching from a light theme to a dark theme, and most recently, back to a light theme. The agent has just applied the code changes for this latest reversal to a white theme but has not yet verified the result.
 
 **Last working item**:
--   **Last item agent was working**: The agent was processing the 19th vehicle, a Peugeot 2008 GT Pack PureTech. The agent downloaded the files, extracted the preliminary data from the PDF, created the vehicle entry in the database, and prompted the user for the missing information (VIN, colors).
--   **Status**: BLOCKED
--   **Agent Testing Done**: Y
--   **Which testing method agent to use?**: manual testing by curl/python -c
+-   **Last item agent was working**: Reverting the entire website's design from a dark theme back to a white/light theme. The user was dissatisfied with the dark theme and requested a return to a more professional white background, but with better background imagery than before. The agent performed multiple  operations on the monolithic  file to change all page styles (Homepage, Catalogue, Vehicle Detail, Contact) back to a light color scheme.
+-   **Status**: IN PROGRESS
+-   **Agent Testing Done**: N
+-   **Which testing method agent to use?**: Frontend testing agent. At a minimum, the agent must take screenshots of the Homepage, Catalogue, a Vehicle Detail page, and the Contact page to verify the new light theme implementation.
 -   **User Testing Done**: N
 
 **All Pending/In progress Issue list**:
-There are no outstanding technical issues. The project is pending user input for the last added vehicle.
+-   **Issue 1: Verify the new light theme implementation (P0)**
+    -   The agent has just completed a major, site-wide UI overhaul back to a light theme. This must be visually verified to ensure it meets the user's expectation of a professional white theme with elegant background images. The UI's state is currently unknown.
+    -   **Status**: TESTING PENDING
+    -   **Is recurring issue?**: Y (The user has changed their mind on the theme three times in this session).
+    -   **Should Test frontend/backend/both after fix?**: Frontend.
+    -   **Blocked on other issue**: No.
 
 **In progress Task List**:
--   **Task 1: Complete Data for Peugeot 2008 GT Pack PureTech (P0)**
-    -   **Where to resume**: Wait for the user to provide the missing information for the Peugeot 2008 (VIN, date of first registration, exterior/interior colors). Once received, update the vehicle's document in the MongoDB  collection.
-    -   **What will be achieved with this?**: The 19th vehicle will have all its data populated, completing the current data entry cycle.
-    -   **Status**: BLOCKED
-    -   **Should Test frontend/backend/both after fix?**: Both
-    -   **Blocked on something**: Awaiting user's message with the required data.
+-   **Task 1: Finalize and verify the light theme UI (P0)**
+    -   **Where to resume**: The code changes to revert to a light theme have been applied in . The next step is to take screenshots of all key pages to verify the visual outcome and present them to the user for approval.
+    -   **What will be achieved with this?**: A visually consistent and user-approved light theme across the entire website, which will unblock further work.
+    -   **Status**: IN PROGRESS
+    -   **Should Test frontend/backend/both after fix?**: Frontend
+    -   **Blocked on something**: No.
 
 **Upcoming and Future Tasks**
 **Upcoming Tasks**:
--   **Continue One-by-One Vehicle Processing (P0)**: The main priority is to continue the established data entry workflow. The next step is to wait for the user to send the WeTransfer link for the 20th vehicle.
+-   **Continue One-by-One Vehicle Processing (P0)**: Once the UI theme is approved by the user, the main priority is to resume the established data entry workflow. The agent should wait for the user to send the WeTransfer link for the 38th vehicle.
 
 **Future Tasks**:
--   **Refactor Frontend Code (P1)**: The  file is a monolith containing all routing and page components. It should be broken down into a proper component structure:
-    -   Page components: , , .
-    -   Reusable components: , , , .
--   **Add a Sign/Logo over Vehicle License Plates (P2)**: An early user request that has not been addressed. If future photos have visible license plates, implement a feature to overlay a HERTZ-PRO logo on them, likely using a Python image processing library like .
+-   **Refactor Frontend Code (P1)**: The  file is a monolith containing all routing and page components. It is now critically unmaintainable after repeated, sweeping UI changes. It must be broken down into a proper component structure (e.g., , , ). This should be proposed to the user as a necessary step for stability.
+-   **Add a Sign/Logo over Vehicle License Plates (P2)**: An early user request that has not been addressed. Implement a feature to overlay a HERTZ-PRO logo on vehicle license plates during the image upload process.
 
 **Completed work in this session**
--   **Database Reset**: Purged all 37 incorrect vehicle entries and fixed an issue where a  endpoint was re-populating demo data.
--   **Established One-by-One Workflow**: Successfully implemented a robust process to download data from WeTransfer, extract vehicle details from PDFs using , create new vehicle entries, and update them with user-provided information.
--   **Data Ingestion (19 Vehicles)**: Added 19 complete vehicle listings to the site following the new workflow.
--   **Major UI/UX Redesign (Vehicle Detail Page)**: Completely redesigned the vehicle detail page based on user feedback and images. The new design includes:
-    -   A modern, card-based layout for key information, pricing, and specs.
-    -   Badges for PREMIÈRE MAIN (First Hand) and -20%.
-    -   A correctly functioning photo gallery that displays all available photos.
--   **Photo Display Logic Fixed**: Implemented logic to set photo #2 as the default main image on the detail page while keeping the thumbnail gallery in chronological order (1, 2, 3...).
--   **Price Display Corrected**: Implemented the requested price format on vehicle cards: the original price struck-through, and the discounted price with a yellow underline.
--   **Backend Model Extension**: Updated the Pydantic models in  to include new fields (, , , , etc.) and serve them through the API.
+-   **Data Ingestion (18 Vehicles)**: Added 18 new vehicles (from #20 to #37), bringing the total catalogue count to 37. The one-by-one workflow (download, analyze PDF, create DB entry, ask for missing info, update) was followed successfully for each.
+-   **UI Badge Enhancement**: Changed the -20% discount badge color from red to a branded Hertz-yellow background with black text () across the site, as per user request.
+-   **Major UI Theme Revisions**:
+    1.  First, successfully changed the entire site from a light theme to a dark theme with background images.
+    2.  Then, upon immediate user reversal, successfully changed the entire site back from the dark theme to a light theme.
 
 **Earlier issues found/mentioned but not fixed**
 -   **Issue 1**: Ability to add a sign over vehicle license plates.
-    -   **Debug checklist**: Investigate using an image processing library like  in a Python script to overlay a brand logo onto specific image coordinates. This would need to be integrated into the vehicle processing workflow.
+    -   **Debug checklist**: Investigate using an image processing library like  in a Python script to overlay a brand logo onto specific image coordinates. This would need to be integrated into the vehicle processing workflow in .
     -   **Why to solve this issue and what will be achieved with this?**: To fulfill a user request for brand consistency and to hide sensitive information on vehicle photos.
     -   **Should Test frontend/backend/both after fix**: Frontend (visual verification of images).
     -   **Is recurring issue?**: N
 
 **Known issue recurrence from previous fork**
--   None. The primary issue of data corruption was resolved by adopting the new one-by-one workflow.
+-   None.
 
 **Code Architecture**
 
 
 **Key Technical Concepts**
--   **Frontend**: React with . Styling is done with TailwindCSS. The UI is state-driven, fetching data from the backend and rendering it dynamically.
--   **Backend**: FastAPI serving a REST API for vehicle data. Asynchronous  library is used for all MongoDB interactions.
+-   **Frontend**: React, , TailwindCSS.
+-   **Backend**: FastAPI,  for asynchronous MongoDB interactions.
 -   **Database**: MongoDB.
--   **Data Processing**: The workflow involves downloading a zip from a WeTransfer link, unzipping, analyzing the enclosed PDF with  to extract machine-readable data, and creating a new document in the  collection.
+-   **Data Processing**: The workflow involves  for WeTransfer downloads,  to extract files, and  to parse vehicle data from PDFs.
 
 **key DB schema**
 -   **Collection**: 
--   **Model**:
-    -   uid=0(root) gid=0(root) groups=0(root) (str),  (str),  (str),  (str),  (int),  (int),  (float),  (float),  (str),  (str),  (List[str]),  (int),  (List[str]),  (List[Dict]),  (Dict containing , , , , , , etc.).
+-   **Model**: No changes were made to the schema. It includes fields like uid=0(root) gid=0(root) groups=0(root), , , , , , , etc.
 
 **changes in tech stack**
--   The agent successfully used  to handle WeTransfer downloads.
+-   The  package was installed on the system to handle zipped archives from WeTransfer.
 
 **All files of reference**
--   : The single source of truth for all backend logic, including API endpoints and the functions for creating/updating vehicles. The Pydantic models here were extended.
--   : The most frequently modified file, containing the entire frontend application. It was significantly updated to implement the new vehicle detail page design and fix the photo gallery.
--   : Defines the core color palette, including the Hertz yellow accent.
+-   : The core backend logic. Stable and functional.
+-   : **CRITICAL FILE.** This single file was heavily modified to implement two full site-wide theme changes (light -> dark -> light). It is the source of the current UI and is in urgent need of refactoring.
+-   : Modified to change the  style to the yellow Hertz theme.
 
 **Areas that need refactoring**:
--   The monolithic  file is becoming unmanageable. It is the highest priority for refactoring to improve maintainability. It should be broken down into separate components for each page and reusable UI elements.
+-   **CRITICAL**: The monolithic  file is a major technical debt. Its size and complexity, exacerbated by repeated major styling changes, make it extremely difficult to maintain. This file must be broken down into separate components for each page (, , etc.) and reusable elements (, ).
 
 **key api endpoints**
--   : Creates a new vehicle with initial data from the PDF.
--   : Updates a vehicle with missing information (VIN, colors, etc.) provided by the user.
--   : Fetches all vehicles for the catalogue page.
--   : Fetches a single vehicle for the detail page.
+-   : Creates a new vehicle.
+-   : Updates a vehicle with user-provided info.
+-   : Fetches all vehicles.
+-   : Fetches a single vehicle.
+(All endpoints are stable and working as expected).
 
 **Critical Info for New Agent**
--   **Continue the Workflow**: The one-by-one data entry process is established and approved by the user. Do not deviate from it. The process is: user sends link -> download -> extract data -> create vehicle -> ask for missing info -> update vehicle -> wait for next link.
--   **Wait for User Input**: You are currently blocked. Your first action should be to wait for the user's message containing the missing info for the Peugeot 2008.
--   **Design is Final**: The current design of the vehicle detail page (as seen on the Audi A3) is the template for all vehicles. Replicate this design exactly.
--   **Photo Logic is Key**: The main display photo is #2 from the user's files. The thumbnail gallery must be in chronological order (1, 2, 3...). Ensure the  is set correctly in the database.
+-   **Verify the UI First**: Your absolute first priority is to verify the result of the latest UI change (reverting to a light theme). Take screenshots of all key pages (Home, Catalogue, Detail, Contact) and present them to the user for approval. Do not proceed with any other task until the user signs off on the current design.
+-   **Theme Instability**: The user is indecisive about the site's theme. They have requested major reversals multiple times. Be prepared for this and confirm all visual changes thoroughly.
+-   **Push for Refactoring**: The state of  is a high-priority risk. After the current UI is approved, you should strongly recommend refactoring this monolithic file into a component-based structure to improve stability and make future changes manageable.
+-   **One-by-One Workflow**: The vehicle data entry process is the main ongoing task. Once the UI is stable, resume this workflow by waiting for the user to provide a new WeTransfer link.
 
 **documents and test reports created in this job**
--    (updated)
+-   None.
 
 **Last 10 User Messages and any pending HUMAN messages**
-10. **User**: Provides WeTransfer link for 19th vehicle (Peugeot 2008). **(Pending missing info)**
-9.  **Agent**: Confirms 18th vehicle (DS7) is complete. Asks for the next one. **(Complete)**
-8.  **User**: Provides missing info for DS7. **(Complete)**
-7.  **Agent**: Adds DS7 and asks for missing info. **(Complete)**
-6.  **User**: Provides WeTransfer link for DS7. **(Complete)**
-5.  **Agent**: Confirms 17th vehicle (Land Rover Evoque) is complete. Asks for the next one. **(Complete)**
-4.  **User**: Provides missing info for Evoque. **(Complete)**
-3.  **Agent**: Adds Evoque and asks for missing info. **(Complete)**
-2.  **User**: Provides WeTransfer link for Evoque. **(Complete)**
-1.  **Agent**: Confirms 16th vehicle (Mini Countryman) is complete. Asks for the next one. **(Complete)**
+10. **User**: Provides WeTransfer link for 37th vehicle. **(Complete)**
+9.  **User**: Asks to change the red -20% badge to Hertz colors (yellow/black). **(Complete)**
+8.  **User**: Asks to change the homepage from a dark theme to a white theme to match the other pages. **(In Progress)**
+7.  **User**: Interrupts and changes mind: requests a **dark theme on all 3 pages** and provides new text for the homepage. **(Complete, but then reverted)**
+6.  **User**: Apologizes and **reverts the decision again**. Asks to put everything back on a **white background**. Complains that the agent's white backgrounds look like collages while the dark backgrounds had nice images. Demands a white theme with proper, elegant background images on all pages. **(This is the latest and most critical pending instruction).**
+5.  **User**: Provides WeTransfer link for 36th vehicle. **(Complete)**
+4.  **User**: Provides WeTransfer link for 35th vehicle. **(Complete)**
+3.  **User**: Provides WeTransfer link for 34th vehicle. **(Complete)**
+2.  **User**: Provides WeTransfer link for 33rd vehicle. **(Complete)**
+1.  **User**: Provides WeTransfer link for 32nd vehicle. **(Complete)**
 
 **Project Health Check:**
--   **Broken**: Nothing is broken. The data integrity issues from the previous session have been fully resolved.
--   **Mocked**: No mocked data. All 19 vehicles have real data provided by the user.
+-   **Broken**: The UI state is unknown after the recent major style changes. It requires immediate verification to be considered stable.
+-   **Mocked**: No mocked data is used. All 37 vehicles have real data.
 
 **3rd Party Integrations**
 -   N/A
@@ -129,10 +124,12 @@ There are no outstanding technical issues. The project is pending user input for
 -   **Testing agent used after significant changes**: NO
 -   **Troubleshoot agent used after agent stuck in loop**: NO
 -   **Test files created**: []
--   **Known regressions**: None.
+-   **Known regressions**: None, but the entire UI is in an unverified state.
 
 **Credentials to test flow:**
-N/A
+-   N/A
 
 **What agent forgot to execute**
--   The agent has not yet implemented the user's early request to **add a branded sign over vehicle license plates**. This remains a future task.</analysis>
+-   The agent has not verified the visual outcome of the latest major UI change (reverting the site to a light theme).
+-   The agent has not implemented the user's early request to add a branded sign over vehicle license plates.
+-   The agent has not addressed the growing technical debt of the monolithic  file.</analysis>

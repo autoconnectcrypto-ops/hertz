@@ -11,7 +11,7 @@ from pathlib import Path
 
 BASE_DIR = Path("/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO")
 PUBLIC_DIR = Path("/app/frontend/public/vehicles")
-API_URL = os.environ.get('REACT_APP_BACKEND_URL', 'https://used-hertz-cars.preview.emergentagent.com')
+API_URL = os.environ.get('REACT_APP_BACKEND_URL', 'https://hertz-marketplace.preview.emergentagent.com')
 
 def slugify(text):
     """Convertir le texte en slug URL-friendly"""
