@@ -91,11 +91,11 @@
 
 /* Badge */
 .badge-discount {
-    background-color: #EF4444;
-    color: #FFFFFF;
-    font-family: 'Manrope', sans-serif;
+    background-color: #FFD100;
+    color: #0A0A0A;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 0.5rem 1rem;
