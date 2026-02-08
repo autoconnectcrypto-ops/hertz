@@ -353,25 +353,25 @@ const Catalogue = () => {
   }, []);
 
   return (
-    <div className="bg-[#0A0A0A] min-h-screen" data-testid="catalogue-page">
+    <div className="bg-[#F5F5F5] min-h-screen" data-testid="catalogue-page">
       {/* Header with Background Image */}
-      <section className="relative py-20 md:py-28">
+      <section className="relative py-20 md:py-28 bg-white">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1920&q=80"
             alt="Background"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-[#0A0A0A]"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
           <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
             Flotte Hertz Pro
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-4 text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
-            Notre <span className="text-[#FFD100]">Catalogue</span>
+          <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+            Notre <span className="border-b-4 border-[#FFD100]">Catalogue</span>
           </h1>
-          <p className="text-white/70 max-w-2xl text-lg">
+          <p className="text-[#555] max-w-2xl text-lg">
             {vehicles.length} véhicules premium disponibles. 
             Tous entretenus en concession avec historique complet.
           </p>
