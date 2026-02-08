@@ -283,7 +283,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mb-6 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
-              Pourquoi <span className="text-[#FFD100]">Hertz</span> ?
+              Pourquoi <span className="border-b-4 border-[#FFD100]">Hertz</span> ?
             </h2>
             <p className="text-[#666666] max-w-2xl mx-auto text-lg">
               Des véhicules premium à prix destockage, avec une garantie de qualité de 12 mois.
