@@ -57,8 +57,9 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-10">
             <Link to="/" className="nav-link">Accueil</Link>
             <Link to="/catalogue" className="nav-link">Catalogue</Link>
+            <Link to="/qui-sommes-nous" className="nav-link">Qui sommes-nous</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
-            <a href="tel:+33600000000" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider text-sm px-6 py-3 hover:bg-white transition-colors">
+            <a href="tel:+33000000000" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider text-sm px-6 py-3 hover:bg-white transition-colors">
               Nous Appeler
             </a>
           </nav>
@@ -79,8 +80,9 @@ const Header = () => {
             <div className="flex flex-col gap-4">
               <Link to="/" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Accueil</Link>
               <Link to="/catalogue" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Catalogue</Link>
+              <Link to="/qui-sommes-nous" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Qui sommes-nous</Link>
               <Link to="/contact" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Contact</Link>
-              <a href="tel:+33600000000" className="bg-[#FFD100] text-black font-semibold text-center py-3 mt-4">Nous Appeler</a>
+              <a href="tel:+33000000000" className="bg-[#FFD100] text-black font-semibold text-center py-3 mt-4">Nous Appeler</a>
             </div>
           </nav>
         )}
