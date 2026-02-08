@@ -489,38 +489,75 @@ const VehicleDetail = () => {
 
           {/* Info Panel */}
           <div className="space-y-6">
-            {/* Title */}
-            <div>
+            {/* Title Card */}
+            <div className="bg-white border border-[#E5E5E5] p-6 shadow-sm">
               <h1 className="text-3xl md:text-4xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
                 {vehicle.marque} {vehicle.specs?.modele_court || vehicle.modele?.split(' ')[0]}
               </h1>
-              <p className="text-[#666] text-sm mt-1">{vehicle.modele}</p>
-            </div>
-
-            {/* Info List */}
-            <div className="space-y-3 text-[#0A0A0A]">
-              <p><span className="font-semibold">Localisation:</span> Paris</p>
-              <p><span className="font-semibold">Première immatriculation:</span> {vehicle.specs?.date_immat || '-'}</p>
-              <p><span className="font-semibold">Kilométrage:</span> {vehicle.km?.toLocaleString('fr-FR')} km</p>
-              <p><span className="font-semibold">Numéro d'offre:</span> {vehicle.reference}</p>
-              <p><span className="font-semibold">Carburant:</span> {vehicle.specs?.carburant}</p>
-              <p><span className="font-semibold">Puissance:</span> {vehicle.specs?.puissance}</p>
-              <p><span className="font-semibold">Transmission:</span> {vehicle.specs?.boite}</p>
-            </div>
-
-            {/* Price Box */}
-            <div className="pt-6">
-              <div className="text-2xl text-[#0A0A0A] line-through">
-                {vehicle.prix?.toLocaleString('fr-FR')} € TTC
+              <p className="text-[#666] text-sm mt-2">{vehicle.modele}</p>
+              <div className="flex items-center gap-2 mt-3">
+                <span className="bg-[#FFD100] text-black text-xs font-bold px-3 py-1 uppercase">Première main</span>
+                <span className="bg-[#0A0A0A] text-white text-xs font-bold px-3 py-1 uppercase">-20%</span>
               </div>
-              <p className="text-[#0A0A0A] font-semibold my-2">20% de réduction</p>
-              <div className="text-4xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100] inline-block pb-1" style={{fontFamily: 'Oswald, sans-serif'}}>
-                {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} € TTC
+            </div>
+
+            {/* Info Card */}
+            <div className="bg-white border border-[#E5E5E5] shadow-sm">
+              <div className="bg-[#F8F8F8] px-6 py-3 border-b border-[#E5E5E5]">
+                <h3 className="font-bold text-[#0A0A0A] uppercase text-sm tracking-wider">Informations</h3>
+              </div>
+              <div className="divide-y divide-[#E5E5E5]">
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">Localisation</span>
+                  <span className="text-[#0A0A0A] font-semibold">Paris</span>
+                </div>
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">1ère immatriculation</span>
+                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.date_immat || '-'}</span>
+                </div>
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">Kilométrage</span>
+                  <span className="text-[#0A0A0A] font-semibold">{vehicle.km?.toLocaleString('fr-FR')} km</span>
+                </div>
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">Numéro d'offre</span>
+                  <span className="text-[#0A0A0A] font-semibold">{vehicle.reference}</span>
+                </div>
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">Carburant</span>
+                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.carburant}</span>
+                </div>
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">Puissance</span>
+                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.puissance}</span>
+                </div>
+                <div className="px-6 py-3 flex justify-between items-center">
+                  <span className="text-[#666] text-sm">Transmission</span>
+                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.boite}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Price Card */}
+            <div className="bg-white border border-[#E5E5E5] p-6 shadow-sm">
+              <div className="flex items-center justify-between mb-4">
+                <span className="text-[#666] text-sm">Prix du marché</span>
+                <span className="text-xl text-[#999] line-through">{vehicle.prix?.toLocaleString('fr-FR')} €</span>
+              </div>
+              <div className="flex items-center justify-between pb-4 border-b border-[#E5E5E5]">
+                <span className="text-[#0A0A0A] font-bold">Votre prix HERTZ-PRO</span>
+                <span className="text-3xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100]" style={{fontFamily: 'Oswald, sans-serif'}}>
+                  {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
+                </span>
+              </div>
+              <div className="flex items-center justify-center gap-2 mt-4 text-[#10B981]">
+                <Check size={18} />
+                <span className="font-semibold">Économisez {Math.round(vehicle.prix * 0.2).toLocaleString('fr-FR')} €</span>
               </div>
             </div>
 
             {/* CTA */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a href="tel:+33600000000" className="btn-primary flex-1 text-center">
                 <Phone size={18} className="inline mr-2" />
                 Appeler
