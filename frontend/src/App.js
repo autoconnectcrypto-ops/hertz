@@ -1119,11 +1119,11 @@ const CGV = () => (
         <p>Conformément au Code de la consommation, l'acheteur dispose d'un délai de 14 jours pour exercer son droit de rétractation dans le cas d'un achat à distance, sans avoir à justifier de motifs ni à payer de pénalités.</p>
 
         <h2>Article 8 - Litiges</h2>
-        <p>En cas de litige, une solution amiable sera recherchée avant toute action judiciaire. À défaut, les tribunaux de Paris seront seuls compétents.</p>
+        <p>En cas de litige, une solution amiable sera recherchée avant toute action judiciaire. À défaut, les tribunaux de Versailles seront seuls compétents.</p>
 
         <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
           <p className="font-semibold text-[#0A0A0A]">Pour toute question concernant nos CGV :</p>
-          <p className="text-[#666] mt-2">Email : contact@hertz-pro.fr | Tél : +33 6 00 00 00 00</p>
+          <p className="text-[#666] mt-2">Email : contact@hertz-pro.fr | Tél : 00 00 00 00</p>
         </div>
       </div>
     </section>
