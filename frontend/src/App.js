@@ -1047,6 +1047,255 @@ const Contact = () => {
   );
 };
 
+// CGV Page - Conditions Générales de Vente
+const CGV = () => (
+  <div data-testid="cgv-page">
+    <section className="relative py-20 bg-[#0A0A0A]">
+      <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
+          Informations Légales
+        </div>
+        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+          Conditions Générales <span className="text-[#FFD100]">de Vente</span>
+        </h1>
+      </div>
+    </section>
+
+    <section className="py-16 bg-white">
+      <div className="max-w-4xl mx-auto px-6 md:px-12 legal-content">
+        <p className="text-[#666] mb-8">Dernière mise à jour : Janvier 2024</p>
+
+        <h2>Article 1 - Objet</h2>
+        <p>Les présentes conditions générales de vente régissent les relations contractuelles entre HERTZ-PRO et ses clients dans le cadre de la vente de véhicules d'occasion.</p>
+
+        <h2>Article 2 - Prix</h2>
+        <p>Les prix affichés sur notre site sont exprimés en euros TTC. Ils incluent la TVA applicable au jour de la commande. HERTZ-PRO se réserve le droit de modifier ses prix à tout moment, étant entendu que le prix affiché le jour de la commande sera le seul applicable à l'acheteur.</p>
+        <p>La remise de 20% affichée correspond à la différence entre le prix de vente public conseillé et notre prix de vente.</p>
+
+        <h2>Article 3 - Caractéristiques des véhicules</h2>
+        <p>Tous nos véhicules proviennent de la flotte HERTZ et bénéficient :</p>
+        <ul>
+          <li>D'un entretien régulier en concession officielle</li>
+          <li>D'un carnet d'entretien à jour</li>
+          <li>D'un contrôle technique de moins de 6 mois</li>
+          <li>D'une garantie constructeur ou HERTZ-PRO de 12 mois minimum</li>
+        </ul>
+
+        <h2>Article 4 - Réservation et acompte</h2>
+        <p>La réservation d'un véhicule est effective après versement d'un acompte de 10% du prix de vente. Cet acompte n'est remboursable qu'en cas d'annulation de la vente par HERTZ-PRO.</p>
+
+        <h2>Article 5 - Livraison</h2>
+        <p>La livraison du véhicule s'effectue dans nos locaux à Paris, sauf accord contraire. Une livraison à domicile peut être organisée moyennant des frais supplémentaires à définir selon la distance.</p>
+
+        <h2>Article 6 - Garantie</h2>
+        <p>Tous nos véhicules bénéficient d'une garantie minimale de 12 mois couvrant les organes mécaniques principaux. Cette garantie peut être étendue sur demande.</p>
+        <h3>La garantie couvre :</h3>
+        <ul>
+          <li>Le moteur et ses composants</li>
+          <li>La boîte de vitesses</li>
+          <li>La direction</li>
+          <li>Le système de freinage</li>
+          <li>Les trains roulants</li>
+        </ul>
+        <h3>La garantie ne couvre pas :</h3>
+        <ul>
+          <li>Les pièces d'usure (pneumatiques, plaquettes, disques, etc.)</li>
+          <li>L'entretien courant</li>
+          <li>Les dommages causés par une mauvaise utilisation</li>
+        </ul>
+
+        <h2>Article 7 - Droit de rétractation</h2>
+        <p>Conformément au Code de la consommation, l'acheteur dispose d'un délai de 14 jours pour exercer son droit de rétractation dans le cas d'un achat à distance, sans avoir à justifier de motifs ni à payer de pénalités.</p>
+
+        <h2>Article 8 - Litiges</h2>
+        <p>En cas de litige, une solution amiable sera recherchée avant toute action judiciaire. À défaut, les tribunaux de Paris seront seuls compétents.</p>
+
+        <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
+          <p className="font-semibold text-[#0A0A0A]">Pour toute question concernant nos CGV :</p>
+          <p className="text-[#666] mt-2">Email : contact@hertz-pro.fr | Tél : +33 6 00 00 00 00</p>
+        </div>
+      </div>
+    </section>
+  </div>
+);
+
+// FAQ Page
+const FAQ = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const faqs = [
+    {
+      question: "D'où proviennent vos véhicules ?",
+      answer: "Tous nos véhicules proviennent directement de la flotte HERTZ. Ce sont des véhicules de location récents, rigoureusement entretenus en concession officielle tout au long de leur utilisation."
+    },
+    {
+      question: "Quelle est la garantie offerte sur les véhicules ?",
+      answer: "Chaque véhicule bénéficie d'une garantie minimale de 12 mois couvrant les organes mécaniques principaux (moteur, boîte de vitesses, direction, freinage, trains roulants). Des extensions de garantie sont disponibles sur demande."
+    },
+    {
+      question: "Puis-je essayer un véhicule avant l'achat ?",
+      answer: "Absolument ! Nous encourageons nos clients à essayer le véhicule avant tout engagement. Contactez-nous pour prendre rendez-vous et organiser un essai."
+    },
+    {
+      question: "Comment fonctionne la remise de 20% ?",
+      answer: "La remise de 20% correspond à la différence entre le prix de vente public conseillé (argus) et notre prix de vente. Cette remise est possible grâce à nos volumes de déstockage et à notre statut de vendeur professionnel."
+    },
+    {
+      question: "Proposez-vous des solutions de financement ?",
+      answer: "Oui, nous travaillons avec plusieurs partenaires financiers pour vous proposer des solutions de crédit adaptées à votre situation. N'hésitez pas à nous contacter pour une étude personnalisée."
+    },
+    {
+      question: "La livraison est-elle possible ?",
+      answer: "Oui, nous pouvons organiser la livraison de votre véhicule à domicile. Les frais de livraison dépendent de la distance et seront établis sur devis."
+    },
+    {
+      question: "Les véhicules sont-ils révisés avant la vente ?",
+      answer: "Oui, chaque véhicule subit une révision complète avant la mise en vente : vidange, filtres, niveaux, contrôle des freins, pneumatiques, etc. Un contrôle technique de moins de 6 mois est également fourni."
+    },
+    {
+      question: "Puis-je reprendre mon ancien véhicule ?",
+      answer: "Oui, nous proposons un service de reprise de votre ancien véhicule. Contactez-nous avec les détails de votre véhicule pour obtenir une estimation."
+    }
+  ];
+
+  return (
+    <div data-testid="faq-page">
+      <section className="relative py-20 bg-[#0A0A0A]">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
+            Aide & Support
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+            Questions <span className="text-[#FFD100]">Fréquentes</span>
+          </h1>
+          <p className="text-white/60 mt-4 max-w-xl text-lg">
+            Retrouvez les réponses aux questions les plus courantes sur nos véhicules et services.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-16 bg-[#F5F5F5]">
+        <div className="max-w-3xl mx-auto px-6 md:px-12">
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div key={index} className="faq-item">
+                <div 
+                  className="faq-question"
+                  onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                >
+                  <span>{faq.question}</span>
+                  <ChevronDown 
+                    size={20} 
+                    className={`text-[#FFD100] transition-transform ${openIndex === index ? 'rotate-180' : ''}`} 
+                  />
+                </div>
+                {openIndex === index && (
+                  <div className="faq-answer">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 bg-[#0A0A0A] p-8 text-center">
+            <h3 className="text-xl font-bold text-white mb-4" style={{fontFamily: 'Oswald, sans-serif'}}>
+              Vous avez d'autres questions ?
+            </h3>
+            <p className="text-white/60 mb-6">Notre équipe est à votre disposition pour répondre à toutes vos interrogations.</p>
+            <Link to="/contact" className="inline-flex items-center gap-2 bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-6 py-3 hover:bg-white transition-colors">
+              Nous Contacter <ArrowRight size={18} />
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+// Mentions Légales Page
+const MentionsLegales = () => (
+  <div data-testid="mentions-legales-page">
+    <section className="relative py-20 bg-[#0A0A0A]">
+      <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
+          Informations Légales
+        </div>
+        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+          Mentions <span className="text-[#FFD100]">Légales</span>
+        </h1>
+      </div>
+    </section>
+
+    <section className="py-16 bg-white">
+      <div className="max-w-4xl mx-auto px-6 md:px-12 legal-content">
+        
+        <h2>Éditeur du site</h2>
+        <p><strong>HERTZ-PRO</strong><br />
+        Société par actions simplifiée au capital de [Capital] euros<br />
+        Siège social : 123 Rue de la Vente, 75000 Paris<br />
+        RCS Paris [Numéro RCS]<br />
+        N° TVA Intracommunautaire : FR [Numéro TVA]</p>
+        
+        <p><strong>Directeur de la publication :</strong> [Nom du Directeur]</p>
+        
+        <h2>Contact</h2>
+        <p>Téléphone : +33 6 00 00 00 00<br />
+        Email : contact@hertz-pro.fr</p>
+
+        <h2>Hébergement</h2>
+        <p>Ce site est hébergé par :<br />
+        [Nom de l'hébergeur]<br />
+        [Adresse de l'hébergeur]</p>
+
+        <h2>Propriété intellectuelle</h2>
+        <p>L'ensemble des éléments constituant ce site (textes, graphismes, logiciels, photographies, images, vidéos, sons, plans, noms, logos, marques, créations et œuvres protégeables diverses, bases de données, etc.) ainsi que le site lui-même, sont la propriété exclusive de HERTZ-PRO ou de ses partenaires.</p>
+        <p>Toute reproduction, représentation, modification, publication, transmission, dénaturation, totale ou partielle du site ou de son contenu, par quelque procédé que ce soit, et sur quelque support que ce soit est interdite sans l'autorisation écrite préalable de HERTZ-PRO.</p>
+
+        <h2>Protection des données personnelles</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données personnelles vous concernant.</p>
+        <p>Pour exercer ces droits, vous pouvez nous contacter :</p>
+        <ul>
+          <li>Par email : contact@hertz-pro.fr</li>
+          <li>Par courrier : HERTZ-PRO - Service RGPD, 123 Rue de la Vente, 75000 Paris</li>
+        </ul>
+
+        <h3>Données collectées</h3>
+        <p>Les données personnelles collectées sur ce site sont :</p>
+        <ul>
+          <li>Nom et prénom</li>
+          <li>Adresse email</li>
+          <li>Numéro de téléphone</li>
+          <li>Données de navigation (cookies)</li>
+        </ul>
+
+        <h3>Finalités du traitement</h3>
+        <p>Ces données sont collectées pour :</p>
+        <ul>
+          <li>Répondre à vos demandes de contact</li>
+          <li>Vous informer sur nos véhicules et services</li>
+          <li>Améliorer notre site et nos services</li>
+        </ul>
+
+        <h2>Cookies</h2>
+        <p>Ce site utilise des cookies pour améliorer l'expérience utilisateur et réaliser des statistiques de visite. Vous pouvez à tout moment désactiver les cookies dans les paramètres de votre navigateur.</p>
+
+        <h2>Liens hypertextes</h2>
+        <p>Ce site peut contenir des liens vers d'autres sites. HERTZ-PRO n'est pas responsable du contenu de ces sites externes.</p>
+
+        <h2>Crédits</h2>
+        <p>Conception et développement : HERTZ-PRO<br />
+        Photographies : HERTZ-PRO / Unsplash</p>
+
+        <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
+          <p className="font-semibold text-[#0A0A0A]">Pour toute question concernant ces mentions légales :</p>
+          <p className="text-[#666] mt-2">Email : contact@hertz-pro.fr | Tél : +33 6 00 00 00 00</p>
+        </div>
+      </div>
+    </section>
+  </div>
+);
+
 // Main App
 function App() {
   return (
