@@ -131,92 +131,111 @@ const Footer = () => (
 // Home Page
 const Home = () => {
   const [vehicleCount, setVehicleCount] = useState(0);
+  const [featuredVehicles, setFeaturedVehicles] = useState([]);
+  const [processRef, processVisible] = useScrollAnimation();
+  const [brandsRef, brandsVisible] = useScrollAnimation();
 
   useEffect(() => {
-    const fetchCount = async () => {
+    const fetchData = async () => {
       try {
         const response = await axios.get(`${API}/vehicles`);
         setVehicleCount(response.data.length);
+        setFeaturedVehicles(response.data.slice(0, 3));
       } catch (e) {
         console.error(e);
       }
     };
-    fetchCount();
+    fetchData();
   }, []);
 
   return (
     <div data-testid="home-page">
-      {/* Hero Section - Light Theme with Background */}
-      <section className="relative min-h-[90vh] flex items-center bg-white" data-testid="hero-section">
-        {/* Background Image with Light Overlay */}
+      {/* Hero Section - Full Screen with Better Image */}
+      <section className="relative min-h-[100vh] flex items-center overflow-hidden" data-testid="hero-section">
+        {/* Background Image - Full Coverage */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1920&q=80"
-            alt="Background"
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80"
+            alt="Luxury car"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
         </div>
 
+        {/* Decorative Elements */}
+        <div className="absolute top-20 right-20 w-64 h-64 bg-[#FFD100]/10 rounded-full blur-3xl animate-float hidden lg:block"></div>
+        <div className="absolute bottom-20 left-1/3 w-48 h-48 bg-[#FFD100]/5 rounded-full blur-2xl animate-float hidden lg:block" style={{animationDelay: '1s'}}></div>
+
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-32">
-          <div className="max-w-3xl">
-            <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-8 animate-fade-in-up">
-              Véhicules de Flotte
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-32 w-full">
+          <div className="max-w-2xl">
+            <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-8 animate-fade-in-up animate-pulse-slow">
+              Véhicules de Flotte Premium
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-[#0A0A0A] animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-white animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
               Hertz Pro<br />
-              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">Jusqu'à -20%</span>
+              <span className="text-[#FFD100]">Jusqu'à -20%</span>
             </h1>
             
-            <p className="text-lg text-[#444] mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-[#0A0A0A]">récents et rigoureusement entretenus</strong>.
+            <p className="text-lg text-white/80 mb-6 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-white">récents et rigoureusement entretenus</strong>.
             </p>
             
-            <p className="text-lg text-[#444] mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Bénéficiez de remises allant jusqu'à <strong className="text-[#0A0A0A] bg-[#FFD100] px-1">20%</strong>, d'un suivi d'entretien complet et de véhicules contrôlés selon les standards Hertz.
-            </p>
-            
-            <p className="text-lg text-[#444] mb-6 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              <strong className="text-[#0A0A0A]">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité, maîtrise des coûts et disponibilité immédiate.
-            </p>
-            
-            <p className="text-lg text-[#444] mb-10 max-w-2xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Avec <strong className="text-[#0A0A0A]">Hertz Pro</strong>, choisissez une solution automobile simple, transparente et performante.
+            <p className="text-lg text-white/80 mb-6 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              <strong className="text-white">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité et disponibilité immédiate.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-300">
-              <Link to="/catalogue" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#FFD100] hover:text-black transition-colors" data-testid="cta-catalogue">
+              <Link to="/catalogue" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-white transition-all hover:scale-105" data-testid="cta-catalogue">
                 Découvrir le Catalogue
                 <ArrowRight size={18} />
               </Link>
-              <Link to="/contact" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center hover:bg-[#0A0A0A] hover:text-white transition-colors">
+              <Link to="/contact" className="border-2 border-white text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center hover:bg-white hover:text-black transition-all">
                 Nous Contacter
               </Link>
             </div>
           </div>
+
+          {/* Stats Floating Card */}
+          <div className="hidden lg:block absolute right-12 bottom-32 glass-effect p-8 animate-fade-in-up animation-delay-400" style={{background: 'rgba(255,255,255,0.95)'}}>
+            <div className="grid grid-cols-2 gap-6">
+              <div className="text-center px-4">
+                <div className="text-4xl font-bold text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>{vehicleCount}+</div>
+                <div className="text-sm text-[#666] uppercase tracking-wider mt-1">Véhicules</div>
+              </div>
+              <div className="text-center px-4 border-l border-[#E5E5E5]">
+                <div className="text-4xl font-bold text-[#FFD100]" style={{fontFamily: 'Oswald, sans-serif'}}>-20%</div>
+                <div className="text-sm text-[#666] uppercase tracking-wider mt-1">De Remise</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <ChevronDown size={32} className="text-white/60" />
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="bg-[#FFD100] py-12">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
+      {/* Stats Section - Mobile */}
+      <section className="bg-[#FFD100] py-12 lg:hidden">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>{vehicleCount}+</div>
+              <div className="text-4xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>{vehicleCount}+</div>
               <div className="text-black/70 uppercase tracking-wider text-sm mt-2">Véhicules</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>-20%</div>
+              <div className="text-4xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>-20%</div>
               <div className="text-black/70 uppercase tracking-wider text-sm mt-2">De Remise</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>100%</div>
+              <div className="text-4xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>100%</div>
               <div className="text-black/70 uppercase tracking-wider text-sm mt-2">Révisés</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>12</div>
+              <div className="text-4xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>12</div>
               <div className="text-black/70 uppercase tracking-wider text-sm mt-2">Mois Garantie</div>
             </div>
           </div>
@@ -236,8 +255,8 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="feature-card group text-center">
-              <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6">
+            <div className="feature-card group text-center hover-lift">
+              <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6 transition-transform group-hover:scale-110 group-hover:rotate-3">
                 <Shield className="text-black" size={32} />
               </div>
               <h3 className="text-xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
@@ -249,8 +268,8 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="feature-card group text-center">
-              <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6">
+            <div className="feature-card group text-center hover-lift">
+              <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6 transition-transform group-hover:scale-110 group-hover:rotate-3">
                 <Award className="text-black" size={32} />
               </div>
               <h3 className="text-xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
@@ -262,8 +281,8 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="feature-card group text-center">
-              <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6">
+            <div className="feature-card group text-center hover-lift">
+              <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6 transition-transform group-hover:scale-110 group-hover:rotate-3">
                 <Clock className="text-black" size={32} />
               </div>
               <h3 className="text-xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
@@ -278,22 +297,113 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Process Section */}
+      <section ref={processRef} className="py-24 bg-[#F5F5F5]" data-testid="process-section">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mb-6 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+              Comment ça <span className="text-[#FFD100]">marche</span> ?
+            </h2>
+            <p className="text-[#666666] max-w-2xl mx-auto text-lg">
+              Un processus simple et transparent pour acquérir votre véhicule.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.1s'}}>
+              <div className="process-step-number">1</div>
+              <Car className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Choisissez</h3>
+              <p className="text-[#666666] text-sm">Parcourez notre catalogue et sélectionnez le véhicule qui vous correspond.</p>
+            </div>
+
+            <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.2s'}}>
+              <div className="process-step-number">2</div>
+              <Phone className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Contactez</h3>
+              <p className="text-[#666666] text-sm">Appelez-nous ou envoyez un message pour organiser une visite.</p>
+            </div>
+
+            <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.3s'}}>
+              <div className="process-step-number">3</div>
+              <Key className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Essayez</h3>
+              <p className="text-[#666666] text-sm">Venez essayer le véhicule et vérifiez qu'il répond à vos attentes.</p>
+            </div>
+
+            <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.4s'}}>
+              <div className="process-step-number">4</div>
+              <Truck className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Repartez</h3>
+              <p className="text-[#666666] text-sm">Finalisez l'achat et repartez avec votre nouveau véhicule.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Vehicles */}
+      {featuredVehicles.length > 0 && (
+        <section className="py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <div className="flex justify-between items-end mb-12">
+              <div>
+                <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+                  Véhicules <span className="text-[#FFD100]">à la une</span>
+                </h2>
+                <p className="text-[#666666] text-lg">Découvrez notre sélection du moment.</p>
+              </div>
+              <Link to="/catalogue" className="hidden md:flex items-center gap-2 text-[#0A0A0A] font-semibold uppercase tracking-wider hover:text-[#FFD100] transition-colors">
+                Voir tout <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {featuredVehicles.map((vehicle) => (
+                <VehicleCard key={vehicle.id} vehicle={vehicle} />
+              ))}
+            </div>
+
+            <div className="mt-8 text-center md:hidden">
+              <Link to="/catalogue" className="inline-flex items-center gap-2 bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 hover:bg-[#FFD100] hover:text-black transition-colors">
+                Voir tout le catalogue <ArrowRight size={18} />
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Brands Section */}
+      <section ref={brandsRef} className="py-16 bg-[#0A0A0A]">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <div className="text-center mb-10">
+            <p className="text-white/60 uppercase tracking-widest text-sm">Nos marques disponibles</p>
+          </div>
+          <div className={`flex flex-wrap justify-center items-center gap-8 md:gap-16 ${brandsVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
+            {['AUDI', 'BMW', 'MERCEDES', 'VOLKSWAGEN', 'PEUGEOT', 'RENAULT', 'FIAT', 'KIA'].map((brand, index) => (
+              <span key={brand} className="text-white/40 hover:text-[#FFD100] transition-colors text-xl font-bold tracking-wider" style={{fontFamily: 'Oswald, sans-serif', animationDelay: `${index * 0.1}s`}}>
+                {brand}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="py-24 bg-[#0A0A0A]" data-testid="cta-section">
+      <section className="py-24 bg-[#FFD100]" data-testid="cta-section">
         <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mb-8 text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
-            Prêt à trouver votre <span className="text-[#FFD100]">véhicule</span> ?
+          <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mb-8 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+            Prêt à trouver votre véhicule ?
           </h2>
-          <p className="text-white/60 max-w-2xl mx-auto mb-10 text-lg">
+          <p className="text-[#0A0A0A]/70 max-w-2xl mx-auto mb-10 text-lg">
             Parcourez notre catalogue de {vehicleCount} véhicules disponibles. 
             Essai et livraison possibles.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/catalogue" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-white transition-colors">
+            <Link to="/catalogue" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-white hover:text-black transition-all hover:scale-105">
               Voir le Catalogue
               <ArrowRight size={18} />
             </Link>
-            <a href="tel:+33600000000" className="border-2 border-white text-white font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-white hover:text-black transition-colors">
+            <a href="tel:+33600000000" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#0A0A0A] hover:text-white transition-colors">
               <Phone size={18} />
               Appeler
             </a>
