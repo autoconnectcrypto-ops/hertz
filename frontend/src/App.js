@@ -338,29 +338,29 @@ const Home = () => {
             <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.1s'}}>
               <div className="process-step-number">1</div>
               <Car className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
-              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Choisissez</h3>
-              <p className="text-[#666666] text-sm">Parcourez notre catalogue et sélectionnez le véhicule qui vous correspond.</p>
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Sélectionnez</h3>
+              <p className="text-[#666666] text-sm">Parcourez notre catalogue et sélectionnez les véhicules qui vous correspondent.</p>
             </div>
 
             <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.2s'}}>
               <div className="process-step-number">2</div>
               <Phone className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
               <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Contactez</h3>
-              <p className="text-[#666666] text-sm">Appelez-nous ou envoyez un message pour organiser une visite.</p>
+              <p className="text-[#666666] text-sm">Appelez nos commerciaux ou envoyez un email.</p>
             </div>
 
             <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.3s'}}>
               <div className="process-step-number">3</div>
-              <Key className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
-              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Essayez</h3>
-              <p className="text-[#666666] text-sm">Venez essayer le véhicule et vérifiez qu'il répond à vos attentes.</p>
+              <FileText className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Commandez</h3>
+              <p className="text-[#666666] text-sm">Édition du bon de commande et paiement.</p>
             </div>
 
             <div className={`process-step ${processVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{animationDelay: '0.4s'}}>
               <div className="process-step-number">4</div>
               <Truck className="mx-auto mb-4 text-[#0A0A0A]" size={32} />
-              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Repartez</h3>
-              <p className="text-[#666666] text-sm">Finalisez l'achat et repartez avec votre nouveau véhicule.</p>
+              <h3 className="text-lg font-bold uppercase mb-3 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>Livraison</h3>
+              <p className="text-[#666666] text-sm">Livraison des véhicules via transporteur.</p>
             </div>
           </div>
         </div>
