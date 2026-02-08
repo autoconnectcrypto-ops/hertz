@@ -173,7 +173,7 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute right-0 top-0 w-full lg:w-3/5 h-full">
             <img 
-              src="https://images.unsplash.com/photo-1762195340046-415140d8b1b2?auto=format&fit=crop&w=1920&q=80"
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1920&q=80"
               alt="Showroom automobile"
               className="w-full h-full object-cover object-center"
             />
