@@ -398,14 +398,14 @@ const Home = () => {
       )}
 
       {/* Brands Section */}
-      <section ref={brandsRef} className="py-16 bg-[#0A0A0A]">
+      <section ref={brandsRef} className="py-16 bg-[#F5F5F5] border-y border-[#E5E5E5]">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="text-center mb-10">
-            <p className="text-white/60 uppercase tracking-widest text-sm">Nos marques disponibles</p>
+            <p className="text-[#666] uppercase tracking-widest text-sm">Nos marques disponibles</p>
           </div>
           <div className={`flex flex-wrap justify-center items-center gap-8 md:gap-16 ${brandsVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             {['AUDI', 'BMW', 'MERCEDES', 'VOLKSWAGEN', 'PEUGEOT', 'RENAULT', 'FIAT', 'KIA'].map((brand, index) => (
-              <span key={brand} className="text-white/40 hover:text-[#FFD100] transition-colors text-xl font-bold tracking-wider" style={{fontFamily: 'Oswald, sans-serif', animationDelay: `${index * 0.1}s`}}>
+              <span key={brand} className="text-[#999] hover:text-[#0A0A0A] transition-colors text-xl font-bold tracking-wider" style={{fontFamily: 'Oswald, sans-serif', animationDelay: `${index * 0.1}s`}}>
                 {brand}
               </span>
             ))}
