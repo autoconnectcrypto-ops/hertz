@@ -489,66 +489,38 @@ const VehicleDetail = () => {
 
           {/* Info Panel */}
           <div className="space-y-6">
+            {/* Title */}
             <div>
-              {vehicle.reference && (
-                <span className="text-[#999] text-sm font-bold uppercase tracking-wider">
-                  {vehicle.reference}
-                </span>
-              )}
-              <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight mt-2 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
-                {vehicle.marque} <span className="text-[#666]">{vehicle.modele}</span>
+              <h1 className="text-3xl md:text-4xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+                {vehicle.marque} {vehicle.specs?.modele_court || vehicle.modele?.split(' ')[0]}
               </h1>
-              <div className="flex items-center gap-3 mt-4 text-[#666]">
-                <span>{vehicle.annee}</span>
-                <span className="w-1 h-1 bg-[#CCC] rounded-full"></span>
-                <span>{vehicle.km?.toLocaleString('fr-FR')} km</span>
-                <span className="w-1 h-1 bg-[#CCC] rounded-full"></span>
-                <span>{vehicle.couleur}</span>
-              </div>
+              <p className="text-[#666] text-sm mt-1">{vehicle.modele}</p>
+            </div>
+
+            {/* Info List */}
+            <div className="space-y-3 text-[#0A0A0A]">
+              <p><span className="font-semibold">Localisation:</span> Paris</p>
+              <p><span className="font-semibold">Première immatriculation:</span> {vehicle.specs?.date_immat || '-'}</p>
+              <p><span className="font-semibold">Kilométrage:</span> {vehicle.km?.toLocaleString('fr-FR')} km</p>
+              <p><span className="font-semibold">Numéro d'offre:</span> {vehicle.reference}</p>
+              <p><span className="font-semibold">Carburant:</span> {vehicle.specs?.carburant}</p>
+              <p><span className="font-semibold">Puissance:</span> {vehicle.specs?.puissance}</p>
+              <p><span className="font-semibold">Transmission:</span> {vehicle.specs?.boite}</p>
             </div>
 
             {/* Price Box */}
-            <div className="bg-[#FFD100] p-8">
-              <div className="flex items-end gap-4">
-                <span className="text-5xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>{vehicle.prix?.toLocaleString('fr-FR')} €</span>
-                {vehicle.prix_original && (
-                  <span className="text-xl text-black/50 line-through">{vehicle.prix_original.toLocaleString('fr-FR')} €</span>
-                )}
+            <div className="pt-6">
+              <div className="text-2xl text-[#0A0A0A] line-through">
+                {vehicle.prix?.toLocaleString('fr-FR')} € TTC
               </div>
-              {discount > 0 && (
-                <p className="text-black/80 font-bold mt-3">
-                  Économisez {(vehicle.prix_original - vehicle.prix).toLocaleString('fr-FR')} € (-{discount}%)
-                </p>
-              )}
-            </div>
-
-            {/* Description */}
-            {vehicle.description && (
-              <p className="text-[#666] leading-relaxed">{vehicle.description}</p>
-            )}
-
-            {/* Quick specs */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white p-4 border border-[#E5E5E5]">
-                <span className="text-[#999] text-sm">Carburant</span>
-                <p className="text-[#0A0A0A] font-semibold">{vehicle.specs?.carburant}</p>
-              </div>
-              <div className="bg-white p-4 border border-[#E5E5E5]">
-                <span className="text-[#999] text-sm">Boîte</span>
-                <p className="text-[#0A0A0A] font-semibold">{vehicle.specs?.boite}</p>
-              </div>
-              <div className="bg-white p-4 border border-[#E5E5E5]">
-                <span className="text-[#999] text-sm">Puissance</span>
-                <p className="text-[#0A0A0A] font-semibold">{vehicle.specs?.puissance}</p>
-              </div>
-              <div className="bg-white p-4 border border-[#E5E5E5]">
-                <span className="text-[#999] text-sm">Puissance fiscale</span>
-                <p className="text-[#0A0A0A] font-semibold">{vehicle.specs?.puissance_fiscale}</p>
+              <p className="text-[#0A0A0A] font-semibold my-2">20% de réduction</p>
+              <div className="text-4xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100] inline-block pb-1" style={{fontFamily: 'Oswald, sans-serif'}}>
+                {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} € TTC
               </div>
             </div>
 
             {/* CTA */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a href="tel:+33600000000" className="btn-primary flex-1 text-center">
                 <Phone size={18} className="inline mr-2" />
                 Appeler
