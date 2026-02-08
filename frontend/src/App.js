@@ -474,7 +474,7 @@ const VehicleDetail = () => {
 
             {vehicle.images.length > 1 && (
               <div className="grid grid-cols-5 gap-2">
-                {vehicle.images.slice(0, 10).map((img, index) => (
+                {vehicle.images.map((img, index) => (
                   <button
                     key={index}
                     onClick={() => setActiveImage(index)}
