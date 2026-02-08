@@ -990,7 +990,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#0A0A0A] mb-1">Téléphone</h4>
-                      <a href="tel:+33600000000" className="text-[#666] hover:text-[#0A0A0A]">+33 6 00 00 00 00</a>
+                      <a href="tel:+33000000000" className="text-[#666] hover:text-[#0A0A0A]">00 00 00 00</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
