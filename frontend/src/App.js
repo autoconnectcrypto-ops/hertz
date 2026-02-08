@@ -1008,7 +1008,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#0A0A0A] mb-1">Adresse</h4>
-                      <p className="text-[#666]">123 Rue de la Vente<br />75000 Paris, France</p>
+                      <p className="text-[#666]">Bâtiment A1, Immeuble Diagonale Sud<br />6 Avenue Gustave Eiffel<br />78180 Montigny-le-Bretonneux</p>
                     </div>
                   </div>
                 </div>
