@@ -894,7 +894,7 @@ const Contact = () => {
 // Main App
 function App() {
   return (
-    <div className="min-h-screen bg-[#0A0A0A]">
+    <div className="min-h-screen bg-[#F5F5F5]">
       <BrowserRouter>
         <Header />
         <main>
