@@ -37,6 +37,15 @@ class VehicleSpecs(BaseModel):
     cylindree: str = ""
     portes: int = 5
     categorie: str = ""
+    vin: str = ""
+    date_immat: str = ""
+    sieges: str = ""
+    couleur_interieur: str = ""
+    proprietaires: str = ""
+    type_vehicule: str = "Voitures d'occasion"
+    modele_court: str = ""
+    disponibilite: str = "Immédiatement"
+    pays_origine: str = "France"
 
 class VehicleHistory(BaseModel):
     date: str
