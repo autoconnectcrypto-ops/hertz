@@ -111,6 +111,7 @@ const Footer = () => (
           <div className="space-y-3 text-white/60">
             <Link to="/" className="block hover:text-[#FFD100] transition-colors">Accueil</Link>
             <Link to="/catalogue" className="block hover:text-[#FFD100] transition-colors">Catalogue</Link>
+            <Link to="/qui-sommes-nous" className="block hover:text-[#FFD100] transition-colors">Qui sommes-nous</Link>
             <Link to="/contact" className="block hover:text-[#FFD100] transition-colors">Contact</Link>
             <Link to="/faq" className="block hover:text-[#FFD100] transition-colors">FAQ</Link>
           </div>
