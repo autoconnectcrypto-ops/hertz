@@ -463,7 +463,7 @@ const VehicleDetail = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Gallery */}
           <div className="space-y-4">
-            <div className="relative aspect-[16/10] bg-white border border-[#E5E5E5]">
+            <div className="relative aspect-[16/10] bg-[#1A1A1A] border border-[#333]">
               {discount > 0 && (
                 <span className="badge-discount absolute top-4 left-4 z-10">-{discount}%</span>
               )}
@@ -497,7 +497,7 @@ const VehicleDetail = () => {
                   <button
                     key={index}
                     onClick={() => setActiveImage(index)}
-                    className={`gallery-thumb aspect-square border-2 ${index === activeImage ? 'border-[#FFD100] opacity-100' : 'border-transparent opacity-60 hover:opacity-100'}`}
+                    className={`gallery-thumb aspect-square border-2 ${index === activeImage ? 'border-[#FFD100] opacity-100' : 'border-[#333] opacity-60 hover:opacity-100'}`}
                   >
                     <img src={img.url} alt={`Photo ${index + 1}`} className="w-full h-full object-cover" />
                   </button>
@@ -509,11 +509,11 @@ const VehicleDetail = () => {
           {/* Info Panel */}
           <div className="space-y-6">
             {/* Title Card */}
-            <div className="bg-white border border-[#E5E5E5] p-6 shadow-sm">
-              <h1 className="text-3xl md:text-4xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+            <div className="bg-[#1A1A1A] border border-[#333] p-6">
+              <h1 className="text-3xl md:text-4xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
                 {vehicle.marque} {vehicle.specs?.modele_court || vehicle.modele?.split(' ')[0]}
               </h1>
-              <p className="text-[#666] text-sm mt-2">{vehicle.modele}</p>
+              <p className="text-white/60 text-sm mt-2">{vehicle.modele}</p>
               <div className="flex items-center gap-2 mt-3">
                 <span className="bg-[#FFD100] text-black text-xs font-bold px-3 py-1 uppercase">Première main</span>
                 <span className="bg-[#FFD100] text-[#0A0A0A] text-xs font-bold px-3 py-1 uppercase">-20%</span>
@@ -521,33 +521,33 @@ const VehicleDetail = () => {
             </div>
 
             {/* Info Card */}
-            <div className="bg-white border border-[#E5E5E5] shadow-sm">
-              <div className="bg-[#F8F8F8] px-6 py-3 border-b border-[#E5E5E5]">
-                <h3 className="font-bold text-[#0A0A0A] uppercase text-sm tracking-wider">Informations</h3>
+            <div className="bg-[#1A1A1A] border border-[#333]">
+              <div className="bg-[#252525] px-6 py-3 border-b border-[#333]">
+                <h3 className="font-bold text-white uppercase text-sm tracking-wider">Informations</h3>
               </div>
-              <div className="divide-y divide-[#E5E5E5]">
+              <div className="divide-y divide-[#333]">
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">Localisation</span>
-                  <span className="text-[#0A0A0A] font-semibold">Paris</span>
+                  <span className="text-white/60 text-sm">Localisation</span>
+                  <span className="text-white font-semibold">Paris</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">1ère immatriculation</span>
-                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.date_immat || '-'}</span>
+                  <span className="text-white/60 text-sm">1ère immatriculation</span>
+                  <span className="text-white font-semibold">{vehicle.specs?.date_immat || '-'}</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">Kilométrage</span>
-                  <span className="text-[#0A0A0A] font-semibold">{vehicle.km?.toLocaleString('fr-FR')} km</span>
+                  <span className="text-white/60 text-sm">Kilométrage</span>
+                  <span className="text-white font-semibold">{vehicle.km?.toLocaleString('fr-FR')} km</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">Numéro d'offre</span>
-                  <span className="text-[#0A0A0A] font-semibold">{vehicle.reference}</span>
+                  <span className="text-white/60 text-sm">Numéro d'offre</span>
+                  <span className="text-white font-semibold">{vehicle.reference}</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">Carburant</span>
-                  <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.carburant}</span>
+                  <span className="text-white/60 text-sm">Carburant</span>
+                  <span className="text-white font-semibold">{vehicle.specs?.carburant}</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
-                  <span className="text-[#666] text-sm">Puissance</span>
+                  <span className="text-white/60 text-sm">Puissance</span>
                   <span className="text-[#0A0A0A] font-semibold">{vehicle.specs?.puissance}</span>
                 </div>
                 <div className="px-6 py-3 flex justify-between items-center">
