@@ -187,7 +187,7 @@ async def create_contact(contact_data: ContactMessageCreate):
             <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
                 <tr>
                     <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold; width: 150px;">Nom</td>
-                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.name}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.nom}</td>
                 </tr>
                 <tr>
                     <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Email</td>
@@ -195,7 +195,7 @@ async def create_contact(contact_data: ContactMessageCreate):
                 </tr>
                 <tr>
                     <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Téléphone</td>
-                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.phone or 'Non renseigné'}</td>
+                    <td style="padding: 10px; border-bottom: 1px solid #eee;">{contact.telephone or 'Non renseigné'}</td>
                 </tr>
                 <tr>
                     <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: bold;">Message</td>
@@ -212,13 +212,13 @@ async def create_contact(contact_data: ContactMessageCreate):
         params = {
             "from": "HERTZ PRO <onboarding@resend.dev>",
             "to": ["contact@hertz-pro.fr"],
-            "subject": f"Nouveau contact: {contact.name}",
+            "subject": f"Nouveau contact: {contact.nom}",
             "html": html_content,
             "reply_to": contact.email
         }
         
         await asyncio.to_thread(resend.Emails.send, params)
-        logging.info(f"Email sent for contact: {contact.name}")
+        logging.info(f"Email sent for contact: {contact.nom}")
     except Exception as e:
         logging.error(f"Failed to send email: {str(e)}")
         # Don't raise exception - still save contact even if email fails
