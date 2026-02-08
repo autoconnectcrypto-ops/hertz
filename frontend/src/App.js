@@ -192,20 +192,28 @@ const Home = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-24 w-full">
           <div className="max-w-2xl">
             <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-8 animate-fade-in-up animate-pulse-slow">
-              Véhicules de Flotte Premium
+              Réservé aux Professionnels
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-[#0A0A0A] animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
               Hertz Pro<br />
-              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">Jusqu'à -20%</span>
+              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">-20% sur tous nos véhicules</span>
             </h1>
             
-            <p className="text-lg text-[#555] mb-6 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Accédez à une sélection de véhicules issus de la flotte Hertz Pro, <strong className="text-[#0A0A0A]">récents et rigoureusement entretenus</strong>.
+            <p className="text-lg text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              <strong className="text-[#0A0A0A]">Destockage de notre flotte réservé exclusivement aux professionnels.</strong>
             </p>
             
+            <p className="text-lg text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              Bénéficiez de véhicules issus de la flotte Hertz, récents et rigoureusement entretenus en concession officielle. Historique d'entretien complet, contrôle technique à jour et garantie 12 mois incluse.
+            </p>
+
+            <p className="text-lg text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+              <strong className="text-[#0A0A0A]">Berlines, SUV, utilitaires</strong> : une gamme variée adaptée aux besoins des professionnels, avec des prix jusqu'à 20% en dessous du marché.
+            </p>
+
             <p className="text-lg text-[#555] mb-8 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
-              <strong className="text-[#0A0A0A]">Berlines, SUV, utilitaires</strong> : une gamme adaptée aux besoins des professionnels, alliant fiabilité et disponibilité immédiate.
+              Simplifiez vos achats de flotte avec un interlocuteur unique, des démarches administratives facilitées et une livraison possible partout en France.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-300">
