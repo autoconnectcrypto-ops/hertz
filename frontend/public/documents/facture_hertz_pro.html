@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture HERTZ PRO</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 11px;
+            color: #333;
+            background: #fff;
+            line-height: 1.4;
+        }
+        
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 15mm 20mm;
+            margin: 0 auto;
+            background: #fff;
+            position: relative;
+        }
+        
+        /* Watermark background */
+        .page::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 300px;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="50" y="55" font-family="Oswald" font-size="12" font-weight="bold" fill="%23FFD100" text-anchor="middle" opacity="0.08">HERTZ PRO</text></svg>') no-repeat center;
+            background-size: contain;
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #FFD100;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .logo-hertz {
+            font-family: 'Oswald', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #FFD100;
+            letter-spacing: -1px;
+        }
+        
+        .logo-pro {
+            font-family: 'Oswald', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #0A0A0A;
+            letter-spacing: -1px;
+        }
+        
+        .company-info {
+            text-align: right;
+            font-size: 10px;
+            color: #555;
+        }
+        
+        .company-info strong {
+            font-size: 12px;
+            color: #0A0A0A;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        /* Invoice Title */
+        .invoice-title {
+            text-align: center;
+            margin: 25px 0;
+        }
+        
+        .invoice-title h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: #0A0A0A;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .invoice-number {
+            display: inline-block;
+            background: #FFD100;
+            color: #0A0A0A;
+            padding: 5px 20px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        
+        /* Info Sections */
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+        
+        .info-box {
+            width: 48%;
+        }
+        
+        .info-box-header {
+            background: #0A0A0A;
+            color: #fff;
+            padding: 8px 15px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .info-box-content {
+            border: 1px solid #ddd;
+            border-top: none;
+            padding: 15px;
+            min-height: 80px;
+        }
+        
+        .info-box-content p {
+            margin-bottom: 3px;
+        }
+        
+        .info-box-content .client-name {
+            font-weight: 700;
+            font-size: 13px;
+            color: #0A0A0A;
+            margin-bottom: 8px;
+        }
+        
+        /* Invoice Details Box */
+        .invoice-details {
+            background: #f9f9f9;
+            border-left: 4px solid #FFD100;
+            padding: 15px;
+        }
+        
+        .invoice-details table {
+            width: 100%;
+        }
+        
+        .invoice-details td {
+            padding: 3px 0;
+        }
+        
+        .invoice-details td:first-child {
+            color: #666;
+            width: 120px;
+        }
+        
+        .invoice-details td:last-child {
+            font-weight: 600;
+            color: #0A0A0A;
+        }
+        
+        /* Items Table */
+        .items-section {
+            margin: 25px 0;
+        }
+        
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .items-table thead {
+            background: #0A0A0A;
+            color: #fff;
+        }
+        
+        .items-table th {
+            padding: 12px 15px;
+            text-align: left;
+            font-family: 'Oswald', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .items-table th:last-child,
+        .items-table th:nth-child(3),
+        .items-table th:nth-child(4) {
+            text-align: right;
+        }
+        
+        .items-table tbody tr {
+            border-bottom: 1px solid #eee;
+        }
+        
+        .items-table tbody tr:hover {
+            background: #fafafa;
+        }
+        
+        .items-table td {
+            padding: 15px;
+            vertical-align: top;
+        }
+        
+        .items-table td:last-child,
+        .items-table td:nth-child(3),
+        .items-table td:nth-child(4) {
+            text-align: right;
+        }
+        
+        .item-name {
+            font-weight: 700;
+            color: #0A0A0A;
+            font-size: 12px;
+        }
+        
+        .item-vin {
+            font-size: 10px;
+            color: #888;
+            margin-top: 3px;
+        }
+        
+        .item-warranty {
+            font-size: 10px;
+            color: #10B981;
+            margin-top: 3px;
+        }
+        
+        /* Totals */
+        .totals-section {
+            display: flex;
+            justify-content: flex-end;
+            margin: 20px 0;
+        }
+        
+        .totals-box {
+            width: 280px;
+        }
+        
+        .totals-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .totals-row.total-ttc {
+            background: #FFD100;
+            border: none;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        
+        .totals-row span:first-child {
+            color: #666;
+        }
+        
+        .totals-row span:last-child {
+            font-weight: 600;
+            color: #0A0A0A;
+        }
+        
+        .totals-row.total-ttc span {
+            color: #0A0A0A;
+        }
+        
+        /* Bank Info */
+        .bank-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        
+        .bank-section h3 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 14px;
+            color: #0A0A0A;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .bank-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .bank-item {
+            text-align: center;
+        }
+        
+        .bank-item-label {
+            font-size: 9px;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        .bank-item-value {
+            font-weight: 700;
+            color: #0A0A0A;
+            font-size: 11px;
+        }
+        
+        .iban-bic {
+            display: flex;
+            gap: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .iban-bic div {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .iban-bic span:first-child {
+            color: #888;
+            font-size: 10px;
+        }
+        
+        .iban-bic span:last-child {
+            font-weight: 600;
+            color: #0A0A0A;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .thank-you {
+            text-align: center;
+            font-size: 12px;
+            color: #0A0A0A;
+            margin-bottom: 20px;
+        }
+        
+        .legal-section {
+            background: #f5f5f5;
+            padding: 15px;
+            font-size: 9px;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .legal-section h4 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 11px;
+            color: #0A0A0A;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        /* Yellow accent bar */
+        .accent-bar {
+            height: 5px;
+            background: linear-gradient(to right, #FFD100 0%, #FFD100 30%, #0A0A0A 30%, #0A0A0A 100%);
+            margin-bottom: 20px;
+        }
+        
+        /* Editable fields */
+        [contenteditable="true"] {
+            outline: none;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        [contenteditable="true"]:hover {
+            background: #fffde7;
+        }
+        
+        [contenteditable="true"]:focus {
+            background: #fffde7;
+            border-bottom: 1px solid #FFD100;
+        }
+        
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .page {
+                margin: 0;
+                padding: 10mm 15mm;
+            }
+            
+            [contenteditable="true"] {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="accent-bar"></div>
+        <div class="content">
+            <!-- Header -->
+            <div class="header">
+                <div class="logo">
+                    <span class="logo-hertz">HERTZ</span>
+                    <span class="logo-pro">PRO</span>
+                </div>
+                <div class="company-info">
+                    <strong>HERTZ FRANCE</strong>
+                    Bâtiment A1, Immeuble Diagonale Sud<br>
+                    6 Avenue Gustave Eiffel<br>
+                    78180 Montigny-le-Bretonneux<br>
+                    <br>
+                    Siret: 377 839 667 01946<br>
+                    RCS de Versailles 377 839 667<br>
+                    Tél: 09 78 46 81 67<br>
+                    Email: contact@hertz-pro.fr
+                </div>
+            </div>
+            
+            <!-- Invoice Title -->
+            <div class="invoice-title">
+                <h1>Facture</h1>
+                <div class="invoice-number">N° <span contenteditable="true">XXXXX-XXXXXX</span></div>
+            </div>
+            
+            <!-- Info Row -->
+            <div class="info-row">
+                <div class="info-box">
+                    <div class="info-box-header">Facturé à</div>
+                    <div class="info-box-content">
+                        <p class="client-name" contenteditable="true">NOM DE L'ENTREPRISE</p>
+                        <p contenteditable="true">Adresse ligne 1</p>
+                        <p contenteditable="true">Code postal - Ville</p>
+                        <p>Tél: <span contenteditable="true">09 78 46 81 67 00</span></p>
+                        <p>Email: <span contenteditable="true">email@exemple.fr</span></p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="info-box-header">Détails de la facture</div>
+                    <div class="invoice-details">
+                        <table>
+                            <tr>
+                                <td>Facture n°:</td>
+                                <td contenteditable="true">XXXXX-XXXXXX</td>
+                            </tr>
+                            <tr>
+                                <td>Date:</td>
+                                <td contenteditable="true">JJ/MM/AAAA</td>
+                            </tr>
+                            <tr>
+                                <td>Lieu:</td>
+                                <td>Montigny-le-Bretonneux</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Items Table -->
+            <div class="items-section">
+                <table class="items-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 45%;">Désignation</th>
+                            <th style="width: 10%;">Quantité</th>
+                            <th style="width: 22%;">Prix Unitaire HT</th>
+                            <th style="width: 23%;">Total HT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="item-name" contenteditable="true">MARQUE MODÈLE</div>
+                                <div class="item-vin">VIN: <span contenteditable="true">XXXXXXXXXXXXXXXXX</span></div>
+                                <div class="item-warranty">Véhicule d'occasion garanti 12 mois</div>
+                            </td>
+                            <td>1</td>
+                            <td contenteditable="true">XX XXX,XX €</td>
+                            <td contenteditable="true">XX XXX,XX €</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Totals -->
+            <div class="totals-section">
+                <div class="totals-box">
+                    <div class="totals-row">
+                        <span>Total HT</span>
+                        <span contenteditable="true">XX XXX,XX €</span>
+                    </div>
+                    <div class="totals-row">
+                        <span>TVA (20%)</span>
+                        <span contenteditable="true">X XXX,XX €</span>
+                    </div>
+                    <div class="totals-row total-ttc">
+                        <span>Total TTC</span>
+                        <span contenteditable="true">XX XXX,XX €</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bank Info -->
+            <div class="bank-section">
+                <h3>Coordonnées bancaires</h3>
+                <div class="bank-grid">
+                    <div class="bank-item">
+                        <div class="bank-item-label">Code banque</div>
+                        <div class="bank-item-value" contenteditable="true">XXXXX</div>
+                    </div>
+                    <div class="bank-item">
+                        <div class="bank-item-label">Code agence</div>
+                        <div class="bank-item-value" contenteditable="true">XXXXX</div>
+                    </div>
+                    <div class="bank-item">
+                        <div class="bank-item-label">N° de compte</div>
+                        <div class="bank-item-value" contenteditable="true">XXXXXXXXXXX</div>
+                    </div>
+                    <div class="bank-item">
+                        <div class="bank-item-label">Clé RIB</div>
+                        <div class="bank-item-value" contenteditable="true">XX</div>
+                    </div>
+                    <div class="bank-item">
+                        <div class="bank-item-label">Domiciliation</div>
+                        <div class="bank-item-value" contenteditable="true">NOM BANQUE</div>
+                    </div>
+                </div>
+                <div class="iban-bic">
+                    <div>
+                        <span>IBAN:</span>
+                        <span contenteditable="true">FRXX XXXX XXXX XXXX XXXX XXXX XXX</span>
+                    </div>
+                    <div>
+                        <span>BIC:</span>
+                        <span contenteditable="true">XXXXXXXXXXX</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="footer">
+                <p class="thank-you">Merci pour votre confiance. Cette facture tient lieu de preuve d'achat.</p>
+                
+                <div class="legal-section">
+                    <h4>Mentions légales - Vente entre professionnels</h4>
+                    <p>
+                        Vente réservée aux professionnels. Paiement exigible en intégralité avant livraison. Aucun véhicule ne sera préparé ou livré sans règlement préalable. Réservation garantie uniquement après encaissement confirmé. Livraison sous 5 à 8 jours ouvrés après paiement, sous réserve de disponibilité. Garantie HERTZ PRO 12 mois incluse. Prix exprimés hors taxes (HT) - TVA applicable selon le régime en vigueur.
+                    </p>
+                    <p style="margin-top: 8px;">
+                        Un droit de rétractation de 48 heures à compter de la réception du véhicule est accordé, uniquement en cas de défauts majeurs non conformes à la description. Toute réclamation devra être accompagnée d'un rapport écrit et de justificatifs. Passé ce délai, la vente sera considérée comme ferme et définitive. En cas de litige, seul le tribunal de commerce de Versailles est compétent. Conditions générales de vente disponibles sur demande.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

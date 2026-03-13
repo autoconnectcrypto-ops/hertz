@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon de Commande HERTZ PRO</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 10px;
+            color: #333;
+            background: #fff;
+            line-height: 1.4;
+        }
+        
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 12mm 15mm;
+            margin: 0 auto;
+            background: #fff;
+            position: relative;
+        }
+        
+        /* Watermark */
+        .page::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="50" y="55" font-family="Oswald" font-size="10" font-weight="bold" fill="%23FFD100" text-anchor="middle" opacity="0.06">HERTZ PRO</text></svg>') no-repeat center;
+            background-size: contain;
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #FFD100;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .logo-hertz {
+            font-family: 'Oswald', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #FFD100;
+            letter-spacing: -1px;
+        }
+        
+        .logo-pro {
+            font-family: 'Oswald', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #0A0A0A;
+            letter-spacing: -1px;
+        }
+        
+        .company-info {
+            text-align: right;
+            font-size: 9px;
+            color: #555;
+        }
+        
+        .company-info strong {
+            font-size: 11px;
+            color: #0A0A0A;
+            display: block;
+            margin-bottom: 4px;
+        }
+        
+        /* Title */
+        .document-title {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: linear-gradient(135deg, #0A0A0A 0%, #333 100%);
+        }
+        
+        .document-title h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .order-info {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            padding: 10px 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #FFD100;
+        }
+        
+        .order-info div {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .order-info span:first-child {
+            color: #888;
+        }
+        
+        .order-info span:last-child {
+            font-weight: 700;
+            color: #0A0A0A;
+        }
+        
+        /* Sections */
+        .section {
+            margin: 15px 0;
+        }
+        
+        .section-header {
+            background: #0A0A0A;
+            color: #fff;
+            padding: 8px 15px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-header::before {
+            content: '';
+            width: 4px;
+            height: 14px;
+            background: #FFD100;
+        }
+        
+        .section-content {
+            border: 1px solid #ddd;
+            border-top: none;
+            padding: 15px;
+        }
+        
+        /* Client Section */
+        .client-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .client-col h4 {
+            font-size: 9px;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        
+        .client-col p {
+            margin-bottom: 4px;
+        }
+        
+        .client-col .name {
+            font-weight: 700;
+            font-size: 12px;
+            color: #0A0A0A;
+            margin-bottom: 8px;
+        }
+        
+        /* Vehicle Section */
+        .vehicle-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 30px;
+        }
+        
+        .vehicle-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px dotted #ddd;
+        }
+        
+        .vehicle-item:last-child {
+            border-bottom: none;
+        }
+        
+        .vehicle-item span:first-child {
+            color: #666;
+            font-size: 9px;
+        }
+        
+        .vehicle-item span:last-child {
+            font-weight: 600;
+            color: #0A0A0A;
+        }
+        
+        .vehicle-highlight {
+            background: #fffde7;
+            padding: 8px 12px;
+            margin-top: 10px;
+            border-left: 3px solid #FFD100;
+        }
+        
+        .vehicle-highlight .vehicle-item {
+            border-bottom: none;
+        }
+        
+        /* Price Section */
+        .price-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .price-col .price-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .price-col .price-item:last-child {
+            border-bottom: none;
+        }
+        
+        .price-col .price-item span:first-child {
+            color: #666;
+        }
+        
+        .price-col .price-item span:last-child {
+            font-weight: 600;
+            color: #0A0A0A;
+        }
+        
+        .price-total {
+            background: #FFD100;
+            padding: 12px 15px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        
+        .price-total span {
+            font-weight: 700;
+            font-size: 14px;
+            color: #0A0A0A;
+        }
+        
+        /* Payment Section */
+        .payment-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 30px;
+        }
+        
+        .payment-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px dotted #ddd;
+        }
+        
+        .payment-item span:first-child {
+            color: #666;
+        }
+        
+        .payment-item span:last-child {
+            font-weight: 600;
+            color: #0A0A0A;
+        }
+        
+        /* Signatures */
+        .signatures-section {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 2px solid #eee;
+        }
+        
+        .signature-notice {
+            text-align: center;
+            font-size: 9px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        
+        .signatures-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        
+        .signature-box {
+            text-align: center;
+        }
+        
+        .signature-box h4 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 11px;
+            color: #0A0A0A;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .signature-box .seller-info {
+            font-size: 9px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .signature-space {
+            height: 60px;
+            border: 1px dashed #ccc;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 9px;
+        }
+        
+        /* Yellow accent bar */
+        .accent-bar {
+            height: 4px;
+            background: linear-gradient(to right, #FFD100 0%, #FFD100 30%, #0A0A0A 30%, #0A0A0A 100%);
+            margin-bottom: 15px;
+        }
+        
+        /* Editable fields */
+        [contenteditable="true"] {
+            outline: none;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        [contenteditable="true"]:hover {
+            background: #fffde7;
+        }
+        
+        [contenteditable="true"]:focus {
+            background: #fffde7;
+            border-bottom: 1px solid #FFD100;
+        }
+        
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .page {
+                margin: 0;
+                padding: 8mm 12mm;
+            }
+            
+            [contenteditable="true"] {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="accent-bar"></div>
+        <div class="content">
+            <!-- Header -->
+            <div class="header">
+                <div class="logo">
+                    <span class="logo-hertz">HERTZ</span>
+                    <span class="logo-pro">PRO</span>
+                </div>
+                <div class="company-info">
+                    <strong>HERTZ FRANCE</strong>
+                    Bâtiment A1, Immeuble Diagonale Sud<br>
+                    6 Avenue Gustave Eiffel<br>
+                    78180 Montigny-le-Bretonneux<br>
+                    Siret: 377 839 667 01946<br>
+                    RCS de Versailles 377 839 667<br>
+                    Tél: 09 78 46 81 67<br>
+                    Email: contact@hertz-pro.fr
+                </div>
+            </div>
+            
+            <!-- Title -->
+            <div class="document-title">
+                <h1>Bon de Commande d'un Véhicule d'Occasion</h1>
+            </div>
+            
+            <!-- Order Info -->
+            <div class="order-info">
+                <div>
+                    <span>N° de commande:</span>
+                    <span contenteditable="true">XX-XXXXXXX</span>
+                </div>
+                <div>
+                    <span>Fait à Montigny-le-Bretonneux le</span>
+                    <span contenteditable="true">JJ/MM/AAAA</span>
+                </div>
+            </div>
+            
+            <!-- Client Section -->
+            <div class="section">
+                <div class="section-header">Client</div>
+                <div class="section-content">
+                    <div class="client-grid">
+                        <div class="client-col">
+                            <h4>Coordonnées</h4>
+                            <p class="name" contenteditable="true">NOM, PRÉNOM</p>
+                            <p contenteditable="true">Adresse complète</p>
+                            <p contenteditable="true">Code postal - Ville</p>
+                        </div>
+                        <div class="client-col">
+                            <h4>Informations entreprise</h4>
+                            <p><strong>Raison sociale:</strong> <span contenteditable="true">NOM ENTREPRISE</span></p>
+                            <p><strong>Siret:</strong> <span contenteditable="true">XXXXXXXXXXXXXX</span></p>
+                            <p><strong>Email:</strong> <span contenteditable="true">email@exemple.fr</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Vehicle Section -->
+            <div class="section">
+                <div class="section-header">Véhicule Commandé</div>
+                <div class="section-content">
+                    <div class="vehicle-grid">
+                        <div class="vehicle-item">
+                            <span>Marque - Modèle:</span>
+                            <span contenteditable="true">MARQUE MODÈLE</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Numéro d'offre:</span>
+                            <span contenteditable="true">XXXXXXXX</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>VIN:</span>
+                            <span contenteditable="true">XXXXXXXXXXXXXXXXX</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>1ère mise en circulation:</span>
+                            <span contenteditable="true">JJ/MM/AAAA</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Kilométrage:</span>
+                            <span contenteditable="true">XXX XXX km</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Énergie:</span>
+                            <span contenteditable="true">Essence / Diesel / Hybride</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Puissance fiscale:</span>
+                            <span contenteditable="true">X CV</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Cylindrée:</span>
+                            <span contenteditable="true">XXXX cm³</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Couleur:</span>
+                            <span contenteditable="true">Couleur</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Genre:</span>
+                            <span contenteditable="true">Berline / SUV / etc.</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Nombre de propriétaires:</span>
+                            <span contenteditable="true">1</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <span>Provenance:</span>
+                            <span>Flotte Hertz</span>
+                        </div>
+                    </div>
+                    <div class="vehicle-highlight">
+                        <div class="vehicle-item">
+                            <span>Garantie:</span>
+                            <span style="color: #10B981;">HERTZ PRO 12 mois</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Price Section -->
+            <div class="section">
+                <div class="section-header">Prix</div>
+                <div class="section-content">
+                    <div class="price-grid">
+                        <div class="price-col">
+                            <div class="price-item">
+                                <span>Prix du véhicule H.T.:</span>
+                                <span contenteditable="true">XX XXX,XX €</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Montant T.V.A. (20%):</span>
+                                <span contenteditable="true">X XXX,XX €</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Prix du véhicule T.T.C.:</span>
+                                <span contenteditable="true">XX XXX,XX €</span>
+                            </div>
+                        </div>
+                        <div class="price-col">
+                            <div class="price-total">
+                                <span>TOTAL TTC:</span>
+                                <span contenteditable="true">XX XXX,XX €</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Payment Section -->
+            <div class="section">
+                <div class="section-header">Règlement et Livraison</div>
+                <div class="section-content">
+                    <div class="payment-grid">
+                        <div class="payment-item">
+                            <span>Total à verser:</span>
+                            <span contenteditable="true">XX XXX,XX €</span>
+                        </div>
+                        <div class="payment-item">
+                            <span>Mode de paiement:</span>
+                            <span contenteditable="true">Virement bancaire</span>
+                        </div>
+                        <div class="payment-item">
+                            <span>Date prévue de livraison:</span>
+                            <span contenteditable="true">JJ/MM/AAAA</span>
+                        </div>
+                        <div class="payment-item">
+                            <span>Lieu de livraison:</span>
+                            <span contenteditable="true">Adresse de livraison</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Signatures -->
+            <div class="signatures-section">
+                <div class="signature-notice">
+                    Signature de l'acheteur précédée de la mention manuscrite<br>
+                    <strong>"Lu et approuvé. Bon pour commande et pour paiement en Euros"</strong>
+                </div>
+                
+                <div class="signatures-grid">
+                    <div class="signature-box">
+                        <h4>Le Vendeur</h4>
+                        <div class="seller-info">
+                            <span contenteditable="true">Nom du commercial</span><br>
+                            Commercial HERTZ PRO<br>
+                            contact@hertz-pro.fr<br>
+                            Tél: 09 78 46 81 67
+                        </div>
+                        <div class="signature-space">Signature</div>
+                    </div>
+                    <div class="signature-box">
+                        <h4>L'Acheteur</h4>
+                        <div class="signature-space">Signature + Mention manuscrite</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
