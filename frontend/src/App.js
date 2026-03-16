@@ -1436,7 +1436,7 @@ const AdminDocuments = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Mot de passe admin
-    if (password === 'HertzPro2024!') {
+    if (password === 'Capone77@') {
       setIsAuthenticated(true);
       setError('');
     } else {
