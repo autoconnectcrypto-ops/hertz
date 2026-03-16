@@ -1563,7 +1563,7 @@ function App() {
             <Route path="/cgv" element={<CGV />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/mentions-legales" element={<MentionsLegales />} />
-            <Route path="/documents-hertz-pro" element={<Documents />} />
+            <Route path="/documents-hertz-pro" element={<AdminDocuments />} />
           </Routes>
         </main>
         <Footer />
