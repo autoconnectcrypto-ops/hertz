@@ -458,15 +458,23 @@ const VehicleCard = ({ vehicle }) => {
 
   return (
     <Link to={`/vehicule/${vehicle.id}`} className="block group" data-testid={`vehicle-card-${vehicle.id}`}>
-      <div className="vehicle-card">
+      <div className={`vehicle-card ${vehicle.vendu ? 'opacity-75' : ''}`}>
         <div className="relative image-zoom aspect-[16/10]">
-          {discount > 0 && (
+          {/* Badge VENDU */}
+          {vehicle.vendu && (
+            <div className="absolute inset-0 z-20 flex items-center justify-center">
+              <span className="bg-red-600 text-white text-2xl font-bold uppercase px-8 py-3 transform -rotate-12 shadow-lg" style={{fontFamily: 'Oswald, sans-serif'}}>
+                VENDU
+              </span>
+            </div>
+          )}
+          {discount > 0 && !vehicle.vendu && (
             <span className="badge-discount absolute top-4 left-4 z-10">-{discount}%</span>
           )}
           <img 
             src={vehicle.images[0]?.url || 'https://via.placeholder.com/400x250'} 
             alt={`${vehicle.marque} ${vehicle.modele}`}
-            className="w-full h-full object-cover"
+            className={`w-full h-full object-cover ${vehicle.vendu ? 'grayscale' : ''}`}
           />
         </div>
         <div className="p-6">
@@ -494,7 +502,7 @@ const VehicleCard = ({ vehicle }) => {
               <span className="text-lg font-semibold text-[#333] line-through opacity-70">
                 {vehicle.prix?.toLocaleString('fr-FR')} €
               </span>
-              <span className="text-xl font-bold text-[#0A0A0A] border-b-4 border-[#FFD100] pb-0.5" style={{fontFamily: 'Oswald, sans-serif'}}>
+              <span className={`text-xl font-bold border-b-4 pb-0.5 ${vehicle.vendu ? 'text-[#999] border-[#999]' : 'text-[#0A0A0A] border-[#FFD100]'}`} style={{fontFamily: 'Oswald, sans-serif'}}>
                 {Math.round(vehicle.prix * 0.8).toLocaleString('fr-FR')} €
               </span>
             </div>
