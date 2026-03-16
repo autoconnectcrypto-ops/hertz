@@ -1427,6 +1427,71 @@ const MentionsLegales = () => (
   </div>
 );
 
+// Documents Page - Facture et Bon de Commande
+const Documents = () => (
+  <div data-testid="documents-page">
+    <section className="relative py-20 bg-[#0A0A0A]">
+      <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
+          Téléchargements
+        </div>
+        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
+          Documents <span className="text-[#FFD100]">HERTZ PRO</span>
+        </h1>
+      </div>
+    </section>
+
+    <section className="py-16 bg-white">
+      <div className="max-w-4xl mx-auto px-6 md:px-12">
+        <p className="text-[#666] mb-8 text-center">
+          Cliquez sur un document pour l'ouvrir. Vous pouvez ensuite le remplir et l'imprimer en PDF (Ctrl+P → Enregistrer en PDF).
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <a 
+            href="/documents/facture_hertz_pro.html" 
+            target="_blank"
+            className="block p-8 border-2 border-[#E5E5E5] hover:border-[#FFD100] transition-colors text-center group"
+          >
+            <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+              <FileText className="text-black" size={32} />
+            </div>
+            <h3 className="text-xl font-bold uppercase mb-2 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+              Facture
+            </h3>
+            <p className="text-[#666]">Modèle de facture HERTZ PRO</p>
+          </a>
+          
+          <a 
+            href="/documents/bon_commande_hertz_pro.html" 
+            target="_blank"
+            className="block p-8 border-2 border-[#E5E5E5] hover:border-[#FFD100] transition-colors text-center group"
+          >
+            <div className="w-16 h-16 bg-[#FFD100] flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+              <FileText className="text-black" size={32} />
+            </div>
+            <h3 className="text-xl font-bold uppercase mb-2 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+              Bon de Commande
+            </h3>
+            <p className="text-[#666]">Modèle de bon de commande HERTZ PRO</p>
+          </a>
+        </div>
+
+        <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
+          <h4 className="font-bold text-[#0A0A0A] mb-2">Comment utiliser ces documents ?</h4>
+          <ol className="text-[#666] list-decimal list-inside space-y-2">
+            <li>Cliquez sur le document souhaité</li>
+            <li>Remplissez les champs en cliquant dessus</li>
+            <li>Appuyez sur <strong>Ctrl+P</strong> (ou Cmd+P sur Mac)</li>
+            <li>Sélectionnez <strong>"Enregistrer au format PDF"</strong></li>
+            <li>Décochez <strong>"En-têtes et pieds de page"</strong> pour un PDF propre</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </div>
+);
+
 // Main App
 function App() {
   return (
