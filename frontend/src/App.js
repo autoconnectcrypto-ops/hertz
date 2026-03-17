@@ -7,6 +7,22 @@ import { Phone, Mail, MapPin, Menu, X, ChevronLeft, ChevronRight, Check, Shield,
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
+// Retry wrapper for API calls
+const fetchWithRetry = async (url, retries = 3, delay = 2000) => {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await axios.get(url, { timeout: 10000 });
+      return response;
+    } catch (e) {
+      if (i < retries - 1) {
+        await new Promise(r => setTimeout(r, delay));
+      } else {
+        throw e;
+      }
+    }
+  }
+};
+
 // Scroll Animation Hook
 const useScrollAnimation = () => {
   const ref = useRef(null);
@@ -154,7 +170,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${API}/vehicles`);
+        const response = await fetchWithRetry(`${API}/vehicles`);
         setVehicleCount(response.data.length);
         setFeaturedVehicles(response.data.slice(0, 3));
       } catch (e) {
@@ -517,7 +533,7 @@ const Catalogue = () => {
   useEffect(() => {
     const fetchVehicles = async () => {
       try {
-        const response = await axios.get(`${API}/vehicles`);
+        const response = await fetchWithRetry(`${API}/vehicles`);
         setVehicles(response.data);
       } catch (e) {
         console.error(e);
@@ -584,7 +600,7 @@ const VehicleDetail = () => {
   useEffect(() => {
     const fetchVehicle = async () => {
       try {
-        const response = await axios.get(`${API}/vehicles/${id}`);
+        const response = await fetchWithRetry(`${API}/vehicles/${id}`);
         setVehicle(response.data);
         // Set default image to photo 2 (index 1) or use defaultImageIndex from DB
         setActiveImage(response.data.defaultImageIndex || 1);
