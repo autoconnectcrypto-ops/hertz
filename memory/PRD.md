@@ -69,5 +69,5 @@ Créer un site web professionnel pour "HERTZ-PRO" permettant de vendre des véhi
 - [ ] (Optionnel) Refactoriser App.js en composants séparés
 
 ## URLs
-- Preview : https://hertz-marketplace.preview.emergentagent.com
+- Preview : https://hertz-pro-preview.preview.emergentagent.com
 - Production : (à lier)

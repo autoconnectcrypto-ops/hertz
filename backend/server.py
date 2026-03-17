@@ -75,6 +75,7 @@ class Vehicle(BaseModel):
     historique: List[VehicleHistory] = []
     description: str = ""
     disponible: bool = True
+    vendu: bool = False
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
 class VehicleCreate(BaseModel):
@@ -113,7 +114,7 @@ class ContactMessageCreate(BaseModel):
 # Root endpoint
 @api_router.get("/")
 async def root():
-    return {"message": "HERTZ-PRO API - Vente de véhicules"}
+    return {"message": "Hertz API - Vente de véhicules"}
 
 # Health check endpoint (required for Kubernetes)
 @app.get("/health")
@@ -187,7 +188,7 @@ async def create_contact(contact_data: ContactMessageCreate):
         <html>
         <body style="font-family: Arial, sans-serif; padding: 20px;">
             <h2 style="color: #FFD100; border-bottom: 2px solid #FFD100; padding-bottom: 10px;">
-                Nouveau message de contact - HERTZ PRO
+                Nouveau message de contact - Hertz
             </h2>
             <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
                 <tr>
@@ -208,14 +209,14 @@ async def create_contact(contact_data: ContactMessageCreate):
                 </tr>
             </table>
             <p style="margin-top: 30px; color: #666; font-size: 12px;">
-                Ce message a été envoyé depuis le formulaire de contact du site HERTZ PRO.
+                Ce message a été envoyé depuis le formulaire de contact du site Hertz.
             </p>
         </body>
         </html>
         """
         
         params = {
-            "from": "HERTZ PRO <contact@hertz-pro.fr>",
+            "from": "Hertz <contact@hertz-pro.fr>",
             "to": ["contact@hertz-pro.fr"],
             "subject": f"Nouveau contact: {contact.nom}",
             "html": html_content,
@@ -325,6 +326,16 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+@app.on_event("startup")
+async def mark_sold_vehicles():
+    """Mark specific vehicles as sold on startup (persists across deployments)"""
+    sold_references = ["HP016276", "HP178309", "HP623279"]
+    result = await db.vehicles.update_many(
+        {"reference": {"$in": sold_references}},
+        {"$set": {"vendu": True}}
+    )
+    logger.info(f"Véhicules vendus marqués: {result.modified_count}")
 
 @app.on_event("shutdown")
 async def shutdown_db_client():

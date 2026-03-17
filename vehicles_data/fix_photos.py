@@ -11,7 +11,7 @@ from pathlib import Path
 
 BASE_DIR = Path("/app/vehicles_data/extracted/NOUVEAU DOSSIER AUTO")
 PUBLIC_DIR = Path("/app/frontend/public/vehicles")
-API_URL = "https://hertz-marketplace.preview.emergentagent.com/api"
+API_URL = "https://hertz-pro-preview.preview.emergentagent.com/api"
 
 def slugify(text):
     """Convertir le texte en slug"""

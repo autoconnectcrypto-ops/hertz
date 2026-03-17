@@ -22,13 +22,15 @@ const useScrollAnimation = () => {
       { threshold: 0.1 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    const currentRef = ref.current;
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -44,13 +46,8 @@ const Header = () => {
     <header className="bg-[#0A0A0A] sticky top-0 z-50" data-testid="header">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-2" data-testid="logo">
-            <span className="text-[#FFD100] text-2xl md:text-3xl font-bold tracking-tight" style={{fontFamily: 'Oswald, sans-serif'}}>
-              HERTZ
-            </span>
-            <span className="text-white text-2xl md:text-3xl font-bold tracking-tight" style={{fontFamily: 'Oswald, sans-serif'}}>
-              PRO
-            </span>
+          <Link to="/" className="flex items-center" data-testid="logo">
+            <span className="text-white/80 text-sm font-medium uppercase tracking-widest" style={{fontFamily: 'Oswald, sans-serif'}}>Réservé aux professionnels</span>
           </Link>
           
           {/* Desktop Nav */}
@@ -93,55 +90,54 @@ const Header = () => {
 
 // Footer Component
 const Footer = () => (
-  <footer className="bg-[#0A0A0A] text-white py-16" data-testid="footer">
+  <footer className="bg-[#F5F5F5] py-16" data-testid="footer">
     <div className="max-w-7xl mx-auto px-6 md:px-12">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
         <div className="md:col-span-2">
-          <div className="flex items-center gap-2 mb-6">
-            <span className="text-[#FFD100] text-3xl font-bold" style={{fontFamily: 'Oswald, sans-serif'}}>HERTZ</span>
-            <span className="text-white text-3xl font-bold" style={{fontFamily: 'Oswald, sans-serif'}}>PRO</span>
+          <div className="mb-6">
+            <img src="/hertz-logo.png" alt="Hertz" className="h-10" />
           </div>
-          <p className="text-white/60 leading-relaxed max-w-md">
+          <p className="text-[#666] leading-relaxed max-w-md">
             Spécialiste de la vente de véhicules d'occasion premium issus de notre flotte. 
             Qualité certifiée, historique transparent, prix compétitifs.
           </p>
         </div>
         <div>
-          <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Navigation</h4>
-          <div className="space-y-3 text-white/60">
-            <Link to="/" className="block hover:text-[#FFD100] transition-colors">Accueil</Link>
-            <Link to="/catalogue" className="block hover:text-[#FFD100] transition-colors">Catalogue</Link>
-            <Link to="/qui-sommes-nous" className="block hover:text-[#FFD100] transition-colors">Qui sommes-nous</Link>
-            <Link to="/contact" className="block hover:text-[#FFD100] transition-colors">Contact</Link>
-            <Link to="/faq" className="block hover:text-[#FFD100] transition-colors">FAQ</Link>
+          <h4 className="text-[#0A0A0A] font-semibold uppercase tracking-wider mb-6 text-sm">Navigation</h4>
+          <div className="space-y-3 text-[#666]">
+            <Link to="/" className="block hover:text-[#0A0A0A] transition-colors">Accueil</Link>
+            <Link to="/catalogue" className="block hover:text-[#0A0A0A] transition-colors">Catalogue</Link>
+            <Link to="/qui-sommes-nous" className="block hover:text-[#0A0A0A] transition-colors">Qui sommes-nous</Link>
+            <Link to="/contact" className="block hover:text-[#0A0A0A] transition-colors">Contact</Link>
+            <Link to="/faq" className="block hover:text-[#0A0A0A] transition-colors">FAQ</Link>
           </div>
         </div>
         <div>
-          <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Informations</h4>
-          <div className="space-y-3 text-white/60">
-            <Link to="/cgv" className="block hover:text-[#FFD100] transition-colors">Conditions de Vente</Link>
-            <Link to="/mentions-legales" className="block hover:text-[#FFD100] transition-colors">Mentions Légales</Link>
+          <h4 className="text-[#0A0A0A] font-semibold uppercase tracking-wider mb-6 text-sm">Informations</h4>
+          <div className="space-y-3 text-[#666]">
+            <Link to="/cgv" className="block hover:text-[#0A0A0A] transition-colors">Conditions de Vente</Link>
+            <Link to="/mentions-legales" className="block hover:text-[#0A0A0A] transition-colors">Mentions Légales</Link>
           </div>
         </div>
         <div>
-          <h4 className="text-[#FFD100] font-semibold uppercase tracking-wider mb-6 text-sm">Contact</h4>
-          <div className="space-y-4 text-white/60">
+          <h4 className="text-[#0A0A0A] font-semibold uppercase tracking-wider mb-6 text-sm">Contact</h4>
+          <div className="space-y-4 text-[#666]">
             <p className="flex items-center gap-3"><Phone size={16} className="text-[#FFD100]" /> 09 78 46 81 67</p>
             <p className="flex items-center gap-3"><Mail size={16} className="text-[#FFD100]" /> contact@hertz-pro.fr</p>
             <p className="flex items-start gap-3"><MapPin size={16} className="text-[#FFD100] mt-1 flex-shrink-0" /> 78180 Montigny-le-Bretonneux</p>
           </div>
-          <div className="mt-6 space-y-2 text-white/60 text-sm">
+          <div className="mt-6 space-y-2 text-[#999] text-sm">
             <p>Lun - Ven : 9h - 19h</p>
             <p>Samedi : 10h - 18h</p>
           </div>
         </div>
       </div>
-      <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-white/40 text-sm">
-        <p>© 2024 HERTZ-PRO. Tous droits réservés.</p>
+      <div className="border-t border-[#ddd] mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-[#999] text-sm">
+        <p>© 2024 Hertz. Tous droits réservés.</p>
         <div className="flex gap-6 mt-4 md:mt-0">
-          <Link to="/cgv" className="hover:text-[#FFD100] transition-colors">CGV</Link>
-          <Link to="/mentions-legales" className="hover:text-[#FFD100] transition-colors">Mentions légales</Link>
-          <Link to="/faq" className="hover:text-[#FFD100] transition-colors">FAQ</Link>
+          <Link to="/cgv" className="hover:text-[#0A0A0A] transition-colors">CGV</Link>
+          <Link to="/mentions-legales" className="hover:text-[#0A0A0A] transition-colors">Mentions légales</Link>
+          <Link to="/faq" className="hover:text-[#0A0A0A] transition-colors">FAQ</Link>
         </div>
       </div>
     </div>
@@ -171,7 +167,7 @@ const Home = () => {
   return (
     <div data-testid="home-page">
       {/* Hero Section - Light Theme */}
-      <section className="relative min-h-[90vh] flex items-center bg-white overflow-hidden" data-testid="hero-section">
+      <section className="relative py-20 md:py-28 bg-white overflow-hidden" data-testid="hero-section">
         {/* Background Image - Right Side */}
         <div className="absolute inset-0 z-0">
           <div className="absolute right-0 top-0 w-full lg:w-3/5 h-full">
@@ -189,18 +185,15 @@ const Home = () => {
         <div className="absolute bottom-20 right-20 w-48 h-48 bg-[#FFD100]/5 rounded-full blur-2xl hidden lg:block"></div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-24 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
           <div className="max-w-2xl">
-            <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-8 animate-fade-in-up animate-pulse-slow">
-              Réservé aux Professionnels
-            </div>
+            <img src="/hertz-logo.png" alt="Hertz" className="h-28 sm:h-36 lg:h-44 -ml-2 mb-6" />
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase tracking-tighter leading-none mb-8 text-[#0A0A0A] animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif'}}>
-              Hertz Pro<br />
-              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">-20% sur tous nos véhicules</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold uppercase tracking-tighter mb-6 text-[#0A0A0A] animate-fade-in-up animation-delay-100" style={{fontFamily: 'Oswald, sans-serif', lineHeight: '1.4'}}>
+              <span className="text-[#0A0A0A] border-b-4 border-[#FFD100]">-20% sur tous nos vehicules</span>
             </h1>
             
-            <p className="text-lg text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
+            <p className="text-xl text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
               <strong className="text-[#0A0A0A]">Destockage de notre flotte réservé exclusivement aux professionnels.</strong>
             </p>
             
@@ -548,9 +541,7 @@ const Catalogue = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
-          <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-            Flotte Hertz
-          </div>
+          <img src="/hertz-logo.png" alt="Hertz" className="h-28 sm:h-36 lg:h-44 -ml-2 mb-6" />
           <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight mb-4 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
             Notre <span className="border-b-4 border-[#FFD100]">Catalogue</span>
           </h1>
@@ -978,9 +969,7 @@ const Contact = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
-          <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-            Hertz Pro
-          </div>
+          <img src="/hertz-logo.png" alt="Hertz" className="h-28 sm:h-36 lg:h-44 -ml-2 mb-6" />
           <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
             Contactez<span className="border-b-4 border-[#FFD100]">-nous</span>
           </h1>
@@ -1079,9 +1068,7 @@ const CGV = () => (
   <div data-testid="cgv-page">
     <section className="relative py-20 bg-[#0A0A0A]">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-          Informations Légales
-        </div>
+        <img src="/hertz-logo.png" alt="Hertz" className="h-14 md:h-18 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
           Conditions Générales <span className="text-[#FFD100]">de Vente</span>
         </h1>
@@ -1093,10 +1080,10 @@ const CGV = () => (
         <p className="text-[#666] mb-8">Dernière mise à jour : Janvier 2024</p>
 
         <h2>Article 1 - Objet</h2>
-        <p>Les présentes conditions générales de vente régissent les relations contractuelles entre HERTZ-PRO et ses clients dans le cadre de la vente de véhicules d'occasion.</p>
+        <p>Les présentes conditions générales de vente régissent les relations contractuelles entre HERTZ et ses clients dans le cadre de la vente de véhicules d'occasion.</p>
 
         <h2>Article 2 - Prix</h2>
-        <p>Les prix affichés sur notre site sont exprimés en euros TTC. Ils incluent la TVA applicable au jour de la commande. HERTZ-PRO se réserve le droit de modifier ses prix à tout moment, étant entendu que le prix affiché le jour de la commande sera le seul applicable à l'acheteur.</p>
+        <p>Les prix affichés sur notre site sont exprimés en euros TTC. Ils incluent la TVA applicable au jour de la commande. HERTZ se réserve le droit de modifier ses prix à tout moment, étant entendu que le prix affiché le jour de la commande sera le seul applicable à l'acheteur.</p>
         <p>La remise de 20% affichée correspond à la différence entre le prix de vente public conseillé et notre prix de vente.</p>
 
         <h2>Article 3 - Caractéristiques des véhicules</h2>
@@ -1105,11 +1092,11 @@ const CGV = () => (
           <li>D'un entretien régulier en concession officielle</li>
           <li>D'un carnet d'entretien à jour</li>
           <li>D'un contrôle technique de moins de 6 mois</li>
-          <li>D'une garantie constructeur ou HERTZ-PRO de 12 mois minimum</li>
+          <li>D'une garantie constructeur ou HERTZ de 12 mois minimum</li>
         </ul>
 
         <h2>Article 4 - Réservation et acompte</h2>
-        <p>La réservation d'un véhicule est effective après versement d'un acompte de 10% du prix de vente. Cet acompte n'est remboursable qu'en cas d'annulation de la vente par HERTZ-PRO.</p>
+        <p>La réservation d'un véhicule est effective après versement d'un acompte de 10% du prix de vente. Cet acompte n'est remboursable qu'en cas d'annulation de la vente par HERTZ.</p>
 
         <h2>Article 5 - Livraison</h2>
         <p>La livraison du véhicule s'effectue dans nos locaux à Montigny-le-Bretonneux, sauf accord contraire. Une livraison à domicile peut être organisée moyennant des frais supplémentaires à définir selon la distance.</p>
@@ -1149,15 +1136,21 @@ const CGV = () => (
 // Qui sommes-nous Page
 const QuiSommesNous = () => (
   <div data-testid="qui-sommes-nous-page">
-    <section className="relative py-20 bg-[#0A0A0A]">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-          Notre Société
-        </div>
-        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
-          Qui <span className="text-[#FFD100]">sommes-nous</span> ?
+    <section className="relative py-20 md:py-28 bg-white">
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1920&q=80"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80"></div>
+      </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
+        <img src="/hertz-logo.png" alt="Hertz" className="h-28 sm:h-36 lg:h-44 -ml-2 mb-6" />
+        <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-tight text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
+          Qui <span className="border-b-4 border-[#FFD100]">sommes-nous</span> ?
         </h1>
-        <p className="text-white/60 mt-4 max-w-xl text-lg">
+        <p className="text-[#555] mt-4 max-w-xl text-lg">
           Découvrez Hertz France, votre partenaire pour l'achat de véhicules professionnels.
         </p>
       </div>
@@ -1171,8 +1164,7 @@ const QuiSommesNous = () => (
             <span className="text-[#FFD100]">Hertz</span> France
           </h2>
           <p className="text-[#666] text-lg leading-relaxed mb-6">
-            <strong className="text-[#0A0A0A]">HERTZ-PRO</strong> est la branche professionnelle de Hertz France, 
-            spécialisée dans la vente de véhicules d'occasion issus de notre flotte de location.
+            <strong className="text-[#0A0A0A]">Hertz</strong> est spécialisé dans la vente de véhicules d'occasion issus de notre flotte de location.
           </p>
           <p className="text-[#666] text-lg leading-relaxed mb-6">
             Nous proposons aux professionnels une sélection de véhicules récents, rigoureusement entretenus 
@@ -1302,9 +1294,7 @@ const FAQ = () => {
     <div data-testid="faq-page">
       <section className="relative py-20 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-            Aide & Support
-          </div>
+          <img src="/hertz-logo.png" alt="Hertz" className="h-14 md:h-18 mb-6" />
           <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
             Questions <span className="text-[#FFD100]">Fréquentes</span>
           </h1>
@@ -1358,9 +1348,7 @@ const MentionsLegales = () => (
   <div data-testid="mentions-legales-page">
     <section className="relative py-20 bg-[#0A0A0A]">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-          Informations Légales
-        </div>
+        <img src="/hertz-logo.png" alt="Hertz" className="h-14 md:h-18 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
           Mentions <span className="text-[#FFD100]">Légales</span>
         </h1>
@@ -1388,8 +1376,8 @@ const MentionsLegales = () => (
         [Adresse de l'hébergeur]</p>
 
         <h2>Propriété intellectuelle</h2>
-        <p>L'ensemble des éléments constituant ce site (textes, graphismes, logiciels, photographies, images, vidéos, sons, plans, noms, logos, marques, créations et œuvres protégeables diverses, bases de données, etc.) ainsi que le site lui-même, sont la propriété exclusive de HERTZ-PRO ou de ses partenaires.</p>
-        <p>Toute reproduction, représentation, modification, publication, transmission, dénaturation, totale ou partielle du site ou de son contenu, par quelque procédé que ce soit, et sur quelque support que ce soit est interdite sans l'autorisation écrite préalable de HERTZ-PRO.</p>
+        <p>L'ensemble des éléments constituant ce site (textes, graphismes, logiciels, photographies, images, vidéos, sons, plans, noms, logos, marques, créations et œuvres protégeables diverses, bases de données, etc.) ainsi que le site lui-même, sont la propriété exclusive de HERTZ ou de ses partenaires.</p>
+        <p>Toute reproduction, représentation, modification, publication, transmission, dénaturation, totale ou partielle du site ou de son contenu, par quelque procédé que ce soit, et sur quelque support que ce soit est interdite sans l'autorisation écrite préalable de HERTZ.</p>
 
         <h2>Protection des données personnelles</h2>
         <p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données personnelles vous concernant.</p>
@@ -1420,11 +1408,11 @@ const MentionsLegales = () => (
         <p>Ce site utilise des cookies pour améliorer l'expérience utilisateur et réaliser des statistiques de visite. Vous pouvez à tout moment désactiver les cookies dans les paramètres de votre navigateur.</p>
 
         <h2>Liens hypertextes</h2>
-        <p>Ce site peut contenir des liens vers d'autres sites. HERTZ-PRO n'est pas responsable du contenu de ces sites externes.</p>
+        <p>Ce site peut contenir des liens vers d'autres sites. HERTZ n'est pas responsable du contenu de ces sites externes.</p>
 
         <h2>Crédits</h2>
-        <p>Conception et développement : HERTZ-PRO<br />
-        Photographies : HERTZ-PRO / Unsplash</p>
+        <p>Conception et développement : HERTZ<br />
+        Photographies : HERTZ / Unsplash</p>
 
         <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
           <p className="font-semibold text-[#0A0A0A]">Pour toute question concernant ces mentions légales :</p>
@@ -1457,6 +1445,7 @@ const AdminDocuments = () => {
       <div data-testid="admin-login-page">
         <section className="relative py-20 bg-[#0A0A0A]">
           <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <img src="/hertz-logo.png" alt="Hertz" className="h-14 md:h-18 mb-6" />
             <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
               Espace <span className="text-[#FFD100]">Admin</span>
             </h1>
@@ -1494,11 +1483,9 @@ const AdminDocuments = () => {
     <div data-testid="admin-documents-page">
       <section className="relative py-20 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="inline-block bg-[#FFD100] text-black text-xs font-bold uppercase tracking-widest px-4 py-2 mb-6">
-            Espace Admin
-          </div>
+          <img src="/hertz-logo.png" alt="Hertz" className="h-14 md:h-18 mb-6" />
           <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-tight text-white" style={{fontFamily: 'Oswald, sans-serif'}}>
-            Documents <span className="text-[#FFD100]">HERTZ PRO</span>
+            Documents <span className="text-[#FFD100]">Hertz</span>
           </h1>
         </div>
       </section>
@@ -1521,7 +1508,7 @@ const AdminDocuments = () => {
               <h3 className="text-xl font-bold uppercase mb-2 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
                 Facture
               </h3>
-              <p className="text-[#666]">Modèle de facture HERTZ PRO</p>
+              <p className="text-[#666]">Modèle de facture Hertz</p>
             </a>
             
             <a 
@@ -1535,7 +1522,7 @@ const AdminDocuments = () => {
               <h3 className="text-xl font-bold uppercase mb-2 text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>
                 Bon de Commande
               </h3>
-              <p className="text-[#666]">Modèle de bon de commande HERTZ PRO</p>
+              <p className="text-[#666]">Modèle de bon de commande Hertz</p>
             </a>
           </div>
 
