@@ -328,8 +328,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 @app.on_event("startup")
-async def mark_sold_vehicles():
-    """Mark specific vehicles as sold on startup (persists across deployments)"""
+async def startup_seed_and_mark():
+    """Seed database if empty, then mark sold vehicles"""
+    import json
+    count = await db.vehicles.count_documents({})
+    if count == 0:
+        seed_path = ROOT_DIR / 'seed_data.json'
+        if seed_path.exists():
+            with open(seed_path, 'r', encoding='utf-8') as f:
+                vehicles = json.load(f)
+            await db.vehicles.insert_many(vehicles)
+            logger.info(f"Base vide — {len(vehicles)} véhicules importés automatiquement")
+
     sold_references = ["HP016276", "HP178309", "HP623279"]
     result = await db.vehicles.update_many(
         {"reference": {"$in": sold_references}},
