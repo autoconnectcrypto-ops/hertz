@@ -1536,15 +1536,19 @@ function ScrollToTop() {
     if (pathname === '/catalogue') {
       const saved = sessionStorage.getItem('catalogueScroll');
       if (saved) {
-        setTimeout(() => window.scrollTo(0, parseInt(saved)), 50);
-        sessionStorage.removeItem('catalogueScroll');
+        const scrollPos = parseInt(saved);
+        // Retry scroll restoration until content is loaded
+        const restore = () => {
+          window.scrollTo(0, scrollPos);
+        };
+        setTimeout(restore, 100);
+        setTimeout(restore, 300);
+        setTimeout(restore, 600);
+        setTimeout(restore, 1000);
       }
     } else {
-      if (document.referrer || sessionStorage.getItem('catalogueScroll') !== null) {
-        window.scrollTo(0, 0);
-      } else {
-        window.scrollTo(0, 0);
-      }
+      // Save catalogue scroll before leaving
+      window.scrollTo(0, 0);
     }
   }, [pathname]);
 
