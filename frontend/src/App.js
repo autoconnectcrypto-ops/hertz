@@ -1528,12 +1528,35 @@ const AdminDocuments = () => {
   );
 };
 
-// Scroll to top on route change
+// Smart scroll: restore position on catalogue, scroll to top on other pages
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (pathname === '/catalogue') {
+      const saved = sessionStorage.getItem('catalogueScroll');
+      if (saved) {
+        setTimeout(() => window.scrollTo(0, parseInt(saved)), 50);
+        sessionStorage.removeItem('catalogueScroll');
+      }
+    } else {
+      if (document.referrer || sessionStorage.getItem('catalogueScroll') !== null) {
+        window.scrollTo(0, 0);
+      } else {
+        window.scrollTo(0, 0);
+      }
+    }
   }, [pathname]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (pathname === '/catalogue') {
+        sessionStorage.setItem('catalogueScroll', window.scrollY.toString());
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [pathname]);
+
   return null;
 }
 
