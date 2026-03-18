@@ -9,7 +9,7 @@ import requests
 import os
 from pathlib import Path
 
-API_URL = "https://hertz-pro-preview.preview.emergentagent.com/api"
+API_URL = "https://hertz-pro-preview-1.preview.emergentagent.com/api"
 
 # Charger les données des véhicules traités
 with open("/app/vehicles_data/vehicles_processed.json", "r") as f:
