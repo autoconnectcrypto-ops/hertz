@@ -214,7 +214,7 @@ const Home = () => {
             </p>
             
             <p className="text-lg text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
-              Bénéficiez de véhicules issus de la flotte Hertz, récents et rigoureusement entretenus en concession officielle. Historique d'entretien complet, contrôle technique à jour et garantie 12 mois incluse.
+              Bénéficiez de véhicules issus de la flotte Hertz, récents et rigoureusement entretenus en concession officielle. Historique d'entretien complet et contrôle technique à jour.
             </p>
 
             <p className="text-lg text-[#555] mb-4 max-w-xl leading-relaxed animate-fade-in-up animation-delay-200">
@@ -249,10 +249,6 @@ const Home = () => {
                 <div className="text-4xl font-bold text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>100%</div>
                 <div className="text-sm text-[#666] uppercase tracking-wider mt-1">Révisés</div>
               </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-[#0A0A0A]" style={{fontFamily: 'Oswald, sans-serif'}}>12</div>
-                <div className="text-sm text-[#666] uppercase tracking-wider mt-1">Mois Garantie</div>
-              </div>
             </div>
           </div>
         </div>
@@ -279,10 +275,6 @@ const Home = () => {
               <div className="text-4xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>100%</div>
               <div className="text-black/70 uppercase tracking-wider text-sm mt-2">Révisés</div>
             </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-black" style={{fontFamily: 'Oswald, sans-serif'}}>12</div>
-              <div className="text-black/70 uppercase tracking-wider text-sm mt-2">Mois Garantie</div>
-            </div>
           </div>
         </div>
       </section>
@@ -295,7 +287,7 @@ const Home = () => {
               Pourquoi <span className="border-b-4 border-[#FFD100]">Hertz</span> ?
             </h2>
             <p className="text-[#666666] max-w-2xl mx-auto text-lg">
-              Des véhicules premium à prix destockage, avec une garantie de qualité de 12 mois.
+              Des véhicules premium à prix destockage, rigoureusement entretenus.
             </p>
           </div>
 
@@ -1108,7 +1100,6 @@ const CGV = () => (
           <li>D'un entretien régulier en concession officielle</li>
           <li>D'un carnet d'entretien à jour</li>
           <li>D'un contrôle technique de moins de 6 mois</li>
-          <li>D'une garantie constructeur ou HERTZ de 12 mois minimum</li>
         </ul>
 
         <h2>Article 4 - Réservation et acompte</h2>
@@ -1117,24 +1108,7 @@ const CGV = () => (
         <h2>Article 5 - Livraison</h2>
         <p>La livraison du véhicule s'effectue dans nos locaux à Montigny-le-Bretonneux, sauf accord contraire. Une livraison à domicile peut être organisée moyennant des frais supplémentaires à définir selon la distance.</p>
 
-        <h2>Article 6 - Garantie</h2>
-        <p>Tous nos véhicules bénéficient d'une garantie minimale de 12 mois couvrant les organes mécaniques principaux. Cette garantie peut être étendue sur demande.</p>
-        <h3>La garantie couvre :</h3>
-        <ul>
-          <li>Le moteur et ses composants</li>
-          <li>La boîte de vitesses</li>
-          <li>La direction</li>
-          <li>Le système de freinage</li>
-          <li>Les trains roulants</li>
-        </ul>
-        <h3>La garantie ne couvre pas :</h3>
-        <ul>
-          <li>Les pièces d'usure (pneumatiques, plaquettes, disques, etc.)</li>
-          <li>L'entretien courant</li>
-          <li>Les dommages causés par une mauvaise utilisation</li>
-        </ul>
-
-        <h2>Article 7 - Droit de rétractation</h2>
+        <h2>Article 6 - Droit de rétractation</h2>
         <p>Conformément au Code de la consommation, l'acheteur dispose d'un délai de 14 jours pour exercer son droit de rétractation dans le cas d'un achat à distance, sans avoir à justifier de motifs ni à payer de pénalités.</p>
 
         <h2>Article 8 - Litiges</h2>
@@ -1275,10 +1249,6 @@ const FAQ = () => {
     {
       question: "D'où proviennent vos véhicules ?",
       answer: "Tous nos véhicules proviennent directement de la flotte HERTZ. Ce sont des véhicules de location récents, rigoureusement entretenus en concession officielle tout au long de leur utilisation."
-    },
-    {
-      question: "Quelle est la garantie offerte sur les véhicules ?",
-      answer: "Chaque véhicule bénéficie d'une garantie minimale de 12 mois couvrant les organes mécaniques principaux (moteur, boîte de vitesses, direction, freinage, trains roulants). Des extensions de garantie sont disponibles sur demande."
     },
     {
       question: "Puis-je essayer un véhicule avant l'achat ?",
