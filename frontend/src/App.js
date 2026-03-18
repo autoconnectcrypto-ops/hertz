@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import "@/App.css";
-import { BrowserRouter, Routes, Route, Link, useParams, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, useParams, useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import { Phone, Mail, MapPin, Menu, X, ChevronLeft, ChevronRight, Check, Shield, Award, Clock, ArrowRight, Settings, FileText, Wrench, ChevronDown, Car, CreditCard, Key, Truck, HelpCircle, Scale, BookOpen } from "lucide-react";
 
@@ -1528,11 +1528,21 @@ const AdminDocuments = () => {
   );
 };
 
+// Scroll to top on route change
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
 // Main App
 function App() {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <main>
           <Routes>
