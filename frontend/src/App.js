@@ -586,25 +586,37 @@ const VehicleDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [vehicle, setVehicle] = useState(null);
+  const [allVehicles, setAllVehicles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [activeImage, setActiveImage] = useState(0);
   const [activeTab, setActiveTab] = useState('specs');
 
   useEffect(() => {
-    const fetchVehicle = async () => {
+    const fetchData = async () => {
       try {
-        const response = await fetchWithRetry(`${API}/vehicles/${id}`);
-        setVehicle(response.data);
-        // Set default image to photo 2 (index 1) or use defaultImageIndex from DB
-        setActiveImage(response.data.defaultImageIndex || 1);
+        const [vehicleRes, allRes] = await Promise.all([
+          fetchWithRetry(`${API}/vehicles/${id}`),
+          fetchWithRetry(`${API}/vehicles`)
+        ]);
+        setVehicle(vehicleRes.data);
+        const sorted = [...allRes.data].sort((a, b) => (a.sort_order ?? 999) - (b.sort_order ?? 999));
+        setAllVehicles(sorted);
+        setActiveImage(vehicleRes.data.defaultImageIndex || 1);
       } catch (e) {
         console.error(e);
       } finally {
         setLoading(false);
       }
     };
-    fetchVehicle();
+    fetchData();
   }, [id]);
+
+  const nextVehicle = (() => {
+    if (!allVehicles.length || !vehicle) return null;
+    const currentIdx = allVehicles.findIndex(v => v.id === id);
+    if (currentIdx === -1 || currentIdx >= allVehicles.length - 1) return allVehicles[0];
+    return allVehicles[currentIdx + 1];
+  })();
 
   if (loading) {
     return (
@@ -635,7 +647,7 @@ const VehicleDetail = () => {
     <div className="bg-[#F5F5F5] min-h-screen" data-testid="vehicle-detail-page">
       {/* Back navigation */}
       <div className="bg-white border-b border-[#E5E5E5]">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 py-4">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
           <button 
             onClick={() => navigate('/catalogue')} 
             className="flex items-center gap-2 text-[#666] hover:text-[#0A0A0A] transition-colors"
@@ -643,6 +655,16 @@ const VehicleDetail = () => {
             <ChevronLeft size={20} />
             <span>Retour au catalogue</span>
           </button>
+          {nextVehicle && (
+            <button 
+              onClick={() => navigate(`/vehicule/${nextVehicle.id}`)} 
+              className="flex items-center gap-2 text-[#666] hover:text-[#0A0A0A] transition-colors"
+              data-testid="next-vehicle-btn"
+            >
+              <span>Annonce suivante</span>
+              <ChevronRight size={20} />
+            </button>
+          )}
         </div>
       </div>
 
