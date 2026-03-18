@@ -526,7 +526,8 @@ const Catalogue = () => {
     const fetchVehicles = async () => {
       try {
         const response = await fetchWithRetry(`${API}/vehicles`);
-        setVehicles(response.data);
+        const shuffled = [...response.data].sort(() => Math.random() - 0.5);
+        setVehicles(shuffled);
       } catch (e) {
         console.error(e);
       } finally {
