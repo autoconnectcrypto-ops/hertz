@@ -6,7 +6,7 @@
     "modele": "A3 Sportback Business Line 35 TFSI 150 MHEV S Tronic",
     "annee": 2021,
     "km": 48944,
-    "prix": 24490,
+    "prix": 24490.0,
     "prix_original": 30612.5,
     "couleur": "Bleu",
     "images": [
@@ -96,10 +96,14 @@
       "portes": 5,
       "categorie": "Berline Compacte",
       "vin": "WAUZZZGY3MA108977",
-      "couleur_interieur": "Gris",
       "date_immat": "16/09/2021",
       "sieges": "5",
-      "proprietaires": "1"
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
+      "disponibilite": "Immédiatement",
+      "pays_origine": "France"
     },
     "options": [
       "Interface universelle Bluetooth",
@@ -145,9 +149,8 @@
     ],
     "description": "Audi A3 Sportback en excellent état, issue de la flotte Hertz. Motorisation essence hybride légère (MHEV) économique et performante. Véhicule très bien équipé avec Virtual Cockpit, navigation MMI, climatisation bi-zone et nombreuses aides à la conduite. Entretien complet en concession Audi. Idéal pour la ville et les longs trajets.",
     "disponible": true,
-    "created_at": "2026-02-07T23:46:57.454744+00:00",
-    "defaultImageIndex": 1,
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-07T23:46:57.454744Z"
   },
   {
     "id": "0ce0e8cf-90b7-4336-9a6f-13c82e462064",
@@ -156,10 +159,9 @@
     "modele": "A4 Avant 35 TDI S Line 2.0 165 BVA7",
     "annee": 2022,
     "km": 92460,
-    "prix": 29990,
+    "prix": 29990.0,
     "prix_original": null,
     "couleur": "Blanc",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/audi-a4-2022/01.jpeg",
@@ -252,6 +254,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -356,8 +359,8 @@
     ],
     "description": "Audi A4 Avant S Line en excellent état, issue de la flotte Hertz. Motorisation diesel TDI économique et puissante. Finition S Line avec châssis sport, sièges sport chauffants, climatisation 3 zones. Entretien complet suivi. Idéal pour les longs trajets.",
     "disponible": true,
-    "created_at": "2026-02-08T00:37:20.760633+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T00:37:20.760633Z"
   },
   {
     "id": "56860b8b-0f7e-4a92-9768-c6dbee8227f6",
@@ -366,10 +369,9 @@
     "modele": "500 C Cabriolet Dolcevita Plus Hybrid 1.0 BSG 70",
     "annee": 2022,
     "km": 18735,
-    "prix": 13990,
+    "prix": 13990.0,
     "prix_original": null,
     "couleur": "Noir",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/fiat-500c-2022/01.jpeg",
@@ -470,6 +472,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -502,8 +505,8 @@
     ],
     "description": "Fiat 500 C Cabriolet Dolcevita Plus en excellent état, issue de la flotte Hertz. Motorisation hybride économique. Toit ouvrant cabriolet, finition Dolcevita avec équipements premium. Parfaite pour la ville et les balades estivales.",
     "disponible": true,
-    "created_at": "2026-02-08T00:46:10.101322+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T00:46:10.101322Z"
   },
   {
     "id": "c5e5a345-9613-4bf4-b5a0-1f4d90d449ba",
@@ -512,10 +515,9 @@
     "modele": "XCeed Active Plug-in Hybrid 1.6 140 BVA6",
     "annee": 2022,
     "km": 71945,
-    "prix": 18490,
+    "prix": 18490.0,
     "prix_original": null,
     "couleur": "Gris foncé",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/kia-xceed-2022/01.jpeg",
@@ -608,6 +610,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -684,8 +687,8 @@
     ],
     "description": "Kia XCeed Active Plug-in Hybrid en excellent état, issue de la flotte Hertz. Motorisation hybride rechargeable économique et écologique. SUV compact très bien équipé avec nombreuses aides à la conduite. Entretien complet suivi. Idéal pour la ville et les longs trajets.",
     "disponible": true,
-    "created_at": "2026-02-08T00:52:25.866754+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T00:52:25.866754Z"
   },
   {
     "id": "fdd14746-ccfc-4a3c-9e4b-195e55c37d7e",
@@ -694,10 +697,9 @@
     "modele": "A4 Avant 35 TFSI Business Line 2.0 150CV BVA7",
     "annee": 2022,
     "km": 69264,
-    "prix": 25790,
+    "prix": 25790.0,
     "prix_original": null,
     "couleur": "Noir",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/audi-a4-tfsi-2022/01.jpeg",
@@ -790,6 +792,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -828,8 +831,8 @@
     ],
     "description": "Audi A4 Avant Business Line en excellent état, issue de la flotte Hertz. Motorisation essence TFSI performante et économique. Break spacieux très bien équipé avec aide au stationnement, phares LED et Audi Connect. Entretien complet suivi. Idéal pour la famille.",
     "disponible": true,
-    "created_at": "2026-02-08T00:57:37.131338+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T00:57:37.131338Z"
   },
   {
     "id": "95f8ecd0-48d7-483c-b63d-c874bc737fc3",
@@ -838,10 +841,9 @@
     "modele": "Scenic Grand Intens TCe 140 EDC",
     "annee": 2022,
     "km": 96701,
-    "prix": 18990,
+    "prix": 18990.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/renault-scenic-2022/01.jpeg",
@@ -934,6 +936,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1009,8 +1012,8 @@
     ],
     "description": "Renault Scenic Grand Intens en excellent état, issue de la flotte Hertz. Monospace 7 places spacieux et familial. Motorisation essence TCe économique avec boîte automatique EDC. Très bien équipé avec nombreuses aides à la conduite, écran tactile et caméra de recul. Idéal pour les familles.",
     "disponible": true,
-    "created_at": "2026-02-08T01:01:50.931251+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T01:01:50.931251Z"
   },
   {
     "id": "e693d506-dc70-48a3-91d7-537b355498fd",
@@ -1019,10 +1022,9 @@
     "modele": "Q3 Sportback S Line 35 TFSI 150 MHEV S Tronic 7",
     "annee": 2022,
     "km": 70288,
-    "prix": 33990,
+    "prix": 33990.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/audi-q3-2022/01.jpeg",
@@ -1115,6 +1117,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1177,8 +1180,8 @@
     ],
     "description": "Audi Q3 Sportback S Line en excellent état, issue de la flotte Hertz. SUV coupé sportif avec motorisation hybride légère MHEV. Finition S Line avec sièges sport, jantes 19 pouces et nombreux équipements premium. Entretien complet suivi. Idéal pour allier style et praticité.",
     "disponible": true,
-    "created_at": "2026-02-08T01:05:28.178814+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:05:28.178814Z"
   },
   {
     "id": "e50c8441-a61f-41f4-9a78-ad3e808ffbff",
@@ -1187,10 +1190,9 @@
     "modele": "Clio Equilibre 1.0 TCe 90 BVM6",
     "annee": 2023,
     "km": 26554,
-    "prix": 13990,
+    "prix": 13990.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/renault-clio-2023/01.jpeg",
@@ -1283,6 +1285,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1319,8 +1322,8 @@
     ],
     "description": "Renault Clio Equilibre en excellent état, issue de la flotte Hertz. Citadine économique et agile avec motorisation essence TCe. Bien équipée avec écran tactile 7 pouces, climatisation et nombreuses aides à la conduite. Parfaite pour la ville.",
     "disponible": true,
-    "created_at": "2026-02-08T01:10:21.603366+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T01:10:21.603366Z"
   },
   {
     "id": "8c4839bb-03e1-4f42-88e1-2522f1698a2e",
@@ -1329,10 +1332,9 @@
     "modele": "Polo 1.0 80 Business",
     "annee": 2022,
     "km": 28760,
-    "prix": 14590,
+    "prix": 14590.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/vw-polo-2022/01.jpg",
@@ -1421,6 +1423,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1451,8 +1454,8 @@
     ],
     "description": "Volkswagen Polo Business en excellent état, issue de la flotte Hertz. Citadine fiable et économique avec motorisation essence. Bien équipée avec Digital Cockpit, climatisation et nombreuses aides à la conduite. Parfaite pour la ville et les trajets quotidiens.",
     "disponible": true,
-    "created_at": "2026-02-08T01:16:06.306826+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T01:16:06.306826Z"
   },
   {
     "id": "3bedaf62-3afe-4e3e-8972-d02df4cf6769",
@@ -1461,10 +1464,9 @@
     "modele": "Scenic Grand Business TCe 140",
     "annee": 2022,
     "km": 82933,
-    "prix": 18690,
+    "prix": 18690.0,
     "prix_original": null,
     "couleur": "Bleu",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/renault-scenic-business-2022/01.jpeg",
@@ -1557,6 +1559,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1614,8 +1617,8 @@
     ],
     "description": "Renault Scenic Grand Business en excellent état, issue de la flotte Hertz. Monospace 7 places spacieux et familial. Motorisation essence TCe économique. Très bien équipé avec écran tactile, climatisation auto et nombreuses aides à la conduite. Idéal pour les familles.",
     "disponible": true,
-    "created_at": "2026-02-08T01:19:02.838023+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:19:02.838023Z"
   },
   {
     "id": "8a2e20ae-651d-48d9-a895-2d65e8233f05",
@@ -1624,10 +1627,9 @@
     "modele": "Cooper SE Business 184 BVA",
     "annee": 2021,
     "km": 32843,
-    "prix": 16190,
+    "prix": 16190.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/mini-cooper-se-2021/01.jpg",
@@ -1712,6 +1714,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1755,8 +1758,8 @@
     ],
     "description": "Mini Cooper SE 100% électrique en excellent état, issue de la flotte Hertz. Citadine sportive et écologique avec 184 ch. Très bien équipée avec Apple CarPlay, navigation, sièges sport électriques et nombreuses aides à la conduite. Parfaite pour la ville avec zéro émission.",
     "disponible": true,
-    "created_at": "2026-02-08T01:29:02.751769+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:29:02.751769Z"
   },
   {
     "id": "ea8cf526-705a-43b3-b0ff-1e681b4bcb2a",
@@ -1765,10 +1768,9 @@
     "modele": "Série 1 116i DKG7 Business Design",
     "annee": 2023,
     "km": 21731,
-    "prix": 22590,
+    "prix": 22590.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/bmw-serie1-2023/01.jpeg",
@@ -1865,6 +1867,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -1904,8 +1907,8 @@
     ],
     "description": "BMW Série 1 Business Design en excellent état, issue de la flotte Hertz. Compacte premium avec motorisation essence économique et boîte automatique DKG7. Très bien équipée avec navigation, caméra de recul, phares LED et nombreuses aides à la conduite. Parfaite pour allier plaisir de conduite et praticité.",
     "disponible": true,
-    "created_at": "2026-02-08T01:35:03.088637+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:35:03.088637Z"
   },
   {
     "id": "43ef4c75-4267-4730-9a90-f8d9c9260a3a",
@@ -1914,10 +1917,9 @@
     "modele": "Countryman Cooper Essential 136 BVA7",
     "annee": 2023,
     "km": 64899,
-    "prix": 24790,
+    "prix": 24790.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/mini-countryman-2023/01.jpeg",
@@ -2014,6 +2016,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -2077,8 +2080,8 @@
     ],
     "description": "Mini Countryman Cooper Essential en excellent état, issue de la flotte Hertz. SUV compact et spacieux avec motorisation essence et boîte automatique. Très bien équipé avec toit panoramique, sièges sport chauffants, Apple CarPlay et nombreuses aides à la conduite. Parfait pour la famille.",
     "disponible": true,
-    "created_at": "2026-02-08T01:38:09.400341+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T01:38:09.400341Z"
   },
   {
     "id": "bf19b9b6-a653-420c-b7da-9b6d446936c8",
@@ -2087,10 +2090,9 @@
     "modele": "5008 Allure Pack 1.5 BlueHDi 130 BVA8 7 Places",
     "annee": 2021,
     "km": 88437,
-    "prix": 21990,
+    "prix": 21990.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/peugeot-5008-2021/01.jpeg",
@@ -2183,6 +2185,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -2301,8 +2304,8 @@
     ],
     "description": "Peugeot 5008 Allure Pack 7 places en excellent état, issue de la flotte Hertz. SUV familial spacieux avec motorisation diesel économique et boîte automatique BVA8. Très bien équipé avec navigation, caméra 360°, nombreuses aides à la conduite et attache remorque. Idéal pour les grandes familles.",
     "disponible": true,
-    "created_at": "2026-02-08T01:41:07.946186+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T01:41:07.946186Z"
   },
   {
     "id": "0737bd86-d84e-4fbe-af9f-029bc72096dc",
@@ -2311,10 +2314,9 @@
     "modele": "Q3 S Line 35 TFSI 150 MHEV S Tronic",
     "annee": 2021,
     "km": 57694,
-    "prix": 28790,
+    "prix": 28790.0,
     "prix_original": null,
     "couleur": "Noir",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/audi-q3-sline-2021/01.jpg",
@@ -2403,6 +2405,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -2473,8 +2476,8 @@
     ],
     "description": "Audi Q3 S Line en excellent état, issue de la flotte Hertz. SUV compact sportif avec motorisation hybride légère MHEV. Finition S Line avec sièges sport, Virtual Cockpit, navigation et nombreux équipements premium. Entretien complet suivi. Idéal pour allier style et praticité.",
     "disponible": true,
-    "created_at": "2026-02-08T01:44:08.011417+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T01:44:08.011417Z"
   },
   {
     "id": "100c8d3f-e263-41f9-8602-9fb8930e242f",
@@ -2483,10 +2486,9 @@
     "modele": "Série 2 Active Tourer 218d M Sport 2.0 150 BVA7",
     "annee": 2022,
     "km": 102303,
-    "prix": 25790,
+    "prix": 25790.0,
     "prix_original": null,
     "couleur": "Noir",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/bmw-serie2-2022/01.jpeg",
@@ -2583,6 +2585,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -2640,8 +2643,8 @@
     ],
     "description": "BMW Série 2 Active Tourer M Sport en excellent état, issue de la flotte Hertz. Monospace compact et sportif avec motorisation diesel économique et boîte automatique BVA7. Finition M Sport avec pack équipement complet, phares LED adaptatifs et nombreuses aides à la conduite. Idéal pour la famille.",
     "disponible": true,
-    "created_at": "2026-02-08T01:48:47.088550+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:48:47.088550Z"
   },
   {
     "id": "b966956f-71d5-436e-8278-e3f325d9d3f5",
@@ -2650,10 +2653,9 @@
     "modele": "Countryman Cooper Essential 136 ch BVA7",
     "annee": 2023,
     "km": 42458,
-    "prix": 25790,
+    "prix": 25790.0,
     "prix_original": null,
     "couleur": "Noir",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/mini-countryman-2-2023/01.jpeg",
@@ -2746,6 +2748,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -2799,8 +2802,8 @@
     ],
     "description": "Mini Countryman Cooper Essential en excellent état, issue de la flotte Hertz. SUV compact et spacieux avec motorisation essence et boîte automatique. Très bien équipé avec toit panoramique, sièges sport chauffants, Apple CarPlay et nombreuses aides à la conduite. Parfait pour la famille.",
     "disponible": true,
-    "created_at": "2026-02-08T01:53:22.780771+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:53:22.780771Z"
   },
   {
     "id": "a23a5584-5832-4472-a04d-16278b77490b",
@@ -2809,10 +2812,9 @@
     "modele": "Evoque Autobiography 1.5 P300e PHEV BVA 4WD",
     "annee": 2021,
     "km": 68582,
-    "prix": 40990,
+    "prix": 40990.0,
     "prix_original": null,
     "couleur": "Bleu",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/landrover-evoque-2021/01.jpeg",
@@ -2909,6 +2911,7 @@
       "couleur_interieur": "Bordeaux",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -2962,8 +2965,8 @@
     ],
     "description": "Land Rover Evoque Autobiography PHEV en excellent état, issue de la flotte Hertz. SUV premium hybride rechargeable avec 309 ch et transmission intégrale 4WD. Finition Autobiography haut de gamme avec sellerie cuir, toit panoramique et équipements luxueux. Entretien complet suivi. L'excellence britannique au meilleur prix.",
     "disponible": true,
-    "created_at": "2026-02-08T01:56:30.972186+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T01:56:30.972186Z"
   },
   {
     "id": "d4b0fd9d-b1aa-43b3-bdf1-355298cfa4df",
@@ -2972,10 +2975,9 @@
     "modele": "DS7 Crossback E-Tense 4x2 Business 1.6 225 BVA8",
     "annee": 2021,
     "km": 69399,
-    "prix": 20990,
+    "prix": 20990.0,
     "prix_original": null,
     "couleur": "Gris",
-    "defaultImageIndex": 1,
     "images": [
       {
         "url": "/vehicles/ds7-crossback-2021/01.jpeg",
@@ -3068,6 +3070,7 @@
       "couleur_interieur": "Gris",
       "proprietaires": "1",
       "type_vehicule": "Voitures d'occasion",
+      "modele_court": "",
       "disponibilite": "Immédiatement",
       "pays_origine": "France"
     },
@@ -3134,8 +3137,8 @@
     ],
     "description": "DS7 Crossback E-Tense Business en excellent état, issue de la flotte Hertz. SUV premium français hybride rechargeable avec 224 ch. Très bien équipé avec navigation, DS Active Scan Suspension, nombreuses aides à la conduite et finition soignée. L'élégance à la française.",
     "disponible": true,
-    "created_at": "2026-02-08T02:00:20.904751+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:00:20.904751Z"
   },
   {
     "id": "ad5dcf22-e8da-4721-9f4f-ee3826a4c3ac",
@@ -3318,8 +3321,8 @@
     ],
     "description": "Peugeot 2008 GT Pack en excellent état, issu de la flotte Hertz. SUV compact sportif avec finition haut de gamme GT Pack, motorisation essence PureTech 130 ch et boîte automatique EAT8. Très bien équipé avec écran tactile 10 pouces, combiné numérique 3D, sièges chauffants et nombreuses aides à la conduite. Contrôle technique OK.",
     "disponible": true,
-    "created_at": "2026-02-08T02:07:28.996887+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:07:28.996887Z"
   },
   {
     "id": "59254cbe-9199-44e8-9403-8018a653882c",
@@ -3484,8 +3487,8 @@
     ],
     "description": "Mercedes GLC 300 e AMG Line en excellent état, issu de la flotte Hertz. SUV premium hybride rechargeable avec finition sportive AMG Line et transmission intégrale 4MATIC. Très puissant avec 320 ch combinés et possibilité de rouler en 100% électrique. Équipement haut de gamme avec toit panoramique, sièges chauffants, navigation MBUX et nombreuses aides à la conduite.",
     "disponible": true,
-    "created_at": "2026-02-08T02:12:20.717570+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T02:12:20.717570Z"
   },
   {
     "id": "0fc99382-c29b-45d6-9d99-72f539a339da",
@@ -3645,8 +3648,8 @@
     ],
     "description": "BMW X1 sDrive16d xLine en excellent état, issue de la flotte Hertz. SUV compact premium avec finition xLine élégante et motorisation diesel économique. Très bien équipé avec toit panoramique, sièges chauffants électriques, navigation BMW, caméra de recul et nombreuses aides à la conduite. Faible kilométrage.",
     "disponible": true,
-    "created_at": "2026-02-08T02:17:15.143995+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:17:15.143995Z"
   },
   {
     "id": "bb660294-95f5-4c46-aa57-cf73a55186f7",
@@ -3820,8 +3823,8 @@
     ],
     "description": "Peugeot 2008 Active Business en bon état, issu de la flotte Hertz. SUV compact diesel économique avec finition Business bien équipée. Idéal pour un usage professionnel ou familial avec climatisation auto, aides à la conduite et faible consommation. Entretien suivi régulièrement.",
     "disponible": true,
-    "created_at": "2026-02-08T02:20:31.811572+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T02:20:31.811572Z"
   },
   {
     "id": "f155530d-fd40-4035-99a3-eede3927ba48",
@@ -3998,8 +4001,8 @@
     ],
     "description": "DS DS7 Crossback E-Tense Performance Line+ en bon état, issu de la flotte Hertz. SUV premium hybride rechargeable au design raffiné avec finition Performance Line+. Équipement haut de gamme avec suspension pilotée DS Active Scan, écran tactile connecté et nombreuses aides à la conduite. Possibilité de rouler en 100% électrique.",
     "disponible": true,
-    "created_at": "2026-02-08T02:23:09.460418+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:23:09.460418Z"
   },
   {
     "id": "24424a34-b663-4def-84ef-7b4184c5ba79",
@@ -4160,8 +4163,8 @@
     ],
     "description": "Peugeot 3008 Hybrid4 300 GT Pack en excellent état, issu de la flotte Hertz. SUV haut de gamme hybride rechargeable très puissant (299 ch) avec transmission intégrale 4x4. Finition GT Pack ultra-équipée avec Night Vision, sellerie Alcantara, régulateur adaptatif et nombreuses aides à la conduite. Faible kilométrage.",
     "disponible": true,
-    "created_at": "2026-02-08T02:25:52.071554+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:25:52.071554Z"
   },
   {
     "id": "d0f8fdcb-b073-41a4-8052-a6a9668e1e6a",
@@ -4323,8 +4326,8 @@
     ],
     "description": "BMW X1 xDrive25e M Sport en excellent état, issu de la flotte Hertz. SUV compact premium hybride rechargeable avec finition sportive M Sport et transmission intégrale xDrive. Très récent (2023) avec boîte double embrayage 7 rapports ultra-réactive. Combinaison parfaite de sportivité et d'efficience énergétique.",
     "disponible": true,
-    "created_at": "2026-02-08T02:28:26.807324+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:28:26.807324Z"
   },
   {
     "id": "bc63e22d-bd6b-4ed9-8902-ddf264c0892e",
@@ -4495,8 +4498,8 @@
     ],
     "description": "Volkswagen T-Roc Lounge Business en excellent état, issu de la flotte Hertz. SUV compact essence avec finition Business très bien équipée. Boîte DSG7 double embrayage fluide et réactive. Navigation, climatisation bi-zone, caméra de recul et nombreuses aides à la conduite. Contrôle technique OK.",
     "disponible": true,
-    "created_at": "2026-02-08T02:30:43.051000+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:30:43.051000Z"
   },
   {
     "id": "46a1f1ad-daa1-4109-ae0c-3bfe5c064d82",
@@ -4639,8 +4642,8 @@
     ],
     "description": "Mercedes CLA Coupé 200 d AMG Line en excellent état, issu de la flotte Hertz. Coupé 4 portes au design élégant avec finition sportive AMG Line. Motorisation diesel économique et performante avec boîte automatique 8 rapports. Très récent (2023) et très bien équipé avec sièges sport chauffants, navigation et nombreuses aides à la conduite.",
     "disponible": true,
-    "created_at": "2026-02-08T02:33:12.886904+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T02:33:12.886904Z"
   },
   {
     "id": "88420e5c-3ff2-4a72-aedd-31492d5d28ab",
@@ -4793,8 +4796,8 @@
     ],
     "description": "Renault Megane E-Tech 100% électrique en excellent état, issue de la flotte Hertz. Berline électrique moderne avec batterie 60 kWh et charge rapide Optimum Charge. Très récente (2023) avec finition Techno bien équipée : sièges chauffants, climatisation bi-zone et nombreuses aides à la conduite. Idéale pour une mobilité zéro émission.",
     "disponible": true,
-    "created_at": "2026-02-08T02:35:36.165815+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:35:36.165815Z"
   },
   {
     "id": "4ddf9070-aeee-41e2-a27c-07e77633b7a7",
@@ -4970,8 +4973,8 @@
     ],
     "description": "Volkswagen Golf Style eHybrid en excellent état, issue de la flotte Hertz. Compacte hybride rechargeable puissante (204 ch) avec finition Style très bien équipée. Digital Cockpit, sièges sport ErgoActive électriques avec mémoire, navigation et nombreuses aides à la conduite. Entretien impeccable avec historique complet.",
     "disponible": true,
-    "created_at": "2026-02-08T02:38:12.639407+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:38:12.639407Z"
   },
   {
     "id": "1f6c6148-0c1a-4af4-ba33-5fe44330a8b5",
@@ -5120,8 +5123,8 @@
     ],
     "description": "Peugeot 208 Style en excellent état, issue de la flotte Hertz. Citadine moderne et bien équipée avec finition Style. Très faible kilométrage (18 147 km) et boîte automatique BVA8 confortable. Équipements premium : affichage tête haute, caméra 180°, climatisation auto et nombreuses aides à la conduite. Idéale pour la ville.",
     "disponible": true,
-    "created_at": "2026-02-08T02:40:42.919321+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:40:42.919321Z"
   },
   {
     "id": "1e910ffe-df99-4dd5-b1ff-af9e21bee47c",
@@ -5277,8 +5280,8 @@
     ],
     "description": "Mercedes Classe A 180 d Business Line en bon état, issue de la flotte Hertz. Berline compacte premium diesel économique avec finition Business Line bien équipée. Boîte automatique 8G-DCT fluide et réactive. Navigation, caméra de recul, détecteur angle mort et nombreuses aides à la conduite. Entretien suivi.",
     "disponible": true,
-    "created_at": "2026-02-08T02:42:57.902787+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T02:42:57.902787Z"
   },
   {
     "id": "7007ad70-a03c-431c-81ac-18f65b31d2f7",
@@ -5455,8 +5458,8 @@
     ],
     "description": "Peugeot 308 Active Pack en bon état, issue de la flotte Hertz. Berline compacte nouvelle génération avec motorisation diesel économique et boîte automatique BVA8. Finition Active Pack bien équipée avec climatisation auto, Mirror Link et nombreuses aides à la conduite. Entretien très suivi avec historique complet.",
     "disponible": true,
-    "created_at": "2026-02-08T02:45:23.425594+00:00",
-    "vendu": true
+    "vendu": true,
+    "created_at": "2026-02-08T02:45:23.425594Z"
   },
   {
     "id": "d80437de-7c05-4f07-ad9a-b05a73240af5",
@@ -5604,8 +5607,8 @@
     ],
     "description": "BMW Série 1 118i Edition Sport en excellent état, issue de la flotte Hertz. Berline compacte premium très récente (2023) avec finition sportive Edition Sport. Live Cockpit Professional, sièges sport, navigation et nombreuses aides à la conduite. Attelage boule amovible inclus. Véhicule quasi neuf.",
     "disponible": true,
-    "created_at": "2026-02-08T02:47:31.594224+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:47:31.594224Z"
   },
   {
     "id": "05d158dc-1b09-4ddc-aec0-cc4e4c2e4691",
@@ -5762,8 +5765,8 @@
     ],
     "description": "Mercedes GLC 300 e AMG Line 4MATIC en excellent état, issu de la flotte Hertz. SUV premium hybride rechargeable très récent (2023) avec finition sportive AMG Line et transmission intégrale. Intérieur cuir blanc luxueux, très puissant (313 ch) et bien équipé avec caméra 360°, sièges chauffants électriques et nombreuses aides à la conduite.",
     "disponible": true,
-    "created_at": "2026-02-08T02:49:48.111786+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:49:48.111786Z"
   },
   {
     "id": "bb51b002-d3ef-48e2-a06c-90088830fd44",
@@ -5948,8 +5951,8 @@
     ],
     "description": "BMW Série 1 118i Edition Sport en bon état, issue de la flotte Hertz. Berline compacte premium avec finition sportive Edition Sport. Navigation Professionnel, Live Cockpit Professional, sièges sport et nombreuses aides à la conduite. Attelage boule amovible inclus. Entretien très suivi avec historique complet.",
     "disponible": true,
-    "created_at": "2026-02-08T02:52:22.791919+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:52:22.791919Z"
   },
   {
     "id": "b9042bc8-3566-4dda-b06a-6261262a06ab",
@@ -6096,7 +6099,4272 @@
     ],
     "description": "Audi Q2 S Line en excellent état, issue de la flotte Hertz. SUV compact premium très récent (2023) avec finition sportive S Line. Très faible kilométrage, équipement haut de gamme avec Audi Virtual Cockpit, phares Matrix LED, navigation et nombreuses aides à la conduite. Véhicule quasi neuf.",
     "disponible": true,
-    "created_at": "2026-02-08T02:56:37.201748+00:00",
-    "vendu": false
+    "vendu": false,
+    "created_at": "2026-02-08T02:56:37.201748Z"
+  },
+  {
+    "id": "82216848-e360-4d06-9c6a-8bef4cb5f4f3",
+    "reference": "HP105859",
+    "marque": "Audi",
+    "modele": "A3 Sportback Business Line 40 TFSI e 204 S Tronic",
+    "annee": 2021,
+    "km": 88648,
+    "prix": 22490.0,
+    "prix_original": null,
+    "couleur": "Gris",
+    "images": [
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/01.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 1"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/02.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 2"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/03.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 3"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/04.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 4"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/05.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 5"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/06.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 6"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/07.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 7"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/09.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 9"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/10.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 10"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/11.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 11"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/12.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 12"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/13.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 13"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/14.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 14"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/15.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 15"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/16.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 16"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/17.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 17"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/18.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 18"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/19.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 19"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/20.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 20"
+      },
+      {
+        "url": "/vehicles/audi-a3-sportback-40-tfsi-e-204/21.jpeg",
+        "alt": "Audi A3 Sportback 40 TFSI e - Photo 21"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "150 kW / 204 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 395 cm³",
+      "portes": 5,
+      "categorie": "Berline",
+      "vin": "WAUZZZGY0NA003010",
+      "date_immat": "03/08/2021",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Hybride rechargeable",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Cache bagages",
+      "Feux xénon",
+      "Climatisation automatique",
+      "GPS Navigation",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Sièges chauffants",
+      "Volant multifonction"
+    ],
+    "historique": [
+      {
+        "date": "26/12/2025",
+        "km": "83 344 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "04/08/2025",
+        "km": "77 916 km",
+        "interventions": "Réparation pneumatique"
+      },
+      {
+        "date": "29/07/2025",
+        "km": "77 839 km",
+        "interventions": "Contrôle technique autorisé"
+      },
+      {
+        "date": "04/06/2025",
+        "km": "76 230 km",
+        "interventions": "Liquide de frein/Recyclage/Révision"
+      },
+      {
+        "date": "12/11/2024",
+        "km": "65 085 km",
+        "interventions": "Dépose/Pneu hiver/pose pneumatique hiver/été"
+      },
+      {
+        "date": "28/08/2024",
+        "km": "61 042 km",
+        "interventions": "Balai d'essuie-glace AR/Balais d'essuie-glace AV/Huile boîte de vitesse/Liquide lave-glace/Recyclage/Révision"
+      },
+      {
+        "date": "23/05/2024",
+        "km": "56 011 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "09/12/2023",
+        "km": "46 657 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "14/11/2023",
+        "km": "46 438 km",
+        "interventions": "Liquide lave-glace/Recyclage/Révision"
+      },
+      {
+        "date": "17/04/2023",
+        "km": "35 936 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "09/05/2025",
+        "km": "80 000 km",
+        "interventions": "Dépose/Pneu été/pose pneumatique hiver/été"
+      },
+      {
+        "date": "01/04/2022",
+        "km": "15 593 km",
+        "interventions": "Révision"
+      },
+      {
+        "date": "07/10/2021",
+        "km": "3 749 km",
+        "interventions": "Pneu hiver"
+      }
+    ],
+    "description": "Audi A3 Sportback Business Line 40 TFSI e 204 S Tronic, véhicule hybride rechargeable en excellent état. Entretien complet en réseau constructeur avec 14 interventions documentées. Contrôle technique à jour.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T19:39:17.332779Z"
+  },
+  {
+    "id": "d39510cb-5509-462c-9b0e-06c7455a7948",
+    "reference": "HP112537",
+    "marque": "Audi",
+    "modele": "A4 Avant 35 TDI Business Line 2.0 165 BVA7",
+    "annee": 2022,
+    "km": 102895,
+    "prix": 29990.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/01.jpeg",
+        "alt": "Audi A4 Avant - Photo 1"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/02.jpeg",
+        "alt": "Audi A4 Avant - Photo 2"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/03.jpeg",
+        "alt": "Audi A4 Avant - Photo 3"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/04.jpeg",
+        "alt": "Audi A4 Avant - Photo 4"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/05.jpeg",
+        "alt": "Audi A4 Avant - Photo 5"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/06.jpeg",
+        "alt": "Audi A4 Avant - Photo 6"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/07.jpeg",
+        "alt": "Audi A4 Avant - Photo 7"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/09.jpeg",
+        "alt": "Audi A4 Avant - Photo 9"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/10.jpeg",
+        "alt": "Audi A4 Avant - Photo 10"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/11.jpeg",
+        "alt": "Audi A4 Avant - Photo 11"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/12.jpeg",
+        "alt": "Audi A4 Avant - Photo 12"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/13.jpeg",
+        "alt": "Audi A4 Avant - Photo 13"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/14.jpeg",
+        "alt": "Audi A4 Avant - Photo 14"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/15.jpeg",
+        "alt": "Audi A4 Avant - Photo 15"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/16.jpeg",
+        "alt": "Audi A4 Avant - Photo 16"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/17.jpeg",
+        "alt": "Audi A4 Avant - Photo 17"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/18.jpeg",
+        "alt": "Audi A4 Avant - Photo 18"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/19.jpeg",
+        "alt": "Audi A4 Avant - Photo 19"
+      },
+      {
+        "url": "/vehicles/audi-a4-avant-35-tdi-165/20.jpeg",
+        "alt": "Audi A4 Avant - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "120 kW / 163 ch",
+      "puissance_fiscale": "9 CV",
+      "cylindree": "1 968 cm³",
+      "portes": 5,
+      "categorie": "Break",
+      "vin": "WAUZZZF44PA022080",
+      "date_immat": "29/11/2022",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Break",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Audi music interface",
+      "Ouverture de hayon automatique",
+      "Climatisation automatique",
+      "Phare avant à LED",
+      "Sièges confort avant",
+      "Jantes alliage léger",
+      "Système d'information du conducteur (FIS)",
+      "Aide au stationnement avant et arrière",
+      "Filtre à particules (FAP)",
+      "Barres de toit noires",
+      "Rétroviseur ext avec indexage marche arrière",
+      "Vitrage athermique teinté vert",
+      "Audi connect",
+      "Supports ISOFIX",
+      "Témoin contrôle pneumatiques",
+      "Contrôle de stabilité (ESC)",
+      "Détecteur de pluie/luminosité",
+      "Audi drive select",
+      "ABS",
+      "Audi pre sense city"
+    ],
+    "historique": [
+      {
+        "date": "12/08/2025",
+        "km": "89 502 km",
+        "interventions": "Balai d'essuie-glace AR/AV/Charge climatiseur/Disques de freins AV/Plaquettes frein AR/Révision"
+      },
+      {
+        "date": "03/02/2025",
+        "km": "71 302 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "30/01/2025",
+        "km": "71 093 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "17/12/2024",
+        "km": "66 407 km",
+        "interventions": "Réparation pneumatique"
+      },
+      {
+        "date": "23/09/2024",
+        "km": "58 927 km",
+        "interventions": "Balai d'essuie-glace AR/AV/Huile boîte de vitesse/Liquide de frein/Plaquettes frein AR/Plaquettes freins AV/Révision"
+      },
+      {
+        "date": "22/12/2023",
+        "km": "30 758 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "13/12/2023",
+        "km": "29 890 km",
+        "interventions": "ADBLUE/Balai d'essuie-glace AR/AV/Liquide lave-glace/Révision"
+      },
+      {
+        "date": "24/10/2023",
+        "km": "25 049 km",
+        "interventions": "Réparation pneumatique"
+      }
+    ],
+    "description": "Audi A4 Avant 35 TDI Business Line, break élégant et fonctionnel. Entretien complet en réseau constructeur avec 8 interventions documentées. Contrôle technique à jour.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T19:48:01.222915Z"
+  },
+  {
+    "id": "fc8a1543-4c4e-484a-abe4-4479c04c22c4",
+    "reference": "HP132793",
+    "marque": "Audi",
+    "modele": "Q3 Sportback 45 TFSI e 245 S Tronic S Line",
+    "annee": 2022,
+    "km": 32085,
+    "prix": 37990.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/01.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 1"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/02.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 2"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/03.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 3"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/04.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 4"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/05.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 5"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/06.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 6"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/07.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 7"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/08.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 8"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/09.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 9"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/10.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 10"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/11.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 11"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/12.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 12"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/13.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 13"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/14.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 14"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/15.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 15"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/16.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 16"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/17.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 17"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/18.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 18"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/19.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 19"
+      },
+      {
+        "url": "/vehicles/audi-q3-sportback-45-tfsi-e-245/20.jpeg",
+        "alt": "Audi Q3 Sportback - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Plug-in Hybride",
+      "boite": "Automatique",
+      "puissance": "180 kW / 245 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 395 cm³",
+      "portes": 5,
+      "categorie": "SUV",
+      "vin": "WAUZZZF35P1022645",
+      "date_immat": "03/11/2022",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "SUV hybride rechargeable",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Connexion AUX-in",
+      "MMI Navigation Plus avec MMI Touch",
+      "Audi Virtual Cockpit",
+      "Sièges sport avant",
+      "Clé confort sans safelock",
+      "Bouton start-stop",
+      "Jantes alliage léger 8.5x20 étoile 5 branches",
+      "Aide au stationnement AV et AR",
+      "Câble de charge",
+      "Filtre à particules essence",
+      "Barres de toit noires",
+      "Rétroviseur ext avec indexage marche arrière",
+      "Side Assist et Lane Assist",
+      "Contrôle de motricité en descente",
+      "Commande vocale",
+      "Appel d'urgence automatique",
+      "Supports ISOFIX",
+      "Témoin contrôle pneumatiques",
+      "ESC",
+      "Détecteur de pluie/luminosité",
+      "Audi drive select",
+      "ABS",
+      "Audi pre sense front"
+    ],
+    "historique": [
+      {
+        "date": "09/09/2025",
+        "km": "28 542 km",
+        "interventions": "Balai d'essuie-glace AR/AV/Filtre d'habitacle/Liquide de frein/Plaquettes freins AV/Révision"
+      },
+      {
+        "date": "19/09/2023",
+        "km": "10 124 km",
+        "interventions": "Balai d'essuie-glace AR/AV/Révision"
+      }
+    ],
+    "description": "Audi Q3 Sportback 45 TFSI e S Line, SUV hybride rechargeable sportif avec finition S Line. Très faible kilométrage. Entretien complet en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T19:48:01.222945Z"
+  },
+  {
+    "id": "31f7007f-6d9c-48d2-a41a-60e62a34eaff",
+    "reference": "HP147995",
+    "marque": "Audi",
+    "modele": "Q4 e-tron 50 Design Luxe quattro 82kWh BVA",
+    "annee": 2023,
+    "km": 56623,
+    "prix": 40990.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/02.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 2"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/03.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 3"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/04.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 4"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/05.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 5"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/06.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 6"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/07.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 7"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/08.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 8"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/09.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 9"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/10.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 10"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/11.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 11"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/12.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 12"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/13.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 13"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/14.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 14"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/15.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 15"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/16.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 16"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/17.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 17"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/18.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 18"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/19.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 19"
+      },
+      {
+        "url": "/vehicles/audi-q4-etron-50-design-luxe/20.jpeg",
+        "alt": "Audi Q4 e-tron - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Électrique",
+      "boite": "Automatique",
+      "puissance": "220 kW / 299 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "0 cm³",
+      "portes": 5,
+      "categorie": "SUV",
+      "vin": "WAUZZZFZ5PP062855",
+      "date_immat": "23/06/2023",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "SUV électrique",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Virtual Dashboard",
+      "Projecteurs Matrix LED signatures lumineuses numériques",
+      "Climatisation automatique",
+      "Sièges sport avant",
+      "Appui lombaire 4 voies",
+      "Caméra aide au recul",
+      "Vitrage athermique teinté vert",
+      "Lève-vitre électrique AV + AR",
+      "Téléphonie mains libres Bluetooth avec Audi Phone Box Light",
+      "Reconnaissance des panneaux de signalisation",
+      "Régulateur de vitesse adaptatif",
+      "Dispositif d'attelage boule pivotante",
+      "Aide au stationnement Plus",
+      "Barres de toit noires",
+      "Rétroviseur ext électriques dégivrant rabattable électrochrome",
+      "Appel d'urgence automatique",
+      "Supports ISOFIX",
+      "Témoin contrôle pneumatiques",
+      "ESP",
+      "Alarme antivol + protection habitacle",
+      "Détecteur de pluie/luminosité",
+      "Feux de route automatiques",
+      "Lave-phares",
+      "ABS",
+      "Audi pre sense front"
+    ],
+    "historique": [
+      {
+        "date": "31/07/2024",
+        "km": "28 510 km",
+        "interventions": "Révision"
+      }
+    ],
+    "description": "Audi Q4 e-tron 50 Design Luxe quattro, SUV 100% électrique haut de gamme avec transmission intégrale. Finition Design Luxe avec équipements premium complets.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T19:48:01.222963Z"
+  },
+  {
+    "id": "f2b73506-d721-41e3-9245-7506a4c1409c",
+    "reference": "HP172158",
+    "marque": "BMW",
+    "modele": "Serie 5 520i Business Design 184 BVA8",
+    "annee": 2023,
+    "km": 41385,
+    "prix": 33990.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/01.jpeg",
+        "alt": "BMW Serie 5 - Photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/02.jpeg",
+        "alt": "BMW Serie 5 - Photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/03.jpeg",
+        "alt": "BMW Serie 5 - Photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/04.jpeg",
+        "alt": "BMW Serie 5 - Photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/05.jpeg",
+        "alt": "BMW Serie 5 - Photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/06.jpeg",
+        "alt": "BMW Serie 5 - Photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/07.jpeg",
+        "alt": "BMW Serie 5 - Photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/09.jpeg",
+        "alt": "BMW Serie 5 - Photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/10.jpeg",
+        "alt": "BMW Serie 5 - Photo 10"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/11.jpeg",
+        "alt": "BMW Serie 5 - Photo 11"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/12.jpeg",
+        "alt": "BMW Serie 5 - Photo 12"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/13.jpeg",
+        "alt": "BMW Serie 5 - Photo 13"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/14.jpeg",
+        "alt": "BMW Serie 5 - Photo 14"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/15.jpeg",
+        "alt": "BMW Serie 5 - Photo 15"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/16.jpeg",
+        "alt": "BMW Serie 5 - Photo 16"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/17.jpeg",
+        "alt": "BMW Serie 5 - Photo 17"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/18.jpeg",
+        "alt": "BMW Serie 5 - Photo 18"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/19.jpeg",
+        "alt": "BMW Serie 5 - Photo 19"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-business-184/20.jpeg",
+        "alt": "BMW Serie 5 - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "135 kW / 184 ch",
+      "puissance_fiscale": "10 CV",
+      "cylindree": "1 998 cm³",
+      "portes": 4,
+      "categorie": "Berline",
+      "vin": "WBA71AG040WY06053",
+      "date_immat": "03/01/2023",
+      "sieges": "5",
+      "couleur_interieur": "Cuir Dakota noir",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système audio et navigation",
+      "BMW Live Cockpit Professional",
+      "Climatisation automatique 2 zones",
+      "Sièges sport avant",
+      "Sellerie cuir Dakota avec couture de couleur",
+      "Sièges avant réglage électrique partiel",
+      "Affichage tête haute",
+      "Ordinateur de bord",
+      "Trappe de chargement accoudoir central AR",
+      "Vitrage protection thermique et pare-soleil combiné AR surteinté",
+      "Lève-vitre électrique AV + AR",
+      "Téléphonie mains libres Bluetooth avec interface audio USB",
+      "Appel de détresse intelligent comprenant TeleServices",
+      "Détection de somnolence",
+      "Régulateur de vitesse",
+      "Avertisseur de collision avec fonction freinage",
+      "Supports ISOFIX",
+      "ESP",
+      "Alarme",
+      "Détecteur de pluie/luminosité",
+      "Contrôle de traction dynamique (DTC)",
+      "ABS",
+      "Assistant de freinage",
+      "Start/Stop",
+      "Projecteur LED",
+      "Jantes alliage léger",
+      "PDC avant et arrière",
+      "Projecteurs antibrouillard LED",
+      "Filtre à particules essence",
+      "Verrouillage centralisé télécommande",
+      "Rétroviseur ext rabattable électriquement électrochrome",
+      "Commutateur de sensation de conduite"
+    ],
+    "historique": [
+      {
+        "date": "10/10/2024",
+        "km": "24 492 km",
+        "interventions": "Balais d'essuie-glace AV/Filtre d'habitacle/Révision"
+      },
+      {
+        "date": "01/06/2025",
+        "km": "41 385 km",
+        "interventions": "Divers assistance"
+      }
+    ],
+    "description": "BMW Série 5 520i Business Design, berline premium avec finition Business Design. Sellerie cuir Dakota, affichage tête haute, équipement complet. Entretien en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T19:48:01.222978Z"
+  },
+  {
+    "id": "2934546a-bd06-4a2f-b0b9-67b75d865bfc",
+    "reference": "HP215787",
+    "marque": "BMW",
+    "modele": "Serie 5 520i M Sport 184 BVA8",
+    "annee": 2022,
+    "km": 44999,
+    "prix": 39990.0,
+    "prix_original": null,
+    "couleur": "Bleu",
+    "images": [
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/01.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/02.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/03.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/04.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/05.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/06.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/07.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/08.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/09.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/10.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 10"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/11.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 11"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/12.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 12"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/13.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 13"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/14.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 14"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/15.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 15"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/16.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 16"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/17.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 17"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/18.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 18"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/19.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 19"
+      },
+      {
+        "url": "/vehicles/bmw-serie5-520i-msport-184/20.jpeg",
+        "alt": "BMW Serie 5 M Sport - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "135 kW / 184 ch",
+      "puissance_fiscale": "10 CV",
+      "cylindree": "1 998 cm³",
+      "portes": 4,
+      "categorie": "Berline",
+      "vin": "WBA71AG020CL02389",
+      "date_immat": "10/10/2022",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système audio et navigation",
+      "BMW Live Cockpit Professional",
+      "Climatisation automatique 2 zones",
+      "Sièges sport avant",
+      "Sièges avant réglage électrique",
+      "Caméra de recul",
+      "Ordinateur de bord",
+      "Volant cuir M-Technic",
+      "Vitrage protection thermique",
+      "Lève-vitre électrique AV + AR",
+      "M Sport",
+      "Pack équipement",
+      "Châssis/suspension sport M-Technic",
+      "Start/Stop",
+      "Projecteur LED",
+      "Jantes alliage léger",
+      "Dispositif d'attelage boule pivotante",
+      "PDC avant et arrière",
+      "Projecteurs antibrouillard LED",
+      "Filtre à particules essence",
+      "Verrouillage centralisé télécommande",
+      "Rétroviseur ext rabattable électrochrome",
+      "Téléphonie mains libres Bluetooth",
+      "Appel de détresse intelligent",
+      "Détection de somnolence",
+      "Régulateur de vitesse",
+      "Stationnement télécommandé Display-Key",
+      "Avertisseur de collision avec freinage",
+      "Supports ISOFIX",
+      "ESP",
+      "Alarme",
+      "Détecteur de pluie/luminosité",
+      "Feux de route automatiques",
+      "ABS",
+      "Assistant de freinage"
+    ],
+    "historique": [
+      {
+        "date": "29/07/2024",
+        "km": "24 140 km",
+        "interventions": "Balais d'essuie-glace AV/Filtre d'habitacle/Révision"
+      }
+    ],
+    "description": "BMW Série 5 520i M Sport, berline premium sportive avec finition M Sport. Châssis sport, équipement complet. Entretien en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T20:52:32.153284Z"
+  },
+  {
+    "id": "8477ff70-ed09-473d-878d-0b3c145a7203",
+    "reference": "HP241701",
+    "marque": "BMW",
+    "modele": "X2 sDrive18i Business Design",
+    "annee": 2023,
+    "km": 27812,
+    "prix": 25490.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/01.jpeg",
+        "alt": "BMW X2 - Photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/02.jpeg",
+        "alt": "BMW X2 - Photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/03.jpeg",
+        "alt": "BMW X2 - Photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/04.jpeg",
+        "alt": "BMW X2 - Photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/05.jpeg",
+        "alt": "BMW X2 - Photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/06.jpeg",
+        "alt": "BMW X2 - Photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/07.jpeg",
+        "alt": "BMW X2 - Photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/08.jpeg",
+        "alt": "BMW X2 - Photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/09.jpeg",
+        "alt": "BMW X2 - Photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/10.jpeg",
+        "alt": "BMW X2 - Photo 10"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/11.jpeg",
+        "alt": "BMW X2 - Photo 11"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/12.jpeg",
+        "alt": "BMW X2 - Photo 12"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/13.jpeg",
+        "alt": "BMW X2 - Photo 13"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/14.jpeg",
+        "alt": "BMW X2 - Photo 14"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/15.jpeg",
+        "alt": "BMW X2 - Photo 15"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/16.jpeg",
+        "alt": "BMW X2 - Photo 16"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/17.jpeg",
+        "alt": "BMW X2 - Photo 17"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/18.jpeg",
+        "alt": "BMW X2 - Photo 18"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/19.jpeg",
+        "alt": "BMW X2 - Photo 19"
+      },
+      {
+        "url": "/vehicles/bmw-x2-sdrive18i-business/20.jpeg",
+        "alt": "BMW X2 - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "100 kW / 136 ch",
+      "puissance_fiscale": "7 CV",
+      "cylindree": "1 499 cm³",
+      "portes": 5,
+      "categorie": "SUV",
+      "vin": "WBAYH110X05X24780",
+      "date_immat": "06/10/2023",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "SUV",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système de navigation USB",
+      "Climatisation automatique",
+      "Caméra de recul",
+      "Ordinateur de bord",
+      "Lève-vitre électrique",
+      "Volant cuir",
+      "Vitrage athermique teinté",
+      "Écran couleur 6.5 pouces",
+      "Hayon automatique",
+      "Bouton Start-Stop",
+      "Projecteur LED",
+      "Jantes alliage 18 pouces bicolor",
+      "PDC avant et arrière",
+      "Projecteurs antibrouillard LED",
+      "Filtre à particules essence",
+      "Verrouillage centralisé télécommande",
+      "Rétroviseur ext réglage électrique et dégivrant",
+      "Téléphonie mains libres Bluetooth",
+      "Appel de détresse intelligent",
+      "Détection de somnolence",
+      "Régulateur de vitesse",
+      "Aide au stationnement",
+      "Supports ISOFIX",
+      "ESP",
+      "Détecteur de pluie/luminosité",
+      "ABS",
+      "Assistant de freinage",
+      "Sélecteur profil de conduite"
+    ],
+    "historique": [],
+    "description": "BMW X2 sDrive18i Business Design, SUV compact et dynamique. Faible kilométrage, parfait état. Équipement Business complet.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T20:53:01.635297Z"
+  },
+  {
+    "id": "35ae7e0b-efb3-4d78-a14d-12d72bc6cf27",
+    "reference": "HP348238",
+    "marque": "BMW",
+    "modele": "X3 xDrive30e 292 Business Design BVA8",
+    "annee": 2021,
+    "km": 75794,
+    "prix": 39990.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/01.jpeg",
+        "alt": "BMW X3 - Photo 1"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/02.jpeg",
+        "alt": "BMW X3 - Photo 2"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/03.jpeg",
+        "alt": "BMW X3 - Photo 3"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/04.jpeg",
+        "alt": "BMW X3 - Photo 4"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/05.jpeg",
+        "alt": "BMW X3 - Photo 5"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/06.jpeg",
+        "alt": "BMW X3 - Photo 6"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/07.jpeg",
+        "alt": "BMW X3 - Photo 7"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/08.jpeg",
+        "alt": "BMW X3 - Photo 8"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/09.jpeg",
+        "alt": "BMW X3 - Photo 9"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/10.jpeg",
+        "alt": "BMW X3 - Photo 10"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/11.jpeg",
+        "alt": "BMW X3 - Photo 11"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/12.jpeg",
+        "alt": "BMW X3 - Photo 12"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/13.jpeg",
+        "alt": "BMW X3 - Photo 13"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/14.jpeg",
+        "alt": "BMW X3 - Photo 14"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/15.jpeg",
+        "alt": "BMW X3 - Photo 15"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/16.jpeg",
+        "alt": "BMW X3 - Photo 16"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/17.jpeg",
+        "alt": "BMW X3 - Photo 17"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/18.jpeg",
+        "alt": "BMW X3 - Photo 18"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/19.jpeg",
+        "alt": "BMW X3 - Photo 19"
+      },
+      {
+        "url": "/vehicles/bmw-x3-xdrive30e-292/20.jpeg",
+        "alt": "BMW X3 - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "215 kW / 292 ch",
+      "puissance_fiscale": "10 CV",
+      "cylindree": "1 998 cm³",
+      "portes": 5,
+      "categorie": "SUV",
+      "vin": "WBA61DP0209J57106",
+      "date_immat": "09/12/2021",
+      "sieges": "5",
+      "couleur_interieur": "Blanc ivoire cuir Merino",
+      "proprietaires": "1",
+      "type_vehicule": "SUV hybride rechargeable",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système audio et navigation Professional",
+      "Climatisation automatique",
+      "Sièges sport avant",
+      "Sellerie cuir BMW Individual Merino blanc ivoire",
+      "Sièges arrière réglages électriques",
+      "Toit panoramique transparent",
+      "Ordinateur de bord",
+      "Trappe de chargement",
+      "Vitrage athermique arrière surteinté",
+      "Commande volet arrière automatique",
+      "Keyless Access",
+      "Start/Stop",
+      "Phares avant LED",
+      "Jantes alliage léger",
+      "PDC avant et arrière",
+      "Projecteurs antibrouillard LED",
+      "Filtre à particules essence",
+      "Rétroviseur ext réglage électrique et dégivrant",
+      "Téléphonie mains libres Bluetooth",
+      "Indicateur Speed-Limit",
+      "Concierge Services",
+      "Alerte franchissement de ligne",
+      "Régulateur de vitesse",
+      "Avertisseur de collision avec freinage",
+      "Supports ISOFIX",
+      "ESP",
+      "Alarme",
+      "Détecteur de pluie/luminosité",
+      "ABS",
+      "xDrive transmission intégrale"
+    ],
+    "historique": [
+      {
+        "date": "16/06/2025",
+        "km": "69 465 km",
+        "interventions": "Bougie d'allumage/Filtre d'habitacle/Filtre à air/Recyclage/Révision"
+      },
+      {
+        "date": "30/09/2024",
+        "km": "54 897 km",
+        "interventions": "Divers entretien/Liquide de frein/Recyclage"
+      },
+      {
+        "date": "20/03/2024",
+        "km": "43 176 km",
+        "interventions": "Balai d'essuie-glace AR/Lecture mémoire/Serrure/réinitialisation"
+      },
+      {
+        "date": "14/08/2023",
+        "km": "35 770 km",
+        "interventions": "Filtre à pollen/Pile/Révision"
+      },
+      {
+        "date": "29/08/2025",
+        "km": "75 794 km",
+        "interventions": "Divers assistance"
+      }
+    ],
+    "description": "BMW X3 xDrive30e 292 Business Design, SUV hybride rechargeable haut de gamme avec transmission intégrale xDrive. Intérieur cuir Merino blanc ivoire, toit panoramique. Entretien complet en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T20:53:39.672916Z"
+  },
+  {
+    "id": "8df41937-6775-4ff1-898e-a18fde54e6c1",
+    "reference": "HP379343",
+    "marque": "Citroën",
+    "modele": "Berlingo Fourgon Club XL 950 1.5 BlueHDi 100 BVM6",
+    "annee": 2022,
+    "km": 66700,
+    "prix": 15390.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/01.jpeg",
+        "alt": "Citroën Berlingo - Photo 1"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/02.jpeg",
+        "alt": "Citroën Berlingo - Photo 2"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/03.jpeg",
+        "alt": "Citroën Berlingo - Photo 3"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/04.jpeg",
+        "alt": "Citroën Berlingo - Photo 4"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/05.jpeg",
+        "alt": "Citroën Berlingo - Photo 5"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/06.jpeg",
+        "alt": "Citroën Berlingo - Photo 6"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/07.jpeg",
+        "alt": "Citroën Berlingo - Photo 7"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/08.jpeg",
+        "alt": "Citroën Berlingo - Photo 8"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/09.jpeg",
+        "alt": "Citroën Berlingo - Photo 9"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/10.jpeg",
+        "alt": "Citroën Berlingo - Photo 10"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/11.jpeg",
+        "alt": "Citroën Berlingo - Photo 11"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/12.jpeg",
+        "alt": "Citroën Berlingo - Photo 12"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/13.jpeg",
+        "alt": "Citroën Berlingo - Photo 13"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/14.jpeg",
+        "alt": "Citroën Berlingo - Photo 14"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/15.jpeg",
+        "alt": "Citroën Berlingo - Photo 15"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/16.jpeg",
+        "alt": "Citroën Berlingo - Photo 16"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/17.jpeg",
+        "alt": "Citroën Berlingo - Photo 17"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/18.jpeg",
+        "alt": "Citroën Berlingo - Photo 18"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/19.jpeg",
+        "alt": "Citroën Berlingo - Photo 19"
+      },
+      {
+        "url": "/vehicles/citroen-berlingo-fourgon-club-xl/20.jpeg",
+        "alt": "Citroën Berlingo - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "75 kW / 102 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "1 499 cm³",
+      "portes": 4,
+      "categorie": "Utilitaire",
+      "vin": "VR7EFYHT2MJ926582",
+      "date_immat": "01/02/2022",
+      "sieges": "2",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Navigation écran couleur",
+      "Climatisation",
+      "Ordinateur de bord",
+      "Lève-vitre électrique conducteur",
+      "Vitre teintée",
+      "Kit téléphone main libre",
+      "Aide au stationnement arrière",
+      "Bluetooth mains libres",
+      "Aide au démarrage en côte",
+      "Citroën Connect appel d'urgence",
+      "Contrôle pression pneumatiques",
+      "ESP",
+      "Allumage automatique feux de croisement",
+      "ABS",
+      "Stop/Start",
+      "Porte latérale coulissante droite",
+      "Projecteurs antibrouillard",
+      "Filtre à particules",
+      "Rétroviseur ext chauffant/dégivrant"
+    ],
+    "historique": [
+      {
+        "date": "01/03/2024",
+        "km": "38 991 km",
+        "interventions": "ADBLUE/Balais d'essuie-glace AV/Filtre d'habitacle/Filtre à air/Filtre à carburant/Liquide de frein/Révision"
+      }
+    ],
+    "description": "Citroën Berlingo Fourgon Club XL 950, utilitaire spacieux avec volume de chargement de 3 900 L. Motorisation BlueHDi 100 économique. Entretien en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T20:54:07.692075Z"
+  },
+  {
+    "id": "d498b065-4ce5-43be-bd54-e5d08c6393ec",
+    "reference": "HP391576",
+    "marque": "Citroën",
+    "modele": "Jumper Fourgon 30 L1H1 Club BlueHDi 140",
+    "annee": 2022,
+    "km": 62095,
+    "prix": 19290.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/01.jpeg",
+        "alt": "Citroën Jumper - Photo 1"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/02.jpeg",
+        "alt": "Citroën Jumper - Photo 2"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/03.jpeg",
+        "alt": "Citroën Jumper - Photo 3"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/04.jpeg",
+        "alt": "Citroën Jumper - Photo 4"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/05.jpeg",
+        "alt": "Citroën Jumper - Photo 5"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/06.jpeg",
+        "alt": "Citroën Jumper - Photo 6"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/07.jpeg",
+        "alt": "Citroën Jumper - Photo 7"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/08.jpeg",
+        "alt": "Citroën Jumper - Photo 8"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/09.jpeg",
+        "alt": "Citroën Jumper - Photo 9"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/10.jpeg",
+        "alt": "Citroën Jumper - Photo 10"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/11.jpeg",
+        "alt": "Citroën Jumper - Photo 11"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/12.jpeg",
+        "alt": "Citroën Jumper - Photo 12"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/13.jpeg",
+        "alt": "Citroën Jumper - Photo 13"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/14.jpeg",
+        "alt": "Citroën Jumper - Photo 14"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/15.jpeg",
+        "alt": "Citroën Jumper - Photo 15"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/16.jpeg",
+        "alt": "Citroën Jumper - Photo 16"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/17.jpeg",
+        "alt": "Citroën Jumper - Photo 17"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/18.jpeg",
+        "alt": "Citroën Jumper - Photo 18"
+      },
+      {
+        "url": "/vehicles/citroen-jumper-30-l1h1-club-140/19.jpeg",
+        "alt": "Citroën Jumper - Photo 19"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "103 kW / 140 ch",
+      "puissance_fiscale": "7 CV",
+      "cylindree": "2 179 cm³",
+      "portes": 4,
+      "categorie": "Utilitaire",
+      "vin": "VF7YABPFA12U90754",
+      "date_immat": "31/03/2022",
+      "sieges": "3",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système de navigation écran couleur",
+      "Climatisation manuelle",
+      "VP2 numérique",
+      "Kit téléphone main libre Bluetooth",
+      "Filtre à particules",
+      "Clé plip haute fréquence",
+      "Rétroviseur ext rabattable électrique",
+      "Vitrage teinté",
+      "Boîtier Kuantic",
+      "Antipatinage",
+      "Aide au freinage d'urgence"
+    ],
+    "historique": [
+      {
+        "date": "12/08/2025",
+        "km": "57 321 km",
+        "interventions": "Filtre à huile/Filtre d'habitacle/Filtre à air/Filtre à carburant/Révision"
+      },
+      {
+        "date": "01/02/2024",
+        "km": "33 654 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "31/01/2024",
+        "km": "33 651 km",
+        "interventions": "Filtre d'habitacle/Liquide de frein/Révision"
+      }
+    ],
+    "description": "Citroën Jumper Fourgon 30 L1H1 Club BlueHDi 140, utilitaire puissant et spacieux. Dimensions: 4 963 mm x 2 050 mm x 2 254 mm. Entretien complet en réseau constructeur avec 3 interventions documentées.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:24:50.032231Z"
+  },
+  {
+    "id": "64e97d29-6207-491b-b362-848117aa5528",
+    "reference": "HP403971",
+    "marque": "Fiat",
+    "modele": "Ducato Fourgon tole H3-Power 120 3.0 M H2 Pack",
+    "annee": 2022,
+    "km": 53053,
+    "prix": 21990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/01.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 1"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/02.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 2"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/03.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 3"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/04.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 4"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/05.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 5"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/06.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 6"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/07.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 7"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/08.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 8"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/09.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 9"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/10.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 10"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/11.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 11"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/12.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 12"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/13.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 13"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/14.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 14"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/15.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 15"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/16.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 16"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/17.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 17"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/18.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 18"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/19.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 19"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-120/20.jpeg",
+        "alt": "Fiat Ducato 120 - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "88 kW / 120 ch",
+      "puissance_fiscale": "7 CV",
+      "cylindree": "2 184 cm³",
+      "portes": 4,
+      "categorie": "Utilitaire",
+      "vin": "ZFA25000002V65985",
+      "date_immat": "17/08/2022",
+      "sieges": "3",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [],
+    "historique": [
+      {
+        "date": "02/04/2025",
+        "km": "43 753 km",
+        "interventions": "ADBLUE/Balais d'essuie-glace AV/Filtre d'habitacle/Filtre à air/Filtre à carburant/Liquide de frein/Révision"
+      },
+      {
+        "date": "01/04/2025",
+        "km": "42 226 km",
+        "interventions": "Dépose/Pneu été/pose pneumatique hiver/été"
+      },
+      {
+        "date": "16/10/2024",
+        "km": "34 409 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "12/10/2024",
+        "km": "32 866 km",
+        "interventions": "Pneu hiver"
+      },
+      {
+        "date": "08/04/2024",
+        "km": "25 521 km",
+        "interventions": "Dépose/Pneu été/pose pneumatique hiver/été"
+      },
+      {
+        "date": "20/02/2024",
+        "km": "23 453 km",
+        "interventions": "Huile moteur/Lecture mémoire/réinitialisation"
+      },
+      {
+        "date": "06/02/2024",
+        "km": "23 427 km",
+        "interventions": "Huile moteur"
+      },
+      {
+        "date": "10/10/2023",
+        "km": "15 476 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "28/03/2023",
+        "km": "5 830 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "04/10/2022",
+        "km": "669 km",
+        "interventions": "Pneu hiver"
+      }
+    ],
+    "description": "Fiat Ducato Fourgon tole H3-Power 120 3.0 M H2 Pack, utilitaire spacieux et robuste. Motorisation diesel 120 ch économique. Entretien complet avec 10 interventions documentées en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:28:35.857081Z"
+  },
+  {
+    "id": "e06871d5-8ff1-497c-a5c8-c146cceb8d78",
+    "reference": "HP418729",
+    "marque": "Fiat",
+    "modele": "Ducato Fourgon tole H3-Power 140 3.0 M H2 Pack",
+    "annee": 2023,
+    "km": 55368,
+    "prix": 24990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/01.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 1"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/02.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 2"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/03.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 3"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/04.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 4"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/05.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 5"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/06.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 6"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/07.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 7"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/08.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 8"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/09.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 9"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/10.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 10"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/11.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 11"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/12.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 12"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/13.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 13"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/14.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 14"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/15.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 15"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/16.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 16"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/17.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 17"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/18.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 18"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/19.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 19"
+      },
+      {
+        "url": "/vehicles/fiat-ducato-h3-power-140/20.jpeg",
+        "alt": "Fiat Ducato 140 - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "103 kW / 140 ch",
+      "puissance_fiscale": "7 CV",
+      "cylindree": "2 184 cm³",
+      "portes": 5,
+      "categorie": "Utilitaire",
+      "vin": "ZFA25000002X52329",
+      "date_immat": "14/08/2023",
+      "sieges": "3",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Feux xénon",
+      "Porte latérale coulissante droite"
+    ],
+    "historique": [
+      {
+        "date": "23/12/2025",
+        "km": "55 111 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "08/01/2025",
+        "km": "31 832 km",
+        "interventions": "Révision"
+      }
+    ],
+    "description": "Fiat Ducato Fourgon tole H3-Power 140 3.0 M H2 Pack, utilitaire puissant avec motorisation 140 ch. Entretien en réseau constructeur avec 2 interventions documentées.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:30:00.691016Z"
+  },
+  {
+    "id": "883b8f82-32bf-4785-b26b-d9cd3d3803ea",
+    "reference": "HP437892",
+    "marque": "Mercedes",
+    "modele": "Citan PRO 113 ESS Fourgon Long",
+    "annee": 2023,
+    "km": 42303,
+    "prix": 18190.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/01.jpeg",
+        "alt": "Mercedes Citan - Photo 1"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/02.jpeg",
+        "alt": "Mercedes Citan - Photo 2"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/03.jpeg",
+        "alt": "Mercedes Citan - Photo 3"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/04.jpeg",
+        "alt": "Mercedes Citan - Photo 4"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/05.jpeg",
+        "alt": "Mercedes Citan - Photo 5"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/06.jpeg",
+        "alt": "Mercedes Citan - Photo 6"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/07.jpeg",
+        "alt": "Mercedes Citan - Photo 7"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/08.jpeg",
+        "alt": "Mercedes Citan - Photo 8"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/09.jpeg",
+        "alt": "Mercedes Citan - Photo 9"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/10.jpeg",
+        "alt": "Mercedes Citan - Photo 10"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/11.jpeg",
+        "alt": "Mercedes Citan - Photo 11"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/12.jpeg",
+        "alt": "Mercedes Citan - Photo 12"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/13.jpeg",
+        "alt": "Mercedes Citan - Photo 13"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/14.jpeg",
+        "alt": "Mercedes Citan - Photo 14"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/15.jpeg",
+        "alt": "Mercedes Citan - Photo 15"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/16.jpeg",
+        "alt": "Mercedes Citan - Photo 16"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/17.jpeg",
+        "alt": "Mercedes Citan - Photo 17"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/18.jpeg",
+        "alt": "Mercedes Citan - Photo 18"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/19.jpeg",
+        "alt": "Mercedes Citan - Photo 19"
+      },
+      {
+        "url": "/vehicles/mercedes-citan-pro-113-ess/20.jpeg",
+        "alt": "Mercedes Citan - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "96 kW / 131 ch",
+      "puissance_fiscale": "6 CV",
+      "cylindree": "1 332 cm³",
+      "portes": 4,
+      "categorie": "Utilitaire",
+      "vin": "W1VT1ACZ2RU366003",
+      "date_immat": "29/11/2023",
+      "sieges": "2",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatiseur",
+      "Plancher en plastique coffre/compartiment de chargement",
+      "Lève-vitre avant électrique avec fonction confort",
+      "Pare-brise teinté",
+      "Aide au stationnement arrière",
+      "Système d'appel d'urgence Mercedes-Benz",
+      "Régulation de comportement dynamique (ESP)",
+      "Capteur de luminosité et de pluie",
+      "Fonction Stop/Start ECO",
+      "Phares LED hautes performances",
+      "Jantes design 40,6 cm (16\") à 5 branches doubles",
+      "Projecteurs antibrouillards",
+      "Filtre à particules",
+      "Rétroviseurs extérieurs électriques"
+    ],
+    "historique": [
+      {
+        "date": "16/01/2025",
+        "km": "26 904 km",
+        "interventions": "Balais d'essuie-glace AV/Révision"
+      }
+    ],
+    "description": "Mercedes Citan PRO 113 ESS Fourgon Long, utilitaire compact et polyvalent. Motorisation essence 131 ch. Dimensions: 4 498 x 1 859 x 1 819 mm. Entretien en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:31:53.289263Z"
+  },
+  {
+    "id": "1a4d54ac-6a46-4446-b8f2-ca9f07d24763",
+    "reference": "HP456321",
+    "marque": "Mercedes",
+    "modele": "Classe CLA Coupé 250 e AMG Line",
+    "annee": 2022,
+    "km": 59991,
+    "prix": 32990.0,
+    "prix_original": null,
+    "couleur": "Gris",
+    "images": [
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/01.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 1"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/02.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 2"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/03.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 3"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/04.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 4"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/05.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 5"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/06.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 6"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/07.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 7"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/08.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 8"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/09.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 9"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/10.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 10"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/11.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 11"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/12.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 12"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/13.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 13"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/14.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 14"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/15.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 15"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/16.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 16"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/17.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 17"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/18.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 18"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/19.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 19"
+      },
+      {
+        "url": "/vehicles/mercedes-cla-coupe-250e-amg/20.jpeg",
+        "alt": "Mercedes CLA 250 e AMG - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Plug-in Hybride",
+      "boite": "Automatique",
+      "puissance": "160 kW / 218 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 332 cm³",
+      "portes": 4,
+      "categorie": "Coupé",
+      "vin": "W1K5J8GB7PN346624",
+      "date_immat": "20/10/2022",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Coupé hybride rechargeable",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système de navigation disque dur",
+      "Climatisation automatique confort (Thermotronic)",
+      "Sièges chauffants avant",
+      "Sièges sport avant",
+      "Siège avant droit à réglages électriques avec mémoire",
+      "Caméra aide au recul",
+      "Toit ouvrant panoramique",
+      "Volant de direction cuir Nappa",
+      "Lève-vitre électrique AV + AR",
+      "Sound-system",
+      "Media Display",
+      "Assistant limitation de vitesse",
+      "Système d'appel d'urgence Mercedes-Benz",
+      "Assistant maintien de trajectoire",
+      "Pack de stationnement",
+      "Avertisseur de collision (FCW)",
+      "I-Size marking (ISOFIX)",
+      "Contrôle pression pneumatiques",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Essuie-vitres avec capteur de pluie",
+      "ABS",
+      "Assistant de freinage actif",
+      "Agility Select / Dynamic Select",
+      "Couvercle coffre ouverture/fermeture automatique",
+      "Pack Keyless-Go",
+      "Jantes alliage léger",
+      "Câble de charge",
+      "Verrouillage centralisé avec commande à distance",
+      "Rétrovisoir ext rabattable électriquement"
+    ],
+    "historique": [
+      {
+        "date": "19/11/2024",
+        "km": "40 048 km",
+        "interventions": "Liquide de frein/Révision bisannuelle"
+      },
+      {
+        "date": "15/05/2024",
+        "km": "28 515 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "06/11/2023",
+        "km": "20 608 km",
+        "interventions": "Balais d'essuie-glace AV/Révision"
+      }
+    ],
+    "description": "Mercedes Classe CLA Coupé 250 e AMG Line, coupé hybride rechargeable avec finition AMG Line. Toit panoramique, sièges sport, équipement premium complet. Entretien en réseau constructeur avec 3 interventions.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:33:34.110227Z"
+  },
+  {
+    "id": "2048be7e-9358-4f67-ab3c-504c5343fef6",
+    "reference": "HP471258",
+    "marque": "Renault",
+    "modele": "Captur Evolution 1.6 E-TECH Hybrid 145 BVA6",
+    "annee": 2023,
+    "km": 74702,
+    "prix": 17490.0,
+    "prix_original": null,
+    "couleur": "Bleu",
+    "images": [
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/01.jpeg",
+        "alt": "Renault Captur - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/02.jpeg",
+        "alt": "Renault Captur - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/03.jpeg",
+        "alt": "Renault Captur - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/04.jpeg",
+        "alt": "Renault Captur - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/05.jpeg",
+        "alt": "Renault Captur - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/06.jpeg",
+        "alt": "Renault Captur - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/07.jpeg",
+        "alt": "Renault Captur - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/08.jpeg",
+        "alt": "Renault Captur - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/09.jpeg",
+        "alt": "Renault Captur - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/10.jpeg",
+        "alt": "Renault Captur - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/11.jpeg",
+        "alt": "Renault Captur - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/12.jpeg",
+        "alt": "Renault Captur - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/13.jpeg",
+        "alt": "Renault Captur - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/14.jpeg",
+        "alt": "Renault Captur - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/15.jpeg",
+        "alt": "Renault Captur - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/16.jpeg",
+        "alt": "Renault Captur - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/17.jpeg",
+        "alt": "Renault Captur - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/18.jpeg",
+        "alt": "Renault Captur - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-captur-evolution-etech-145/19.jpeg",
+        "alt": "Renault Captur - Photo 19"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "105 kW / 143 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "1 598 cm³",
+      "portes": 5,
+      "categorie": "SUV",
+      "vin": "VF1RJB00871456170",
+      "date_immat": "27/09/2023",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "SUV hybride",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Connexion AUX-in",
+      "Système multimédia Easy Link avec navigation écran tactile 7\"",
+      "Climatisation automatique bi-zone",
+      "Caméra aide au recul",
+      "Lève-vitre électrique AR",
+      "Aide au stationnement AR",
+      "Assistance au démarrage en côte (HSA)",
+      "Reconnaissance des panneaux de signalisation",
+      "Alerte de franchissement de ligne",
+      "Régulateur de vitesse",
+      "Alerte distance sécurité",
+      "Supports ISOFIX",
+      "Contrôle pression pneumatiques",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Détecteur de pluie/luminosité",
+      "Allumage automatique feux de croisement",
+      "ABS",
+      "Assistant de freinage",
+      "Mode Eco",
+      "Peinture métallisée",
+      "Démarrage mains-libres Entry-Drive",
+      "Système Start/Stop",
+      "Aide au stationnement AV et AR",
+      "Filtre à particules (FAP)",
+      "Verrouillage centralisé",
+      "Rétroviseur ext réglage électrique et dégivrant"
+    ],
+    "historique": [],
+    "description": "Renault Captur Evolution 1.6 E-TECH Hybrid 145 BVA6, SUV compact hybride avec finition Evolution. Climatisation bi-zone, navigation, aide au stationnement. Entretien complet en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:35:14.181584Z"
+  },
+  {
+    "id": "a38b84f7-9766-4c34-bf80-027b0a928ccd",
+    "reference": "HP489127",
+    "marque": "Renault",
+    "modele": "Express Confort 1.3 TCe 100 BVM6",
+    "annee": 2022,
+    "km": 44940,
+    "prix": 14490.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/01.jpeg",
+        "alt": "Renault Express - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/02.jpeg",
+        "alt": "Renault Express - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/03.jpeg",
+        "alt": "Renault Express - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/04.jpeg",
+        "alt": "Renault Express - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/05.jpeg",
+        "alt": "Renault Express - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/06.jpeg",
+        "alt": "Renault Express - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/07.jpeg",
+        "alt": "Renault Express - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/08.jpeg",
+        "alt": "Renault Express - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/09.jpeg",
+        "alt": "Renault Express - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/10.jpeg",
+        "alt": "Renault Express - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/11.jpeg",
+        "alt": "Renault Express - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/12.jpeg",
+        "alt": "Renault Express - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/13.jpeg",
+        "alt": "Renault Express - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/14.jpeg",
+        "alt": "Renault Express - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/15.jpeg",
+        "alt": "Renault Express - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/16.jpeg",
+        "alt": "Renault Express - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/17.jpeg",
+        "alt": "Renault Express - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/18.jpeg",
+        "alt": "Renault Express - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/19.jpeg",
+        "alt": "Renault Express - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-express-confort-tce-100/20.jpeg",
+        "alt": "Renault Express - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "75 kW / 102 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 332 cm³",
+      "portes": 4,
+      "categorie": "Utilitaire",
+      "vin": "VF1RJK00368117709",
+      "date_immat": "05/05/2022",
+      "sieges": "2",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatisation automatique",
+      "Lève-vitre électrique AV",
+      "Vitrage athermique",
+      "Aide au stationnement AR",
+      "Assistance au démarrage en côte (HSA)",
+      "Régulateur de vitesse",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Détecteur de pluie/luminosité",
+      "ABS",
+      "Assistant de freinage",
+      "Mode Eco",
+      "Système Start/Stop",
+      "Porte latérale coulissante",
+      "Verrouillage centralisé",
+      "Rétrovisoir ext rabattable électriquement"
+    ],
+    "historique": [
+      {
+        "date": "15/09/2025",
+        "km": "44 895 km",
+        "interventions": "Divers équipement électrique/Recyclage/Télécommande"
+      },
+      {
+        "date": "14/08/2025",
+        "km": "44 895 km",
+        "interventions": "Bougie d'allumage/Filtre à huile/Filtre d'habitacle/Filtre à air/Huile moteur/Liquide de frein/Liquide lave-glace/Révision"
+      }
+    ],
+    "description": "Renault Express Confort 1.3 TCe 100 BVM6, utilitaire compact et économique. Volume de chargement de 3 300 L. Entretien complet en réseau constructeur avec 2 interventions documentées.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:36:41.545936Z"
+  },
+  {
+    "id": "f7867f1c-c66a-4fac-b71c-0aae3bfbd835",
+    "reference": "HP503614",
+    "marque": "Renault",
+    "modele": "Kangoo Express Maxi Extra 1.5 dCi 95 BVM6",
+    "annee": 2022,
+    "km": 95438,
+    "prix": 11990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/01.jpeg",
+        "alt": "Renault Kangoo - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/02.jpeg",
+        "alt": "Renault Kangoo - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/03.jpeg",
+        "alt": "Renault Kangoo - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/04.jpeg",
+        "alt": "Renault Kangoo - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/05.jpeg",
+        "alt": "Renault Kangoo - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/06.jpeg",
+        "alt": "Renault Kangoo - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/07.jpeg",
+        "alt": "Renault Kangoo - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/08.jpeg",
+        "alt": "Renault Kangoo - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/09.jpeg",
+        "alt": "Renault Kangoo - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/10.jpeg",
+        "alt": "Renault Kangoo - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/11.jpeg",
+        "alt": "Renault Kangoo - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/12.jpeg",
+        "alt": "Renault Kangoo - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/13.jpeg",
+        "alt": "Renault Kangoo - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/14.jpeg",
+        "alt": "Renault Kangoo - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/15.jpeg",
+        "alt": "Renault Kangoo - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/16.jpeg",
+        "alt": "Renault Kangoo - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/17.jpeg",
+        "alt": "Renault Kangoo - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/18.jpeg",
+        "alt": "Renault Kangoo - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/19.jpeg",
+        "alt": "Renault Kangoo - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-kangoo-express-maxi-extra/20.jpeg",
+        "alt": "Renault Kangoo - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "70 kW / 95 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "1 461 cm³",
+      "portes": 4,
+      "categorie": "Utilitaire",
+      "vin": "VF1WF000168525246",
+      "date_immat": "13/04/2022",
+      "sieges": "2",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Connexion USB / AUX-in",
+      "Climatisation",
+      "Ordinateur de bord",
+      "Lève-vitre électrique AV",
+      "Vitrage teinté",
+      "Porte latérale coulissante",
+      "Filtre à particules (FAP)",
+      "Verrouillage centralisé",
+      "Rétroviseur ext réglage électrique et dégivrant",
+      "Système Start/Stop",
+      "Aide au stationnement AR",
+      "Téléphonie mains libres Bluetooth",
+      "Assistance au démarrage en côte (HSA)",
+      "Régulateur de vitesse",
+      "Contrôle dynamique de stabilité (ESP) avec Grip Control",
+      "Contrôle de traction électronique (Extended Grip Control)",
+      "ABS",
+      "Assistant de freinage"
+    ],
+    "historique": [
+      {
+        "date": "15/10/2025",
+        "km": "95 438 km",
+        "interventions": "Essai/Etrier de frein/Liquide de frein/Ampoule/Balais d'essuie-glace AV/Recyclage/Révision"
+      },
+      {
+        "date": "02/12/2024",
+        "km": "76 237 km",
+        "interventions": "Extra services Assistance"
+      },
+      {
+        "date": "08/04/2024",
+        "km": "59 532 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "05/04/2024",
+        "km": "59 401 km",
+        "interventions": "ADBLUE/Balais d'essuie-glace AV/Disques de freins AV/Feu arrière gauche/Plaquettes frein AR/Recyclage/Révision"
+      },
+      {
+        "date": "02/11/2023",
+        "km": "44 324 km",
+        "interventions": "Dépose/pose pneumatique hiver/été"
+      },
+      {
+        "date": "26/05/2023",
+        "km": "29 105 km",
+        "interventions": "ADBLUE/Ampoule/Balais d'essuie-glace AV/Plaquettes freins AV/Révision"
+      },
+      {
+        "date": "26/04/2023",
+        "km": "25 719 km",
+        "interventions": "Dépose/Gardiennage pneu été/hiver/pose pneumatique hiver/été"
+      },
+      {
+        "date": "16/12/2022",
+        "km": "15 422 km",
+        "interventions": "Pneu hiver"
+      },
+      {
+        "date": "25/10/2022",
+        "km": "11 953 km",
+        "interventions": "Dépose/Gardiennage pneu été/hiver/pose pneumatique hiver/été"
+      }
+    ],
+    "description": "Renault Kangoo Express Maxi Extra 1.5 dCi 95, utilitaire compact avec volume de chargement de 4 000 L. Grip Control pour conditions difficiles. Entretien complet en réseau constructeur avec 9 interventions.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:38:21.878116Z"
+  },
+  {
+    "id": "8fb5da93-f97d-4e99-8c55-8ca6def96ac8",
+    "reference": "HP521847",
+    "marque": "Renault",
+    "modele": "Master Chassis cabine CC Tr CF F3500 L3 Blue dCi 145",
+    "annee": 2023,
+    "km": 35008,
+    "prix": 36990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/01.jpeg",
+        "alt": "Renault Master Chassis - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/02.jpeg",
+        "alt": "Renault Master Chassis - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/03.jpeg",
+        "alt": "Renault Master Chassis - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/04.jpeg",
+        "alt": "Renault Master Chassis - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/05.jpeg",
+        "alt": "Renault Master Chassis - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/06.jpeg",
+        "alt": "Renault Master Chassis - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/07.jpeg",
+        "alt": "Renault Master Chassis - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/08.jpeg",
+        "alt": "Renault Master Chassis - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/09.jpeg",
+        "alt": "Renault Master Chassis - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/10.jpeg",
+        "alt": "Renault Master Chassis - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/11.jpeg",
+        "alt": "Renault Master Chassis - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/12.jpeg",
+        "alt": "Renault Master Chassis - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/13.jpeg",
+        "alt": "Renault Master Chassis - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/14.jpeg",
+        "alt": "Renault Master Chassis - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/15.jpeg",
+        "alt": "Renault Master Chassis - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/16.jpeg",
+        "alt": "Renault Master Chassis - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/17.jpeg",
+        "alt": "Renault Master Chassis - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/18.jpeg",
+        "alt": "Renault Master Chassis - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/19.jpeg",
+        "alt": "Renault Master Chassis - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-master-chassis-cabine-f3500/20.jpeg",
+        "alt": "Renault Master Chassis - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "107 kW / 145 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "2 299 cm³",
+      "portes": 3,
+      "categorie": "Utilitaire",
+      "vin": "VF1VB000770766770",
+      "date_immat": "26/12/2023",
+      "sieges": "3",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Chassis cabine",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système audio et navigation écran tactile couleur (Media Nav)",
+      "Climatisation",
+      "Ordinateur de bord",
+      "Lève-vitre électrique AV",
+      "Vitrage athermique",
+      "Système Start/Stop",
+      "Projecteurs bi-Xénon avec éclairage directionnel",
+      "Filtre à particules (FAP)",
+      "Verrouillage centralisé avec télécommande",
+      "Rétroviseur ext réglage électrique",
+      "Régulateur de vitesse",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Détecteur de pluie/luminosité",
+      "ABS",
+      "Assistant de freinage"
+    ],
+    "historique": [
+      {
+        "date": "03/12/2025",
+        "km": "31 156 km",
+        "interventions": "Contrôle d'équipement de levage"
+      },
+      {
+        "date": "21/10/2025",
+        "km": "29 570 km",
+        "interventions": "Montage équilibrage/Pneu été"
+      },
+      {
+        "date": "29/09/2025",
+        "km": "27 067 km",
+        "interventions": "ADBLUE/Balais d'essuie-glace AV/Révision"
+      },
+      {
+        "date": "05/03/2025",
+        "km": "19 407 km",
+        "interventions": "Contrôle d'équipement de levage accepté"
+      },
+      {
+        "date": "27/09/2024",
+        "km": "10 330 km",
+        "interventions": "Contrôle d'équipement de levage accepté"
+      }
+    ],
+    "description": "Renault Master Chassis cabine CC Tr CF F3500 L3 Blue dCi 145, véhicule utilitaire avec benne et grue de levage. Faible kilométrage, entretien complet en réseau constructeur avec 5 interventions.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:40:18.626910Z"
+  },
+  {
+    "id": "1ef25f59-88f3-4095-90be-2db8080e04db",
+    "reference": "HP538291",
+    "marque": "Renault",
+    "modele": "Master Fourgon tole FG Tr GCF F3300 L1H1 dCi 135",
+    "annee": 2021,
+    "km": 97931,
+    "prix": 18590.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/01.jpeg",
+        "alt": "Renault Master Fourgon - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/02.jpeg",
+        "alt": "Renault Master Fourgon - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/03.jpeg",
+        "alt": "Renault Master Fourgon - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/04.jpeg",
+        "alt": "Renault Master Fourgon - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/05.jpeg",
+        "alt": "Renault Master Fourgon - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/06.jpeg",
+        "alt": "Renault Master Fourgon - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/07.jpeg",
+        "alt": "Renault Master Fourgon - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/08.jpeg",
+        "alt": "Renault Master Fourgon - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/09.jpeg",
+        "alt": "Renault Master Fourgon - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/10.jpeg",
+        "alt": "Renault Master Fourgon - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/11.jpeg",
+        "alt": "Renault Master Fourgon - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/12.jpeg",
+        "alt": "Renault Master Fourgon - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/13.jpeg",
+        "alt": "Renault Master Fourgon - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/14.jpeg",
+        "alt": "Renault Master Fourgon - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/15.jpeg",
+        "alt": "Renault Master Fourgon - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/16.jpeg",
+        "alt": "Renault Master Fourgon - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/17.jpeg",
+        "alt": "Renault Master Fourgon - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/18.jpeg",
+        "alt": "Renault Master Fourgon - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/19.jpeg",
+        "alt": "Renault Master Fourgon - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-master-fourgon-f3300-l1h1/20.jpeg",
+        "alt": "Renault Master Fourgon - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "100 kW / 136 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "2 299 cm³",
+      "portes": 5,
+      "categorie": "Utilitaire",
+      "vin": "VF1MA000267481415",
+      "date_immat": "06/07/2021",
+      "sieges": "3",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [],
+    "historique": [
+      {
+        "date": "07/03/2025",
+        "km": "97 281 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "14/02/2025",
+        "km": "96 435 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "17/12/2024",
+        "km": "92 110 km",
+        "interventions": "Balais d'essuie-glace AV/Batterie/Filtre à carburant/Plaquettes frein AR/Plaquettes freins AV/Recyclage/Révision"
+      },
+      {
+        "date": "29/01/2024",
+        "km": "65 385 km",
+        "interventions": "Disques de freins AR/Disques de freins AV/Lecture mémoire/Purge du circuit de refroidissement/Recyclage/Vanne EGR/réinitialisation"
+      },
+      {
+        "date": "21/09/2023",
+        "km": "53 640 km",
+        "interventions": "Balais d'essuie-glace AV/Pneu été/Recyclage"
+      },
+      {
+        "date": "13/02/2023",
+        "km": "39 975 km",
+        "interventions": "Ampoule/Balais d'essuie-glace AV/Plaquettes frein AR/Plaquettes freins AV/Recyclage/Révision"
+      }
+    ],
+    "description": "Renault Master Fourgon tole FG Tr GCF F3300 L1H1 dCi 135, fourgon utilitaire compact et maniable. Entretien complet en réseau constructeur avec 6 interventions documentées.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:41:45.157707Z"
+  },
+  {
+    "id": "101f6a3f-e80f-4e7a-a1d2-7e219538d455",
+    "reference": "HP553728",
+    "marque": "Renault",
+    "modele": "Megane E-TECH Techno EV60 220 Optimum Charge",
+    "annee": 2023,
+    "km": 43813,
+    "prix": 24590.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/01.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/02.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/03.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/04.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/05.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/06.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/07.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/08.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/09.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/10.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/11.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/12.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/13.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/14.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/15.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/16.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/17.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/18.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/19.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-megane-e-tech-techno-ev60-220-optimum-charge-2023/20.jpeg",
+        "alt": "Renault Megane E-TECH - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Électrique",
+      "boite": "Automatique",
+      "puissance": "160 kW / 218 ch",
+      "puissance_fiscale": "4 CV",
+      "cylindree": "0 cm³ (électrique)",
+      "portes": 5,
+      "categorie": "Berline",
+      "vin": "VF1RFB00269193806",
+      "date_immat": "01/06/2023",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatisation automatique 2 zones",
+      "Siège chauffant AV",
+      "Caméra aide au recul",
+      "Lève-vitre élect. avec protection anti-pincement",
+      "Volant de direction (cuir)",
+      "Peinture métallisée",
+      "Verrouillage centralisé / Démarrage Mains-libres Entry drive",
+      "Câble de charge",
+      "Verrouillage centralisé avec cde à distance",
+      "Rétroviseur ext. à réglage électrique et dégivrant",
+      "Assistance au démarrage en côte (HSA)",
+      "Capteur de somnolence",
+      "Assistant maintien de trajectoire actif",
+      "Alerte distance sécurité",
+      "Supports isofix pour siège enfant",
+      "Contrôle pression pneumatiques",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Détecteur de pluie / luminosité",
+      "Feux de route automatiques",
+      "Antiblocage de frein (ABS)",
+      "Détection des piétons",
+      "Multi-sense (interrupteur mode de conduite)"
+    ],
+    "historique": [
+      {
+        "date": "05/06/2025",
+        "km": "38 709 km",
+        "interventions": "Balai d'essuie-glace AR/Balais d'essuie-glace AV/Plaquettes Freins AV/Révision"
+      },
+      {
+        "date": "22/08/2024",
+        "km": "20 739 km",
+        "interventions": "Filtre d'habitacle/Révision intermédiaire"
+      }
+    ],
+    "description": "Renault Megane E-TECH Techno EV60 220 Optimum Charge, berline 100% électrique avec 218 ch. Véhicule soigneusement entretenu en réseau constructeur avec 2 interventions documentées. Nombreux équipements de sécurité et de confort.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:57:13.607335Z"
+  },
+  {
+    "id": "724252b2-917d-4874-b507-b2847f72dddb",
+    "reference": "HP567412",
+    "marque": "Renault",
+    "modele": "Megane Estate Business TCe 115 FAP",
+    "annee": 2022,
+    "km": 65488,
+    "prix": 13990.0,
+    "prix_original": null,
+    "couleur": "Gris",
+    "images": [
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/01.jpeg",
+        "alt": "Renault Megane Estate - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/02.jpeg",
+        "alt": "Renault Megane Estate - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/03.jpeg",
+        "alt": "Renault Megane Estate - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/04.jpeg",
+        "alt": "Renault Megane Estate - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/05.jpeg",
+        "alt": "Renault Megane Estate - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/06.jpeg",
+        "alt": "Renault Megane Estate - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/07.jpeg",
+        "alt": "Renault Megane Estate - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/08.jpeg",
+        "alt": "Renault Megane Estate - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/09.jpeg",
+        "alt": "Renault Megane Estate - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/10.jpeg",
+        "alt": "Renault Megane Estate - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/11.jpeg",
+        "alt": "Renault Megane Estate - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/12.jpeg",
+        "alt": "Renault Megane Estate - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/13.jpeg",
+        "alt": "Renault Megane Estate - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/14.jpeg",
+        "alt": "Renault Megane Estate - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/15.jpeg",
+        "alt": "Renault Megane Estate - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/16.jpeg",
+        "alt": "Renault Megane Estate - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/17.jpeg",
+        "alt": "Renault Megane Estate - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/18.jpeg",
+        "alt": "Renault Megane Estate - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/19.jpeg",
+        "alt": "Renault Megane Estate - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-megane-estate-business-tce-115-fap/20.jpeg",
+        "alt": "Renault Megane Estate - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "84 kW / 114 ch",
+      "puissance_fiscale": "6 CV",
+      "cylindree": "999 cm³",
+      "portes": 5,
+      "categorie": "Break",
+      "vin": "VF1RCB00871032594",
+      "date_immat": "20/09/2022",
+      "sieges": "5",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Break",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatisation automatique",
+      "Vitrage teinté(e)",
+      "Lève-vitre électrique AR",
+      "Peinture métallisée",
+      "Verrouillage centralisé / Démarrage Mains-libres Entry drive",
+      "Phare avant à LED",
+      "Aide au stationnement AV et AR",
+      "Projecteurs antibrouillard",
+      "Filtre à particules (FAP)",
+      "Verrouillage centralisé",
+      "Barre(s) de toit",
+      "Feu clignotant dans rétroviseur ext. intégré",
+      "Assistance au démarrage en côte (HSA)",
+      "Supports isofix pour siège enfant",
+      "Détecteur de pluie / luminosité",
+      "Antiblocage de frein (ABS)",
+      "Aide au freinage d'urgence"
+    ],
+    "historique": [
+      {
+        "date": "04/11/2025",
+        "km": "65 302 km",
+        "interventions": "Bougie d'allumage/Filtre à air/Liquide de frein/Recyclage"
+      },
+      {
+        "date": "24/10/2024",
+        "km": "43 884 km",
+        "interventions": "Balais d'essuie-glace AV/Plaquettes freins AV/Révision"
+      }
+    ],
+    "description": "Renault Megane Estate Business TCe 115 FAP, break spacieux avec coffre de 563L. Entretien complet en réseau constructeur avec 2 interventions documentées.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T21:59:15.890577Z"
+  },
+  {
+    "id": "402e974d-817a-45d8-a990-8ad5d1373742",
+    "reference": "HP582163",
+    "marque": "Renault",
+    "modele": "Trafic Fourgon tole FG CF L1H1 2T8 Blue dCi 110",
+    "annee": 2024,
+    "km": 18651,
+    "prix": 25990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/01.jpeg",
+        "alt": "Renault Trafic - Photo 1"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/02.jpeg",
+        "alt": "Renault Trafic - Photo 2"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/03.jpeg",
+        "alt": "Renault Trafic - Photo 3"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/04.jpeg",
+        "alt": "Renault Trafic - Photo 4"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/05.jpeg",
+        "alt": "Renault Trafic - Photo 5"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/06.jpeg",
+        "alt": "Renault Trafic - Photo 6"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/07.jpeg",
+        "alt": "Renault Trafic - Photo 7"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/08.jpeg",
+        "alt": "Renault Trafic - Photo 8"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/09.jpeg",
+        "alt": "Renault Trafic - Photo 9"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/10.jpeg",
+        "alt": "Renault Trafic - Photo 10"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/11.jpeg",
+        "alt": "Renault Trafic - Photo 11"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/12.jpeg",
+        "alt": "Renault Trafic - Photo 12"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/13.jpeg",
+        "alt": "Renault Trafic - Photo 13"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/14.jpeg",
+        "alt": "Renault Trafic - Photo 14"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/15.jpeg",
+        "alt": "Renault Trafic - Photo 15"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/16.jpeg",
+        "alt": "Renault Trafic - Photo 16"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/17.jpeg",
+        "alt": "Renault Trafic - Photo 17"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/18.jpeg",
+        "alt": "Renault Trafic - Photo 18"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/19.jpeg",
+        "alt": "Renault Trafic - Photo 19"
+      },
+      {
+        "url": "/vehicles/renault-trafic-fourgon-fg-cf-l1h1-2t8-blue-dci-110/20.jpeg",
+        "alt": "Renault Trafic - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Manuelle",
+      "puissance": "81 kW / 110 ch",
+      "puissance_fiscale": "7 CV",
+      "cylindree": "1 997 cm³",
+      "portes": 2,
+      "categorie": "Utilitaire",
+      "vin": "VF1FL000872850621",
+      "date_immat": "20/06/2024",
+      "sieges": "3",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Fourgon utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatisation",
+      "Ordinateur de bord",
+      "Lève-vitre électrique",
+      "Vitrage athermique",
+      "Keyless-entry",
+      "Système start/stop moteur",
+      "Porte latérale",
+      "Filtre à particules (FAP)",
+      "Rétroviseur ext. à réglages électriques",
+      "Aide au stationnement AR",
+      "Régulateur de vitesse",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Antiblocage de frein (ABS)",
+      "Assistant de freinage"
+    ],
+    "historique": [
+      {
+        "date": "23/10/2025",
+        "km": "14 204 km",
+        "interventions": "Appoint d'huile moteur"
+      }
+    ],
+    "description": "Renault Trafic Fourgon tole FG CF L1H1 2T8 Blue dCi 110, utilitaire quasi neuf avec seulement 18 651 km. Entretien en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:00:44.659151Z"
+  },
+  {
+    "id": "0229da1b-3b06-464e-8c10-905dac326214",
+    "reference": "HP596847",
+    "marque": "Toyota",
+    "modele": "Corolla Hybride 122h Dynamic Business Beyond Zero",
+    "annee": 2022,
+    "km": 58089,
+    "prix": 21490.0,
+    "prix_original": null,
+    "couleur": "Gris",
+    "images": [
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/01.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 1"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/02.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 2"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/03.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 3"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/04.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 4"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/05.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 5"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/06.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 6"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/07.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 7"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/08.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 8"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/09.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 9"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/10.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 10"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/11.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 11"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/12.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 12"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/13.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 13"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/14.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 14"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/15.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 15"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/16.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 16"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/17.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 17"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/18.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 18"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/19.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 19"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-122h-dynamic-business/20.jpeg",
+        "alt": "Toyota Corolla 122h - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "72 kW / 98 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "1 798 cm³",
+      "portes": 5,
+      "categorie": "Berline",
+      "vin": "SB1K93BE10E281032",
+      "date_immat": "20/01/2022",
+      "sieges": "5",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Cache bagages",
+      "Feux xénon"
+    ],
+    "historique": [],
+    "description": "Toyota Corolla Hybride 122h Dynamic Business Beyond Zero, berline hybride fiable et économique. Véhicule issu de flotte Arval.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:01:50.268467Z"
+  },
+  {
+    "id": "07ad0ba1-fcef-4436-bef7-12c2c32de17a",
+    "reference": "HP611293",
+    "marque": "Toyota",
+    "modele": "Corolla Hybride 184h Dynamic Business Beyond Zero",
+    "annee": 2022,
+    "km": 117371,
+    "prix": 18990.0,
+    "prix_original": null,
+    "couleur": "Noir",
+    "images": [
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/01.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 1"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/02.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 2"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/03.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 3"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/04.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 4"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/05.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 5"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/06.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 6"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/07.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 7"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/08.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 8"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/09.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 9"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/10.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 10"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/11.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 11"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/12.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 12"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/13.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 13"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/14.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 14"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/15.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 15"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/16.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 16"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/17.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 17"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/18.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 18"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/19.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 19"
+      },
+      {
+        "url": "/vehicles/toyota-corolla-hybride-184h-dynamic-business/20.jpeg",
+        "alt": "Toyota Corolla 184h - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Hybride",
+      "boite": "Automatique",
+      "puissance": "135 kW / 184 ch",
+      "puissance_fiscale": "8 CV",
+      "cylindree": "1 987 cm³",
+      "portes": 5,
+      "categorie": "Berline",
+      "vin": "SB1K53BE60E086765",
+      "date_immat": "11/01/2022",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Système de navigation (Touch & Go Plus)",
+      "Climatisation automatique 2 zones",
+      "Siège chauffant AV",
+      "Caméra aide au recul",
+      "Volant de direction (cuir)",
+      "Système audio: multimédia Toyota Touch 3",
+      "Bouton start-stop",
+      "Projecteur LED",
+      "Jantes alliage léger",
+      "Projecteurs antibrouillard LED",
+      "Verrouillage centralisé avec cde à distance",
+      "Rétroviseur ext. à réglage électrique et dégivrant",
+      "Aide au stationnement AR",
+      "Fonction mains libres Bluetooth",
+      "Contrôle de démarrage en côte (HAC)",
+      "Mains libres avec haut-parleur et commande vocale",
+      "Reconnaissance des panneaux de signalisation (RSA)",
+      "Capteur de somnolence",
+      "Assistant maintien de trajectoire (LDA)",
+      "Régulateur de vitesse adaptatif avec fonction stop & go",
+      "Avertisseur de collision (FCW)",
+      "Système isofix de siège enfant",
+      "Contrôle pression pneumatiques",
+      "Contrôle dynamique de stabilité avec antipatinage (VSC avec TRC)",
+      "Essuie-vitres avec capteur de pluie",
+      "Feux de route automatiques (AHB)",
+      "Antiblocage de frein (ABS)"
+    ],
+    "historique": [],
+    "description": "Toyota Corolla Hybride 184h Dynamic Business Beyond Zero, berline hybride puissante avec 184 ch. Très bien équipée avec navigation, sièges chauffants et nombreuses aides à la conduite.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:03:06.340225Z"
+  },
+  {
+    "id": "8868879b-0df3-48ec-b7ad-6eb966d4c186",
+    "reference": "HP625731",
+    "marque": "Toyota",
+    "modele": "Proace City 1.5 Medium 130 D-4D Business Auto",
+    "annee": 2023,
+    "km": 27778,
+    "prix": 21990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/01.jpeg",
+        "alt": "Toyota Proace City - Photo 1"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/02.jpeg",
+        "alt": "Toyota Proace City - Photo 2"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/03.jpeg",
+        "alt": "Toyota Proace City - Photo 3"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/04.jpeg",
+        "alt": "Toyota Proace City - Photo 4"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/05.jpeg",
+        "alt": "Toyota Proace City - Photo 5"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/06.jpeg",
+        "alt": "Toyota Proace City - Photo 6"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/07.jpeg",
+        "alt": "Toyota Proace City - Photo 7"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/08.jpeg",
+        "alt": "Toyota Proace City - Photo 8"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/09.jpeg",
+        "alt": "Toyota Proace City - Photo 9"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/10.jpeg",
+        "alt": "Toyota Proace City - Photo 10"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/11.jpeg",
+        "alt": "Toyota Proace City - Photo 11"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/12.jpeg",
+        "alt": "Toyota Proace City - Photo 12"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/13.jpeg",
+        "alt": "Toyota Proace City - Photo 13"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/14.jpeg",
+        "alt": "Toyota Proace City - Photo 14"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/15.jpeg",
+        "alt": "Toyota Proace City - Photo 15"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/16.jpeg",
+        "alt": "Toyota Proace City - Photo 16"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/17.jpeg",
+        "alt": "Toyota Proace City - Photo 17"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/18.jpeg",
+        "alt": "Toyota Proace City - Photo 18"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/19.jpeg",
+        "alt": "Toyota Proace City - Photo 19"
+      },
+      {
+        "url": "/vehicles/toyota-proace-city-1-5-medium-130-d4d-business-auto/20.jpeg",
+        "alt": "Toyota Proace City - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Diesel",
+      "boite": "Automatique",
+      "puissance": "96 kW / 131 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "1 499 cm³",
+      "portes": 5,
+      "categorie": "Utilitaire",
+      "vin": "YAREFYHZ3GJ018317",
+      "date_immat": "02/02/2023",
+      "sieges": "5",
+      "couleur_interieur": "Noir",
+      "proprietaires": "1",
+      "type_vehicule": "Utilitaire",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatisation automatique 2 zones",
+      "Siège chauffant AV",
+      "Caméra aide au recul",
+      "Volant de direction (cuir)",
+      "Vitrage teinté(e)",
+      "Lève-vitre AR élect. avec protection anti-pincement",
+      "Afficheur multifonctions (TFT)",
+      "Verrouillage centralisé / Smart-key Entry drive",
+      "Stop & Go System (TSGS)",
+      "Jantes alliage léger",
+      "Projecteurs antibrouillard",
+      "Filtre à particules (FAP)",
+      "Verrouillage centralisé avec cde à distance",
+      "Barre(s) de toit",
+      "Rétroviseur ext. rabattable électriquement",
+      "Aide au stationnement AR",
+      "Fonction mains libres avec haut-parleur",
+      "Contrôle de démarrage en côte (HAC)",
+      "Reconnaissance des panneaux de signalisation (RSA)",
+      "Capteur de somnolence",
+      "Détecteur d'angle mort (BLIS)",
+      "Assistant maintien de trajectoire (LDA)",
+      "Régulateur de vitesse avec régulation de distance",
+      "Park Assist intelligent",
+      "Avertisseur de collision (FCW)",
+      "Système isofix de siège enfant",
+      "Contrôle pression pneumatiques",
+      "Contrôle dynamique de stabilité avec antipatinage (VSC avec TRC)",
+      "Essuie-vitres avec capteur de pluie",
+      "Feux de route automatiques (AHB)",
+      "Antiblocage de frein (ABS)",
+      "Assistant de freinage"
+    ],
+    "historique": [
+      {
+        "date": "30/01/2025",
+        "km": "19 233 km",
+        "interventions": "Balais d'essuie-glace AV/Filtre d'habitacle/Filtre à air/Filtre à carburant/Liquide de frein/Révision"
+      },
+      {
+        "date": "10/07/2024",
+        "km": "18 632 km",
+        "interventions": "Faisceau/Remorquage"
+      }
+    ],
+    "description": "Toyota Proace City 1.5 Medium 130 D-4D Business Auto, utilitaire polyvalent avec seulement 27 778 km. Très bien équipé avec nombreuses aides à la conduite. Entretien complet en réseau constructeur.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:04:23.603870Z"
+  },
+  {
+    "id": "dbbf1f2d-dc65-43ef-9209-67ad8216dc37",
+    "reference": "HP639518",
+    "marque": "Volkswagen",
+    "modele": "Polo Life Business 1.0 TSI 95",
+    "annee": 2021,
+    "km": 28169,
+    "prix": 16490.0,
+    "prix_original": null,
+    "couleur": "Beige",
+    "images": [
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/01.jpeg",
+        "alt": "VW Polo Life Business - Photo 1"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/02.jpeg",
+        "alt": "VW Polo Life Business - Photo 2"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/03.jpeg",
+        "alt": "VW Polo Life Business - Photo 3"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/04.jpeg",
+        "alt": "VW Polo Life Business - Photo 4"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/05.jpeg",
+        "alt": "VW Polo Life Business - Photo 5"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/06.jpeg",
+        "alt": "VW Polo Life Business - Photo 6"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/07.jpeg",
+        "alt": "VW Polo Life Business - Photo 7"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/08.jpeg",
+        "alt": "VW Polo Life Business - Photo 8"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/09.jpeg",
+        "alt": "VW Polo Life Business - Photo 9"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/10.jpeg",
+        "alt": "VW Polo Life Business - Photo 10"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/11.jpeg",
+        "alt": "VW Polo Life Business - Photo 11"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/12.jpeg",
+        "alt": "VW Polo Life Business - Photo 12"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/13.jpeg",
+        "alt": "VW Polo Life Business - Photo 13"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/14.jpeg",
+        "alt": "VW Polo Life Business - Photo 14"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/15.jpeg",
+        "alt": "VW Polo Life Business - Photo 15"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/16.jpeg",
+        "alt": "VW Polo Life Business - Photo 16"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/17.jpeg",
+        "alt": "VW Polo Life Business - Photo 17"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/18.jpeg",
+        "alt": "VW Polo Life Business - Photo 18"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/19.jpeg",
+        "alt": "VW Polo Life Business - Photo 19"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-life-business-1-0-tsi-95/20.jpeg",
+        "alt": "VW Polo Life Business - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "70 kW / 95 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "999 cm³",
+      "portes": 5,
+      "categorie": "Berline",
+      "vin": "WVWZZZAWZNY024247",
+      "date_immat": "15/12/2021",
+      "sieges": "5",
+      "couleur_interieur": "Beige",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Smart phone mirror link",
+      "Digital habitacle/cockpit (affichage instruments digital)",
+      "Climatisation",
+      "Vitrage athermique teinté vert (lat/ar)",
+      "Lève-vitre électrique AV et AR",
+      "Projecteur LED",
+      "Aide au stationnement Park Distance Control (AV et AR)",
+      "Verrouillage centralisé avec cde à distance",
+      "Assistance au démarrage en côte",
+      "Détection de signalisation routière",
+      "Système d'appel d'urgence",
+      "Capteur de somnolence",
+      "Assistant maintien de trajectoire (Lane Assist)",
+      "Supports isofix pour siège enfant AR (i-size)",
+      "Témoin contrôle pneumatiques",
+      "Essuie-vitres avec capteur de pluie",
+      "Allumage automatique des feux de croisement (éclairage adaptatif)",
+      "Détection d'obstacles (Front Assist) avec freinage d'urgence"
+    ],
+    "historique": [
+      {
+        "date": "09/01/2026",
+        "km": "27 061 km",
+        "interventions": "Contrôle technique"
+      },
+      {
+        "date": "26/02/2024",
+        "km": "15 629 km",
+        "interventions": "Balai d'essuie-glace AR/Balais d'essuie-glace AV/Liquide de frein/Résistance de chauffage/Révision"
+      }
+    ],
+    "description": "Volkswagen Polo Life Business 1.0 TSI 95, berline compacte économique avec seulement 28 169 km. Bien équipée avec cockpit digital et nombreuses aides à la conduite.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:05:38.899859Z"
+  },
+  {
+    "id": "72f457c2-afdf-4c6d-b02e-66d69a0d5798",
+    "reference": "HP653274",
+    "marque": "Volkswagen",
+    "modele": "Polo VI Style 1.0 TSI 95 BVM5",
+    "annee": 2024,
+    "km": 18099,
+    "prix": 17990.0,
+    "prix_original": null,
+    "couleur": "Blanc",
+    "images": [
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/01.jpeg",
+        "alt": "VW Polo VI Style - Photo 1"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/02.jpeg",
+        "alt": "VW Polo VI Style - Photo 2"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/03.jpeg",
+        "alt": "VW Polo VI Style - Photo 3"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/04.jpeg",
+        "alt": "VW Polo VI Style - Photo 4"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/05.jpeg",
+        "alt": "VW Polo VI Style - Photo 5"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/06.jpeg",
+        "alt": "VW Polo VI Style - Photo 6"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/07.jpeg",
+        "alt": "VW Polo VI Style - Photo 7"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/08.jpeg",
+        "alt": "VW Polo VI Style - Photo 8"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/09.jpeg",
+        "alt": "VW Polo VI Style - Photo 9"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/10.jpeg",
+        "alt": "VW Polo VI Style - Photo 10"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/11.jpeg",
+        "alt": "VW Polo VI Style - Photo 11"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/12.jpeg",
+        "alt": "VW Polo VI Style - Photo 12"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/13.jpeg",
+        "alt": "VW Polo VI Style - Photo 13"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/14.jpeg",
+        "alt": "VW Polo VI Style - Photo 14"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/15.jpeg",
+        "alt": "VW Polo VI Style - Photo 15"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/16.jpeg",
+        "alt": "VW Polo VI Style - Photo 16"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/17.jpeg",
+        "alt": "VW Polo VI Style - Photo 17"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/18.jpeg",
+        "alt": "VW Polo VI Style - Photo 18"
+      },
+      {
+        "url": "/vehicles/volkswagen-polo-vi-style-1-0-tsi-95-bvm5/19.jpeg",
+        "alt": "VW Polo VI Style - Photo 19"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "70 kW / 95 ch",
+      "puissance_fiscale": "5 CV",
+      "cylindree": "999 cm³",
+      "portes": 5,
+      "categorie": "Berline",
+      "vin": "WVWZZZAW2RY03260",
+      "date_immat": "26/02/2024",
+      "sieges": "5",
+      "couleur_interieur": "Blanc",
+      "proprietaires": "1",
+      "type_vehicule": "Berline",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Smart phone mirror link",
+      "Système audio et navigation Discover Media Streaming (écran tactile, Bluetooth, USB)",
+      "Digital cockpit polychrome avec profils d'information",
+      "Climatisation Climatronic 2 zones",
+      "Siège chauffant AV",
+      "Sièges sport confort AV",
+      "Caméra aide au recul (Rear View)",
+      "Vitrage athermique teinté vert (lat/ar)",
+      "Lève-vitre électrique AV et AR",
+      "Aide au stationnement AV et AR",
+      "Projecteurs antibrouillard LED avec éclairage d'appoint (Corner Lights)",
+      "Verrouillage centralisé avec cde à distance",
+      "Assistance au démarrage en côte",
+      "Dispositif de commande vocale",
+      "Reconnaissance des panneaux de signalisation",
+      "Système d'appel d'urgence",
+      "Capteur de somnolence",
+      "Assistant maintien de trajectoire (Lane Assist)",
+      "Régulateur de distance ACC avec limiteur de vitesse",
+      "Supports isofix pour siège enfant AR (i-size)",
+      "Témoin contrôle pneumatiques",
+      "Essuie-vitres avec capteur de pluie",
+      "Réglage dynamique des feux de route (Dynamic Light Assist)",
+      "Antiblocage de frein (ABS)",
+      "Détection d'obstacles (Front Assist) avec freinage d'urgence"
+    ],
+    "historique": [],
+    "description": "Volkswagen Polo VI Style 1.0 TSI 95 BVM5, berline compacte quasi neuve avec seulement 18 099 km. Très bien équipée : cockpit digital, climatisation Climatronic, sièges chauffants, caméra de recul et nombreuses aides à la conduite.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:07:22.815693Z"
+  },
+  {
+    "id": "c4699e51-c30e-4134-92f6-9659fb52f095",
+    "reference": "HP667935",
+    "marque": "Volkswagen",
+    "modele": "T-Roc LOUNGE 1.0 TSI 110",
+    "annee": 2021,
+    "km": 41377,
+    "prix": 19990.0,
+    "prix_original": null,
+    "couleur": "Gris",
+    "images": [
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/01.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 1"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/02.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 2"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/03.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 3"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/04.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 4"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/05.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 5"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/06.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 6"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/07.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 7"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/08.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 8"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/09.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 9"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/10.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 10"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/11.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 11"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/12.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 12"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/13.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 13"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/14.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 14"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/15.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 15"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/16.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 16"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/17.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 17"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/18.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 18"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/19.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 19"
+      },
+      {
+        "url": "/vehicles/volkswagen-t-roc-lounge-1-0-tsi-110/20.jpeg",
+        "alt": "VW T-Roc Lounge - Photo 20"
+      }
+    ],
+    "specs": {
+      "carburant": "Essence",
+      "boite": "Manuelle",
+      "puissance": "81 kW / 110 ch",
+      "puissance_fiscale": "6 CV",
+      "cylindree": "999 cm³",
+      "portes": 5,
+      "categorie": "SUV",
+      "vin": "WVGZZZA1ZMV186780",
+      "date_immat": "31/08/2021",
+      "sieges": "5",
+      "couleur_interieur": "Gris",
+      "proprietaires": "1",
+      "type_vehicule": "SUV",
+      "modele_court": "",
+      "disponibilite": "Immédiate",
+      "pays_origine": "Luxembourg"
+    },
+    "options": [
+      "Climatisation Climatronic 2 zones",
+      "Siège chauffant AV",
+      "Caméra aide au recul",
+      "Système audio: Lecteur CD et interface multimédia USB (iPhone/iPod)",
+      "Vitrage teinté vert",
+      "Lève-vitre électrique AV et AR",
+      "Afficheur multifonctions plus",
+      "Système start/stop",
+      "Jantes alliage léger",
+      "Aide au stationnement Park Distance Control (AV et AR)",
+      "Filtre à particules (FAP)",
+      "Verrouillage centralisé avec cde à distance",
+      "Barres de toit noir",
+      "Rétroviseur ext. avec fonction abaissement automatique",
+      "Rétroviseurs extérieurs jour/nuit automatiques",
+      "Fonction Auto-Hold",
+      "Service d'appel d'urgence",
+      "Capteur de somnolence",
+      "Assistant maintien de trajectoire (Lane Assist)",
+      "Régulateur de distance ACC avec fonction stop & go",
+      "Supports isofix pour siège enfant AR",
+      "Contrôle pression pneumatiques",
+      "Contrôle dynamique de stabilité (ESP)",
+      "Essuie-vitres avec capteur de pluie",
+      "Allumage automatique des feux de croisement (éclairage adaptatif)",
+      "Antiblocage de frein (ABS)",
+      "Assistant de freinage"
+    ],
+    "historique": [
+      {
+        "date": "29/10/2024",
+        "km": "34 155 km",
+        "interventions": "Pneu été"
+      },
+      {
+        "date": "12/03/2024",
+        "km": "25 331 km",
+        "interventions": "Filtre d'habitacle/Liquide de frein/Révision"
+      },
+      {
+        "date": "16/03/2023",
+        "km": "15 480 km",
+        "interventions": "Filtre à pollen/Révision"
+      }
+    ],
+    "description": "Volkswagen T-Roc LOUNGE 1.0 TSI 110, SUV compact bien équipé avec climatisation 2 zones, sièges chauffants, caméra de recul et nombreuses aides à la conduite. Entretien complet en réseau constructeur avec 3 interventions documentées.",
+    "disponible": true,
+    "vendu": false,
+    "created_at": "2026-03-18T22:08:32.901593Z"
   }
 ]
