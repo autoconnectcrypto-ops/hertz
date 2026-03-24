@@ -1768,7 +1768,7 @@
     ],
     "description": "Mini Cooper SE 100% électrique en excellent état, issue de la flotte Hertz. Citadine sportive et écologique avec 184 ch. Très bien équipée avec Apple CarPlay, navigation, sièges sport électriques et nombreuses aides à la conduite. Parfaite pour la ville avec zéro émission.",
     "disponible": true,
-    "vendu": false,
+    "vendu": true,
     "sort_order": 12,
     "created_at": "2026-02-08T01:29:02.751769Z"
   },
@@ -5799,7 +5799,7 @@
     ],
     "description": "Mercedes GLC 300 e AMG Line 4MATIC en excellent état, issu de la flotte Hertz. SUV premium hybride rechargeable très récent (2023) avec finition sportive AMG Line et transmission intégrale. Intérieur cuir blanc luxueux, très puissant (313 ch) et bien équipé avec caméra 360°, sièges chauffants électriques et nombreuses aides à la conduite.",
     "disponible": true,
-    "vendu": false,
+    "vendu": true,
     "sort_order": 10,
     "created_at": "2026-02-08T02:49:48.111786Z"
   },
@@ -6135,7 +6135,7 @@
     ],
     "description": "Audi Q2 S Line en excellent état, issue de la flotte Hertz. SUV compact premium très récent (2023) avec finition sportive S Line. Très faible kilométrage, équipement haut de gamme avec Audi Virtual Cockpit, phares Matrix LED, navigation et nombreuses aides à la conduite. Véhicule quasi neuf.",
     "disponible": true,
-    "vendu": false,
+    "vendu": true,
     "sort_order": 27,
     "created_at": "2026-02-08T02:56:37.201748Z"
   },
@@ -7268,7 +7268,7 @@
     "historique": [],
     "description": "BMW X2 sDrive18i Business Design, SUV compact et dynamique. Faible kilométrage, parfait état. Équipement Business complet.",
     "disponible": true,
-    "vendu": false,
+    "vendu": true,
     "sort_order": 34,
     "created_at": "2026-03-18T20:53:01.635297Z"
   },
@@ -10266,7 +10266,7 @@
     "historique": [],
     "description": "Volkswagen Polo VI Style 1.0 TSI 95 BVM5, berline compacte quasi neuve avec seulement 18 099 km. Très bien équipée : cockpit digital, climatisation Climatronic, sièges chauffants, caméra de recul et nombreuses aides à la conduite.",
     "disponible": true,
-    "vendu": false,
+    "vendu": true,
     "sort_order": 4,
     "created_at": "2026-03-18T22:07:22.815693Z"
   },
