@@ -341,7 +341,7 @@ async def startup_seed_and_mark():
         await db.vehicles.insert_many(vehicles)
         logger.info(f"Base synchronisée — {len(vehicles)} véhicules importés depuis seed_data.json")
 
-    sold_references = ["HP016276", "HP178309", "HP623279", "HP006849", "HP024078", "HP067047", "HP729260", "HP759199", "HP849861", "HP023340", "HP488411", "HP025619", "HP448554", "HP001183", "HP241701", "HP653274", "HP028411", "HP200969"]
+    sold_references = ["HP016276", "HP178309", "HP623279", "HP006849", "HP024078", "HP067047", "HP729260", "HP759199", "HP849861", "HP023340", "HP488411", "HP025619", "HP448554", "HP241701", "HP028411", "HP200969"]
     result = await db.vehicles.update_many(
         {"reference": {"$in": sold_references}},
         {"$set": {"vendu": True}}

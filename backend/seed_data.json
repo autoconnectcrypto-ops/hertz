@@ -6135,7 +6135,7 @@
     ],
     "description": "Audi Q2 S Line en excellent état, issue de la flotte Hertz. SUV compact premium très récent (2023) avec finition sportive S Line. Très faible kilométrage, équipement haut de gamme avec Audi Virtual Cockpit, phares Matrix LED, navigation et nombreuses aides à la conduite. Véhicule quasi neuf.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 27,
     "created_at": "2026-02-08T02:56:37.201748Z"
   },
@@ -10266,7 +10266,7 @@
     "historique": [],
     "description": "Volkswagen Polo VI Style 1.0 TSI 95 BVM5, berline compacte quasi neuve avec seulement 18 099 km. Très bien équipée : cockpit digital, climatisation Climatronic, sièges chauffants, caméra de recul et nombreuses aides à la conduite.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 4,
     "created_at": "2026-03-18T22:07:22.815693Z"
   },
