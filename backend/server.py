@@ -330,15 +330,19 @@ logger = logging.getLogger(__name__)
 
 @app.on_event("startup")
 async def startup_seed_and_mark():
-    """Always sync database from seed_data.json to keep production up to date"""
+    """Sync database from seed_data.json without downtime"""
     import json
     seed_path = ROOT_DIR / 'seed_data.json'
     if seed_path.exists():
         with open(seed_path, 'r', encoding='utf-8') as f:
             vehicles = json.load(f)
-        # Drop and re-insert to always stay in sync with seed_data.json
+        # Insert into temp collection first, then swap — no downtime
+        temp_col = db["vehicles_temp"]
+        await temp_col.drop()
+        await temp_col.insert_many(vehicles)
+        # Now swap: drop original, rename temp to original
         await db.vehicles.drop()
-        await db.vehicles.insert_many(vehicles)
+        await temp_col.rename("vehicles")
         logger.info(f"Base synchronisée — {len(vehicles)} véhicules importés depuis seed_data.json")
 
     sold_references = []
