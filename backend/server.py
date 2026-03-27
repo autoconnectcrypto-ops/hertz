@@ -217,8 +217,8 @@ async def create_contact(contact_data: ContactMessageCreate):
         """
         
         params = {
-            "from": "Hertz <contact@hertz-pro.fr>",
-            "to": ["contact@hertz-pro.fr"],
+            "from": "Hertz <contact@hertzpro.fr>",
+            "to": ["contact@hertzpro.fr"],
             "subject": f"Nouveau contact: {contact.nom}",
             "html": html_content,
             "reply_to": contact.email

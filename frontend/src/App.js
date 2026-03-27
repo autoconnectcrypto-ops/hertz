@@ -72,7 +72,7 @@ const Header = () => {
             <Link to="/catalogue" className="nav-link">Catalogue</Link>
             <Link to="/qui-sommes-nous" className="nav-link">Qui sommes-nous</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
-            <a href="tel:+33978468167" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider text-sm px-6 py-3 hover:bg-white transition-colors">
+            <a href="tel:+33939243822" className="bg-[#FFD100] text-black font-semibold uppercase tracking-wider text-sm px-6 py-3 hover:bg-white transition-colors">
               Nous Appeler
             </a>
           </nav>
@@ -95,7 +95,7 @@ const Header = () => {
               <Link to="/catalogue" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Catalogue</Link>
               <Link to="/qui-sommes-nous" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Qui sommes-nous</Link>
               <Link to="/contact" className="text-white/80 hover:text-[#FFD100] py-2" onClick={() => setMenuOpen(false)}>Contact</Link>
-              <a href="tel:+33978468167" className="bg-[#FFD100] text-black font-semibold text-center py-3 mt-4">Nous Appeler</a>
+              <a href="tel:+33939243822" className="bg-[#FFD100] text-black font-semibold text-center py-3 mt-4">Nous Appeler</a>
             </div>
           </nav>
         )}
@@ -138,8 +138,8 @@ const Footer = () => (
         <div>
           <h4 className="text-[#0A0A0A] font-semibold uppercase tracking-wider mb-6 text-sm">Contact</h4>
           <div className="space-y-4 text-[#666]">
-            <p className="flex items-center gap-3"><Phone size={16} className="text-[#FFD100]" /> 09 78 46 81 67</p>
-            <p className="flex items-center gap-3"><Mail size={16} className="text-[#FFD100]" /> contact@hertz-pro.fr</p>
+            <p className="flex items-center gap-3"><Phone size={16} className="text-[#FFD100]" /> 09 39 24 38 22</p>
+            <p className="flex items-center gap-3"><Mail size={16} className="text-[#FFD100]" /> contact@hertzpro.fr</p>
             <p className="flex items-start gap-3"><MapPin size={16} className="text-[#FFD100] mt-1 flex-shrink-0" /> 78180 Montigny-le-Bretonneux</p>
           </div>
           <div className="mt-6 space-y-2 text-[#999] text-sm">
@@ -440,7 +440,7 @@ const Home = () => {
               Voir le Catalogue
               <ArrowRight size={18} />
             </Link>
-            <a href="tel:+33978468167" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#0A0A0A] hover:text-white transition-colors">
+            <a href="tel:+33939243822" className="border-2 border-[#0A0A0A] text-[#0A0A0A] font-semibold uppercase tracking-wider px-8 py-4 inline-flex items-center justify-center gap-3 hover:bg-[#0A0A0A] hover:text-white transition-colors">
               <Phone size={18} />
               Appeler
             </a>
@@ -786,7 +786,7 @@ const VehicleDetail = () => {
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:+33978468167" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-6 py-4 flex-1 text-center hover:bg-[#FFD100] hover:text-black transition-colors">
+              <a href="tel:+33939243822" className="bg-[#0A0A0A] text-white font-semibold uppercase tracking-wider px-6 py-4 flex-1 text-center hover:bg-[#FFD100] hover:text-black transition-colors">
                 <Phone size={18} className="inline mr-2" />
                 Appeler
               </a>
@@ -1026,7 +1026,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#0A0A0A] mb-1">Téléphone</h4>
-                      <a href="tel:+33978468167" className="text-[#666] hover:text-[#0A0A0A]">09 78 46 81 67</a>
+                      <a href="tel:+33939243822" className="text-[#666] hover:text-[#0A0A0A]">09 39 24 38 22</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -1035,7 +1035,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#0A0A0A] mb-1">Email</h4>
-                      <a href="mailto:contact@hertz-pro.fr" className="text-[#666] hover:text-[#0A0A0A]">contact@hertz-pro.fr</a>
+                      <a href="mailto:contact@hertzpro.fr" className="text-[#666] hover:text-[#0A0A0A]">contact@hertzpro.fr</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -1139,7 +1139,7 @@ const CGV = () => (
 
         <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
           <p className="font-semibold text-[#0A0A0A]">Pour toute question concernant nos CGV :</p>
-          <p className="text-[#666] mt-2">Email : contact@hertz-pro.fr | Tél : 09 78 46 81 67</p>
+          <p className="text-[#666] mt-2">Email : contact@hertzpro.fr | Tél : 09 39 24 38 22</p>
         </div>
       </div>
     </section>
@@ -1236,7 +1236,7 @@ const QuiSommesNous = () => (
               </div>
               <div>
                 <h4 className="font-bold text-[#0A0A0A] mb-1">Téléphone</h4>
-                <a href="tel:+33978468167" className="text-[#666] hover:text-[#0A0A0A]">09 78 46 81 67</a>
+                <a href="tel:+33939243822" className="text-[#666] hover:text-[#0A0A0A]">09 39 24 38 22</a>
               </div>
             </div>
 
@@ -1246,7 +1246,7 @@ const QuiSommesNous = () => (
               </div>
               <div>
                 <h4 className="font-bold text-[#0A0A0A] mb-1">Email</h4>
-                <a href="mailto:contact@hertz-pro.fr" className="text-[#666] hover:text-[#0A0A0A]">contact@hertz-pro.fr</a>
+                <a href="mailto:contact@hertzpro.fr" className="text-[#666] hover:text-[#0A0A0A]">contact@hertzpro.fr</a>
               </div>
             </div>
           </div>
@@ -1376,8 +1376,8 @@ const MentionsLegales = () => (
         <p><strong>Directeur de la publication :</strong> [Nom du Directeur]</p>
         
         <h2>Contact</h2>
-        <p>Téléphone : 09 78 46 81 67<br />
-        Email : contact@hertz-pro.fr</p>
+        <p>Téléphone : 09 39 24 38 22<br />
+        Email : contact@hertzpro.fr</p>
 
         <h2>Hébergement</h2>
         <p>Ce site est hébergé par :<br />
@@ -1392,7 +1392,7 @@ const MentionsLegales = () => (
         <p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données personnelles vous concernant.</p>
         <p>Pour exercer ces droits, vous pouvez nous contacter :</p>
         <ul>
-          <li>Par email : contact@hertz-pro.fr</li>
+          <li>Par email : contact@hertzpro.fr</li>
           <li>Par courrier : Hertz France - Service RGPD, Bâtiment A1, 6 Avenue Gustave Eiffel, 78180 Montigny-le-Bretonneux</li>
         </ul>
 
@@ -1425,7 +1425,7 @@ const MentionsLegales = () => (
 
         <div className="mt-12 p-6 bg-[#F5F5F5] border-l-4 border-[#FFD100]">
           <p className="font-semibold text-[#0A0A0A]">Pour toute question concernant ces mentions légales :</p>
-          <p className="text-[#666] mt-2">Email : contact@hertz-pro.fr | Tél : 09 78 46 81 67</p>
+          <p className="text-[#666] mt-2">Email : contact@hertzpro.fr | Tél : 09 39 24 38 22</p>
         </div>
       </div>
     </section>
