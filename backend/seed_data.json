@@ -149,7 +149,7 @@
     ],
     "description": "Audi A3 Sportback en excellent état, issue de la flotte Hertz. Motorisation essence hybride légère (MHEV) économique et performante. Véhicule très bien équipé avec Virtual Cockpit, navigation MMI, climatisation bi-zone et nombreuses aides à la conduite. Entretien complet en concession Audi. Idéal pour la ville et les longs trajets.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 46,
     "created_at": "2026-02-07T23:46:57.454744Z"
   },
@@ -507,7 +507,7 @@
     ],
     "description": "Fiat 500 C Cabriolet Dolcevita Plus en excellent état, issue de la flotte Hertz. Motorisation hybride économique. Toit ouvrant cabriolet, finition Dolcevita avec équipements premium. Parfaite pour la ville et les balades estivales.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 26,
     "created_at": "2026-02-08T00:46:10.101322Z"
   },
@@ -1017,7 +1017,7 @@
     ],
     "description": "Renault Scenic Grand Intens en excellent état, issue de la flotte Hertz. Monospace 7 places spacieux et familial. Motorisation essence TCe économique avec boîte automatique EDC. Très bien équipé avec nombreuses aides à la conduite, écran tactile et caméra de recul. Idéal pour les familles.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 35,
     "created_at": "2026-02-08T01:01:50.931251Z"
   },
@@ -1329,7 +1329,7 @@
     ],
     "description": "Renault Clio Equilibre en excellent état, issue de la flotte Hertz. Citadine économique et agile avec motorisation essence TCe. Bien équipée avec écran tactile 7 pouces, climatisation et nombreuses aides à la conduite. Parfaite pour la ville.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 53,
     "created_at": "2026-02-08T01:10:21.603366Z"
   },
@@ -1462,7 +1462,7 @@
     ],
     "description": "Volkswagen Polo Business en excellent état, issue de la flotte Hertz. Citadine fiable et économique avec motorisation essence. Bien équipée avec Digital Cockpit, climatisation et nombreuses aides à la conduite. Parfaite pour la ville et les trajets quotidiens.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 49,
     "created_at": "2026-02-08T01:16:06.306826Z"
   },
@@ -1768,7 +1768,7 @@
     ],
     "description": "Mini Cooper SE 100% électrique en excellent état, issue de la flotte Hertz. Citadine sportive et écologique avec 184 ch. Très bien équipée avec Apple CarPlay, navigation, sièges sport électriques et nombreuses aides à la conduite. Parfaite pour la ville avec zéro émission.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 12,
     "created_at": "2026-02-08T01:29:02.751769Z"
   },
@@ -2092,7 +2092,7 @@
     ],
     "description": "Mini Countryman Cooper Essential en excellent état, issue de la flotte Hertz. SUV compact et spacieux avec motorisation essence et boîte automatique. Très bien équipé avec toit panoramique, sièges sport chauffants, Apple CarPlay et nombreuses aides à la conduite. Parfait pour la famille.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 31,
     "created_at": "2026-02-08T01:38:09.400341Z"
   },
@@ -2317,7 +2317,7 @@
     ],
     "description": "Peugeot 5008 Allure Pack 7 places en excellent état, issue de la flotte Hertz. SUV familial spacieux avec motorisation diesel économique et boîte automatique BVA8. Très bien équipé avec navigation, caméra 360°, nombreuses aides à la conduite et attache remorque. Idéal pour les grandes familles.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 60,
     "created_at": "2026-02-08T01:41:07.946186Z"
   },
@@ -2490,7 +2490,7 @@
     ],
     "description": "Audi Q3 S Line en excellent état, issue de la flotte Hertz. SUV compact sportif avec motorisation hybride légère MHEV. Finition S Line avec sièges sport, Virtual Cockpit, navigation et nombreux équipements premium. Entretien complet suivi. Idéal pour allier style et praticité.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 39,
     "created_at": "2026-02-08T01:44:08.011417Z"
   },
@@ -3507,7 +3507,7 @@
     ],
     "description": "Mercedes GLC 300 e AMG Line en excellent état, issu de la flotte Hertz. SUV premium hybride rechargeable avec finition sportive AMG Line et transmission intégrale 4MATIC. Très puissant avec 320 ch combinés et possibilité de rouler en 100% électrique. Équipement haut de gamme avec toit panoramique, sièges chauffants, navigation MBUX et nombreuses aides à la conduite.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 17,
     "created_at": "2026-02-08T02:12:20.717570Z"
   },
@@ -3845,7 +3845,7 @@
     ],
     "description": "Peugeot 2008 Active Business en bon état, issu de la flotte Hertz. SUV compact diesel économique avec finition Business bien équipée. Idéal pour un usage professionnel ou familial avec climatisation auto, aides à la conduite et faible consommation. Entretien suivi régulièrement.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 11,
     "created_at": "2026-02-08T02:20:31.811572Z"
   },
@@ -4669,7 +4669,7 @@
     ],
     "description": "Mercedes CLA Coupé 200 d AMG Line en excellent état, issu de la flotte Hertz. Coupé 4 portes au design élégant avec finition sportive AMG Line. Motorisation diesel économique et performante avec boîte automatique 8 rapports. Très récent (2023) et très bien équipé avec sièges sport chauffants, navigation et nombreuses aides à la conduite.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 22,
     "created_at": "2026-02-08T02:33:12.886904Z"
   },
@@ -5311,7 +5311,7 @@
     ],
     "description": "Mercedes Classe A 180 d Business Line en bon état, issue de la flotte Hertz. Berline compacte premium diesel économique avec finition Business Line bien équipée. Boîte automatique 8G-DCT fluide et réactive. Navigation, caméra de recul, détecteur angle mort et nombreuses aides à la conduite. Entretien suivi.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 42,
     "created_at": "2026-02-08T02:42:57.902787Z"
   },
@@ -5490,7 +5490,7 @@
     ],
     "description": "Peugeot 308 Active Pack en bon état, issue de la flotte Hertz. Berline compacte nouvelle génération avec motorisation diesel économique et boîte automatique BVA8. Finition Active Pack bien équipée avec climatisation auto, Mirror Link et nombreuses aides à la conduite. Entretien très suivi avec historique complet.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 56,
     "created_at": "2026-02-08T02:45:23.425594Z"
   },
@@ -5799,7 +5799,7 @@
     ],
     "description": "Mercedes GLC 300 e AMG Line 4MATIC en excellent état, issu de la flotte Hertz. SUV premium hybride rechargeable très récent (2023) avec finition sportive AMG Line et transmission intégrale. Intérieur cuir blanc luxueux, très puissant (313 ch) et bien équipé avec caméra 360°, sièges chauffants électriques et nombreuses aides à la conduite.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 10,
     "created_at": "2026-02-08T02:49:48.111786Z"
   },
@@ -7268,7 +7268,7 @@
     "historique": [],
     "description": "BMW X2 sDrive18i Business Design, SUV compact et dynamique. Faible kilométrage, parfait état. Équipement Business complet.",
     "disponible": true,
-    "vendu": true,
+    "vendu": false,
     "sort_order": 34,
     "created_at": "2026-03-18T20:53:01.635297Z"
   },
